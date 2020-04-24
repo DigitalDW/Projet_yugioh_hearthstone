@@ -1,0 +1,27 @@
+Synchro Monster
+Token
+Flip Effect Monster
+Toon Monster
+Spirit Monster
+Pendulum Tuner Effect Monster
+Tuner Monster
+Fusion Monster
+Pendulum Normal Monster
+Effect Monster
+Ritual Monster
+Pendulum Effect Monster
+XYZ Pendulum Effect Monster
+Synchro Pendulum Effect Monster
+Normal Monster
+Pendulum Effect Fusion Monster
+Normal Tuner Monster
+Pendulum Flip Effect Monster
+Spell Card
+Synchro Tuner Monster
+XYZ Monster
+Skill Card
+Trap Card
+Union Effect Monster
+Link Monster
+Ritual Effect Monster
+Gemini Monster
