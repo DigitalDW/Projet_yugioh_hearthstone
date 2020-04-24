@@ -32,21 +32,21 @@
             "name": "Power Word: Shield",
             "type": "Spell",
             "set": "Basic",
-            "rule": "give a minion + 2_health .",
+            "rule": "give a minion + 2 health .",
             "flavour": "sure the extra protection is nice , but the shield really reduces visibility ."
         },
         {
             "name": "Sacrificial Pact",
             "type": "Spell",
             "set": "Basic",
-            "rule": "destroy a friendly demon . restore # 5 health to your hero .",
+            "rule": "destroy a friendly demon . restore 5 health to your hero .",
             "flavour": "this is the reason that demons never really become friends with warlocks ."
         },
         {
             "name": "Totemic Might",
             "type": "Spell",
             "set": "Basic",
-            "rule": "give your totems + 2_health .",
+            "rule": "give your totems + 2 health .",
             "flavour": "totem - stomping is no longer recommended ."
         },
         {
@@ -67,7 +67,7 @@
             "name": "Blessing of Might",
             "type": "Spell",
             "set": "Basic",
-            "rule": "give a minion + 3_attack .",
+            "rule": "give a minion + 3 attack .",
             "flavour": "\" as in , you might want to get out of my way . \" - toad mackle , recently buffed ."
         },
         {
@@ -81,7 +81,7 @@
             "name": "Claw",
             "type": "Spell",
             "set": "Basic",
-            "rule": "give your hero + 2_attack this turn . gain 2 armor .",
+            "rule": "give your hero + 2 attack this turn . gain 2 armor .",
             "flavour": "the claw decides who will stay and who will go ."
         },
         {
@@ -95,7 +95,7 @@
             "name": "Deadly Poison",
             "type": "Spell",
             "set": "Basic",
-            "rule": "give your weapon + 2_attack .",
+            "rule": "give your weapon + 2 attack .",
             "flavour": "rogues guard the secrets to poison - making carefully , lest magi start incorporating poison into their spells . poisonbolt ? rain of poison ? poison elemental ? nobody wants that ."
         },
         {
@@ -193,21 +193,21 @@
             "name": "Radiance",
             "type": "Spell",
             "set": "Basic",
-            "rule": "restore # 5 health to your hero .",
+            "rule": "restore 5 health to your hero .",
             "flavour": "because you ' re worth it !"
         },
         {
             "name": "Shadowhoof Slayer",
             "type": "Minion",
             "set": "Basic",
-            "rule": "battlecry : give your hero + 1_attack this turn .",
+            "rule": "battlecry : give your hero + 1 attack this turn .",
             "flavour": "was a humble elven archer before sargeras got to him ."
         },
         {
             "name": "Sinister Strike",
             "type": "Spell",
             "set": "Basic",
-            "rule": "deal $ 3 damage to the_enemy hero .",
+            "rule": "deal $ 3 damage to the enemy hero .",
             "flavour": "there ' s something about this strike that just feels off . sinister , even ."
         },
         {
@@ -228,14 +228,14 @@
             "name": "Timber Wolf",
             "type": "Minion",
             "set": "Basic",
-            "rule": "your other beasts have + 1_attack .",
+            "rule": "your other beasts have + 1 attack .",
             "flavour": "other beasts totally dig hanging out with timber wolves ."
         },
         {
             "name": "Tracking",
             "type": "Spell",
             "set": "Basic",
-            "rule": "look at the top 3 cards of your deck . draw one and discard the_others .",
+            "rule": "look at the top 3 cards of your deck . draw one and discard the others .",
             "flavour": "for the person who just cannot decide what card to put into a deck !"
         },
         {
@@ -249,14 +249,14 @@
             "name": "Voodoo Doctor",
             "type": "Minion",
             "set": "Basic",
-            "rule": "battlecry : restore # 2_health .",
+            "rule": "battlecry : restore 2 health .",
             "flavour": "voodoo is an oft - misunderstood art . but it is art ."
         },
         {
             "name": "Whirlwind",
             "type": "Spell",
             "set": "Basic",
-            "rule": "deal $ 1 damage to all_minions .",
+            "rule": "deal $ 1 damage to all minions .",
             "flavour": "the way to tell seasoned warriors from novice ones : the novices yell \" wheeeee \" while whirlwinding ."
         },
         {
@@ -291,7 +291,7 @@
             "name": "Chaos Strike",
             "type": "Spell",
             "set": "Basic",
-            "rule": "give your hero + 2_attack this turn . draw a card .",
+            "rule": "give your hero + 2 attack this turn . draw a card .",
             "flavour": "\" what do we want ? \" \" chaos ! \" \" when do we want it ? \" \" when least expected ! \""
         },
         {
@@ -319,7 +319,7 @@
             "name": "Frostbolt",
             "type": "Spell",
             "set": "Basic",
-            "rule": "deal $ 3 damage to a_character and freeze it .",
+            "rule": "deal $ 3 damage to a character and freeze it .",
             "flavour": "it is customary to yell \" chill out ! \" or \" freeze ! \" or \" ice ice , baby ! \" when you play this card ."
         },
         {
@@ -333,14 +333,14 @@
             "name": "Heroic Strike",
             "type": "Spell",
             "set": "Basic",
-            "rule": "give your hero + 4_attack this turn .",
+            "rule": "give your hero + 4 attack this turn .",
             "flavour": "really , if you ' re a hero , this is every strike ."
         },
         {
             "name": "Holy Light",
             "type": "Spell",
             "set": "Basic",
-            "rule": "restore # 6 health .",
+            "rule": "restore 6 health .",
             "flavour": "if you are often bathed in holy light , you should consider wearing sunscreen ."
         },
         {
@@ -368,7 +368,7 @@
             "name": "Murloc Tidehunter",
             "type": "Minion",
             "set": "Basic",
-            "rule": "battlecry : summon a 1 / 1_murloc scout .",
+            "rule": "battlecry : summon a 1 / 1 murloc scout .",
             "flavour": "\" death will rise , from the tides ! \""
         },
         {
@@ -403,14 +403,14 @@
             "name": "Shadow Word: Death",
             "type": "Spell",
             "set": "Basic",
-            "rule": "destroy a minion with 5_or more attack .",
+            "rule": "destroy a minion with 5 or more attack .",
             "flavour": "if you miss , it leaves a lightning - bolt - shaped scar on your target ."
         },
         {
             "name": "Shadow Word: Pain",
             "type": "Spell",
             "set": "Basic",
-            "rule": "destroy a minion with 3_or less attack .",
+            "rule": "destroy a minion with 3 or less attack .",
             "flavour": "a step up from a spell cast by many beginning acolytes : \" shadow word : annoy \" ."
         },
         {
@@ -459,7 +459,7 @@
             "name": "Coordinated Strike",
             "type": "Spell",
             "set": "Basic",
-            "rule": "summon three 1 / 1_illidari with rush .",
+            "rule": "summon three 1 / 1 illidari with rush .",
             "flavour": "undisputed champions of \" dancing with the satyrs . \""
         },
         {
@@ -473,14 +473,14 @@
             "name": "Drain Life",
             "type": "Spell",
             "set": "Basic",
-            "rule": "deal $ 2 damage . restore # 2 health to your hero .",
+            "rule": "deal $ 2 damage . restore 2 health to your hero .",
             "flavour": "\" i ' ve just sucked one year of your life away . \""
         },
         {
             "name": "Fan of Knives",
             "type": "Spell",
             "set": "Basic",
-            "rule": "deal $ 1 damage to all enemy minions . draw_a card .",
+            "rule": "deal $ 1 damage to all enemy minions . draw a card .",
             "flavour": "i wouldn ' t say i love knives , but i ' m definitely a fan ."
         },
         {
@@ -494,7 +494,7 @@
             "name": "Flametongue Totem",
             "type": "Minion",
             "set": "Basic",
-            "rule": "adjacent minions have + 2_attack .",
+            "rule": "adjacent minions have + 2 attack .",
             "flavour": "totemsmiths like to use the rarest woods for their totems . there are even rumors of totems made of ironbark protectors ."
         },
         {
@@ -508,7 +508,7 @@
             "name": "Healing Touch",
             "type": "Spell",
             "set": "Basic",
-            "rule": "restore # 8 health .",
+            "rule": "restore 8 health .",
             "flavour": "8 health , no waiting ."
         },
         {
@@ -550,7 +550,7 @@
             "name": "Razorfen Hunter",
             "type": "Minion",
             "set": "Basic",
-            "rule": "battlecry : summon a 1 / 1_boar .",
+            "rule": "battlecry : summon a 1 / 1 boar .",
             "flavour": "someone did mess with tuskerr once . once ."
         },
         {
@@ -564,7 +564,7 @@
             "name": "Savage Roar",
             "type": "Spell",
             "set": "Basic",
-            "rule": "give your characters + 2_attack this turn .",
+            "rule": "give your characters + 2 attack this turn .",
             "flavour": "what do they roar ? nobody can quite tell , but it sounds like \" elephant macho breeze \" . it ' s probably not that , though ."
         },
         {
@@ -641,7 +641,7 @@
             "name": "Consecration",
             "type": "Spell",
             "set": "Basic",
-            "rule": "deal $ 2 damage to all_enemies .",
+            "rule": "deal $ 2 damage to all enemies .",
             "flavour": "consecrated ground glows with holy energy . but it smells a little , too ."
         },
         {
@@ -676,7 +676,7 @@
             "name": "Hellfire",
             "type": "Spell",
             "set": "Basic",
-            "rule": "deal $ 3 damage to all_characters .",
+            "rule": "deal $ 3 damage to all characters .",
             "flavour": "it ' s spells like these that make it hard for warlocks to get decent help ."
         },
         {
@@ -690,7 +690,7 @@
             "name": "Holy Nova",
             "type": "Spell",
             "set": "Basic",
-            "rule": "deal $ 2 damage to all enemy minions . restore # 2 health to all friendly characters .",
+            "rule": "deal $ 2 damage to all enemy minions . restore 2 health to all friendly characters .",
             "flavour": "if the holy light forsakes you , good luck casting this spell . also , you ' re probably a jerk ."
         },
         {
@@ -774,7 +774,7 @@
             "name": "Truesilver Champion",
             "type": "Weapon",
             "set": "Basic",
-            "rule": "whenever your hero attacks , restore # 2_health to it .",
+            "rule": "whenever your hero attacks , restore 2 health to it .",
             "flavour": "it slices , it dices . you can cut a tin can with it . ( but you wouldn ' t want to . )"
         },
         {
@@ -816,7 +816,7 @@
             "name": "Bloodlust",
             "type": "Spell",
             "set": "Basic",
-            "rule": "give your minions + 3_attack this turn .",
+            "rule": "give your minions + 3 attack this turn .",
             "flavour": "blaarghghllghrharaahahhh ! !"
         },
         {
@@ -830,14 +830,14 @@
             "name": "Chaos Nova",
             "type": "Spell",
             "set": "Basic",
-            "rule": "deal $ 4 damage to all_minions .",
+            "rule": "deal $ 4 damage to all minions .",
             "flavour": "illin ' illidan laying down the damage , flinging out the chaos as far as he can manage ."
         },
         {
             "name": "Darkscale Healer",
             "type": "Minion",
             "set": "Basic",
-            "rule": "battlecry : restore # 2 health to all friendly characters .",
+            "rule": "battlecry : restore 2 health to all friendly characters .",
             "flavour": "healing is just something she does in her free time . it ' s more of a hobby really ."
         },
         {
@@ -858,7 +858,7 @@
             "name": "Gurubashi Berserker",
             "type": "Minion",
             "set": "Basic",
-            "rule": "whenever this minion takes damage , gain + 3_attack .",
+            "rule": "whenever this minion takes damage , gain + 3 attack .",
             "flavour": "no pain , no gain ."
         },
         {
@@ -956,7 +956,7 @@
             "name": "Guardian of Kings",
             "type": "Minion",
             "set": "Basic",
-            "rule": "battlecry : restore # 6 health to your hero .",
+            "rule": "battlecry : restore 6 health to your hero .",
             "flavour": "holy beings from the beyond are so cliché !"
         },
         {
@@ -984,7 +984,7 @@
             "name": "Inner Demon",
             "type": "Spell",
             "set": "Basic",
-            "rule": "give your hero + 8_attack this turn .",
+            "rule": "give your hero + 8 attack this turn .",
             "flavour": "critical component of any tragic backstory ."
         },
         {
@@ -1005,14 +1005,14 @@
             "name": "Circle of Healing",
             "type": "Spell",
             "set": "Classic",
-            "rule": "restore # 4 health to all_minions .",
+            "rule": "restore 4 health to all minions .",
             "flavour": "it isn ' t really a circle ."
         },
         {
             "name": "Inner Rage",
             "type": "Spell",
             "set": "Classic",
-            "rule": "deal $ 1 damage to a minion and give it + 2_attack .",
+            "rule": "deal $ 1 damage to a minion and give it + 2 attack .",
             "flavour": "they ' re only smiling on the outside ."
         },
         {
@@ -1026,7 +1026,7 @@
             "name": "Shadowstep",
             "type": "Spell",
             "set": "Classic",
-            "rule": "return a friendly minion to your hand . it_costs ( 2 ) less .",
+            "rule": "return a friendly minion to your hand . it costs ( 2 ) less .",
             "flavour": "rogue dance troops will sometimes shadowstep away at the end of a performance . crowds love it ."
         },
         {
@@ -1047,7 +1047,7 @@
             "name": "Abusive Sergeant",
             "type": "Minion",
             "set": "Classic",
-            "rule": "battlecry : give a minion + 2_attack this turn .",
+            "rule": "battlecry : give a minion + 2 attack this turn .",
             "flavour": "add me to your deck , maggot !"
         },
         {
@@ -1117,7 +1117,7 @@
             "name": "Eye for an Eye",
             "type": "Spell",
             "set": "Classic",
-            "rule": "secret : when your hero takes damage , deal_that much damage to the enemy hero .",
+            "rule": "secret : when your hero takes damage , deal that much damage to the enemy hero .",
             "flavour": "justice sometimes takes the form of a closed fist into a soft cheek ."
         },
         {
@@ -1131,7 +1131,7 @@
             "name": "Forked Lightning",
             "type": "Spell",
             "set": "Classic",
-            "rule": "deal $ 2 damage to 2_random enemy minions . overload : ( 2 )",
+            "rule": "deal $ 2 damage to 2 random enemy minions . overload : ( 2 )",
             "flavour": "if you combine it with spooned lightning and knived lightning , you have the full dining set ."
         },
         {
@@ -1152,7 +1152,7 @@
             "name": "Leper Gnome",
             "type": "Minion",
             "set": "Classic",
-            "rule": "deathrattle : deal 2 damage to the enemy_hero .",
+            "rule": "deathrattle : deal 2 damage to the enemy hero .",
             "flavour": "he really just wants to be your friend , but the constant rejection is starting to really get to him ."
         },
         {
@@ -1187,7 +1187,7 @@
             "name": "Pilfer",
             "type": "Spell",
             "set": "Classic",
-            "rule": "add a random card from another class to_your hand .",
+            "rule": "add a random card from another class to your hand .",
             "flavour": "the class is always greener on the other side of the board ."
         },
         {
@@ -1215,7 +1215,7 @@
             "name": "Scarlet Subjugator",
             "type": "Minion",
             "set": "Classic",
-            "rule": "battlecry : give an enemy minion - 2 attack until your_next turn .",
+            "rule": "battlecry : give an enemy minion - 2 attack until your next turn .",
             "flavour": "at the scarlet monastery , he learned the sacred art of kicking people when they ' re up ."
         },
         {
@@ -1313,7 +1313,7 @@
             "name": "Armorsmith",
             "type": "Minion",
             "set": "Classic",
-            "rule": "whenever a friendly minion_takes damage , gain 1 armor .",
+            "rule": "whenever a friendly minion takes damage , gain 1 armor .",
             "flavour": "she accepts guild funds for repairs !"
         },
         {
@@ -1369,7 +1369,7 @@
             "name": "Cruel Taskmaster",
             "type": "Minion",
             "set": "Classic",
-            "rule": "battlecry : deal 1 damage to a minion and give it + 2_attack .",
+            "rule": "battlecry : deal 1 damage to a minion and give it + 2 attack .",
             "flavour": "\" i ' m going to need you to come in on sunday . \" - cruel taskmaster"
         },
         {
@@ -1390,7 +1390,7 @@
             "name": "Dire Wolf Alpha",
             "type": "Minion",
             "set": "Classic",
-            "rule": "adjacent minions have + 1_attack .",
+            "rule": "adjacent minions have + 1 attack .",
             "flavour": "we are pretty excited about the upcoming release of dire wolf beta , just repost this sign for a chance at a key ."
         },
         {
@@ -1460,7 +1460,7 @@
             "name": "Lightwell",
             "type": "Minion",
             "set": "Classic",
-            "rule": "at the start of your turn , restore # 3 health to a damaged friendly character .",
+            "rule": "at the start of your turn , restore 3 health to a damaged friendly character .",
             "flavour": "it isn ' t clear if people ignore the lightwell , or if it is just invisible ."
         },
         {
@@ -1649,7 +1649,7 @@
             "name": "Aldor Peacekeeper",
             "type": "Minion",
             "set": "Classic",
-            "rule": "battlecry : change an_enemy minion ' s attack to 1 .",
+            "rule": "battlecry : change an enemy minion ' s attack to 1 .",
             "flavour": "the aldor hate two things : the scryers and smooth jazz ."
         },
         {
@@ -1670,7 +1670,7 @@
             "name": "Brightwing",
             "type": "Minion",
             "set": "Classic",
-            "rule": "battlecry : add a random legendary minion to your_hand .",
+            "rule": "battlecry : add a random legendary minion to your hand .",
             "flavour": "little faerie dragons are made of sugar and spice and maniacal vice ."
         },
         {
@@ -1712,7 +1712,7 @@
             "name": "Earthen Ring Farseer",
             "type": "Minion",
             "set": "Classic",
-            "rule": "battlecry : restore # 3_health .",
+            "rule": "battlecry : restore 3 health .",
             "flavour": "he can see really far , and he doesn ' t use a telescope like those filthy pirates ."
         },
         {
@@ -1803,7 +1803,7 @@
             "name": "Ironbeak Owl",
             "type": "Minion",
             "set": "Classic",
-            "rule": "battlecry : silence a_minion .",
+            "rule": "battlecry : silence a minion .",
             "flavour": "their wings are silent but their screech is . . . whatever the opposite of silent is ."
         },
         {
@@ -1838,7 +1838,7 @@
             "name": "Lightning Storm",
             "type": "Spell",
             "set": "Classic",
-            "rule": "deal $ 2 - $ 3 damage to all_enemy minions . overload : ( 2 )",
+            "rule": "deal $ 2 - $ 3 damage to all enemy minions . overload : ( 2 )",
             "flavour": "an umbrella won ' t be effective , i ' m afraid ."
         },
         {
@@ -1936,7 +1936,7 @@
             "name": "Sword of Justice",
             "type": "Weapon",
             "set": "Classic",
-            "rule": "after you summon a minion , give it + 1 / + 1 and this loses 1_durability .",
+            "rule": "after you summon a minion , give it + 1 / + 1 and this loses 1 durability .",
             "flavour": "i dub you sir loin of beef !"
         },
         {
@@ -1964,7 +1964,7 @@
             "name": "Unbound Elemental",
             "type": "Minion",
             "set": "Classic",
-            "rule": "whenever you play a card_with overload , gain_ + 1 / + 1 .",
+            "rule": "whenever you play a card with overload , gain + 1 / + 1 .",
             "flavour": "unlike bound elementals , unbound ones really enjoy a night on the town ."
         },
         {
@@ -1999,21 +1999,21 @@
             "name": "Ancient Mage",
             "type": "Minion",
             "set": "Classic",
-            "rule": "battlecry : give adjacent_minions spell_damage + 1 .",
+            "rule": "battlecry : give adjacent minions spell damage + 1 .",
             "flavour": "sometimes he forgets and just wanders into someone else ' s game ."
         },
         {
             "name": "Arathi Weaponsmith",
             "type": "Minion",
             "set": "Classic",
-            "rule": "battlecry : equip a 2 / 2_weapon .",
+            "rule": "battlecry : equip a 2 / 2 weapon .",
             "flavour": "50 % off fist weapons , limited time only !"
         },
         {
             "name": "Bite",
             "type": "Spell",
             "set": "Classic",
-            "rule": "give your hero + 4_attack this turn . gain 4 armor .",
+            "rule": "give your hero + 4 attack this turn . gain 4 armor .",
             "flavour": "chew your food !"
         },
         {
@@ -2041,7 +2041,7 @@
             "name": "Dark Iron Dwarf",
             "type": "Minion",
             "set": "Classic",
-            "rule": "battlecry : give a minion + 2_attack this turn .",
+            "rule": "battlecry : give a minion + 2 attack this turn .",
             "flavour": "guardians of dark iron ore . perhaps the most annoying ore , given where you have to forge it ."
         },
         {
@@ -2055,7 +2055,7 @@
             "name": "Dread Corsair",
             "type": "Minion",
             "set": "Classic",
-            "rule": "taunt costs ( 1 ) less per attack of_your weapon .",
+            "rule": "taunt costs ( 1 ) less per attack of your weapon .",
             "flavour": "\" yarrrr \" is a pirate word that means \" greetings , milord . \""
         },
         {
@@ -2069,14 +2069,14 @@
             "name": "Ethereal Arcanist",
             "type": "Minion",
             "set": "Classic",
-            "rule": "if you control a secret at_the end of your turn , gain + 2 / + 2 .",
+            "rule": "if you control a secret at the end of your turn , gain + 2 / + 2 .",
             "flavour": "the ethereals are wrapped in cloth to give form to their non - corporeal bodies . also because it ' s nice and soft ."
         },
         {
             "name": "Keeper of the Grove",
             "type": "Minion",
             "set": "Classic",
-            "rule": "choose one - deal_2_damage ; or silence a minion .",
+            "rule": "choose one - deal 2 damage ; or silence a minion .",
             "flavour": "these guys just show up and start keeping your groves without even asking ."
         },
         {
@@ -2195,7 +2195,7 @@
             "name": "Bane of Doom",
             "type": "Spell",
             "set": "Classic",
-            "rule": "deal $ 2 damage to_a character . if that kills it , summon a random demon .",
+            "rule": "deal $ 2 damage to a character . if that kills it , summon a random demon .",
             "flavour": "my advice to you is to avoid doom , if possible ."
         },
         {
@@ -2286,7 +2286,7 @@
             "name": "Holy Wrath",
             "type": "Spell",
             "set": "Classic",
-            "rule": "draw a card and deal_damage equal to_its cost .",
+            "rule": "draw a card and deal damage equal to its cost .",
             "flavour": "c ' mon molten giant ! !"
         },
         {
@@ -2300,7 +2300,7 @@
             "name": "Silver Hand Knight",
             "type": "Minion",
             "set": "Classic",
-            "rule": "battlecry : summon a 2 / 2_squire .",
+            "rule": "battlecry : summon a 2 / 2 squire .",
             "flavour": "it ' s good to be a knight . less so to be one ' s squire ."
         },
         {
@@ -2384,7 +2384,7 @@
             "name": "Frost Elemental",
             "type": "Minion",
             "set": "Classic",
-            "rule": "battlecry : freeze a_character .",
+            "rule": "battlecry : freeze a character .",
             "flavour": "when a water elemental and an ice elemental love each other very much . . ."
         },
         {
@@ -2398,28 +2398,28 @@
             "name": "Hogger",
             "type": "Minion",
             "set": "Classic",
-            "rule": "at the end of your turn , summon a 2 / 2 gnoll with_ taunt .",
+            "rule": "at the end of your turn , summon a 2 / 2 gnoll with taunt .",
             "flavour": "hogger is super powerful . if you kill him , it ' s because he let you ."
         },
         {
             "name": "Kidnapper",
             "type": "Minion",
             "set": "Classic",
-            "rule": "combo : return a minion to_its owner ' s hand .",
+            "rule": "combo : return a minion to its owner ' s hand .",
             "flavour": "he just wants people to see his vacation photos ."
         },
         {
             "name": "Nourish",
             "type": "Spell",
             "set": "Classic",
-            "rule": "choose one - gain 2_mana crystals ; or draw 3 cards .",
+            "rule": "choose one - gain 2 mana crystals ; or draw 3 cards .",
             "flavour": "druids take nourishment from many things : the power of nature , the songbird ' s chirp , a chocolate cake ."
         },
         {
             "name": "Priestess of Elune",
             "type": "Minion",
             "set": "Classic",
-            "rule": "battlecry : restore # 4 health to your hero .",
+            "rule": "battlecry : restore 4 health to your hero .",
             "flavour": "if she threatens to \" moon \" you , it ' s not what you think ."
         },
         {
@@ -2433,7 +2433,7 @@
             "name": "Siphon Soul",
             "type": "Spell",
             "set": "Classic",
-            "rule": "destroy a minion . restore # 3 health to_your hero .",
+            "rule": "destroy a minion . restore 3 health to your hero .",
             "flavour": "you probably should avoid siphoning your own soul . you might create some kind of weird infinite loop ."
         },
         {
@@ -2475,7 +2475,7 @@
             "name": "Ancient of Lore",
             "type": "Minion",
             "set": "Classic",
-            "rule": "choose one - draw a card ; or restore # 5 health .",
+            "rule": "choose one - draw a card ; or restore 5 health .",
             "flavour": "go ahead , carve your initials in him ."
         },
         {
@@ -2489,7 +2489,7 @@
             "name": "Archmage Antonidas",
             "type": "Minion",
             "set": "Classic",
-            "rule": "whenever you cast a spell , add a ' fireball ' spell to_your hand .",
+            "rule": "whenever you cast a spell , add a ' fireball ' spell to your hand .",
             "flavour": "antonidas was the grand magus of the kirin tor , and jaina ' s mentor . this was a big step up from being grand magus of jelly donuts ."
         },
         {
@@ -2524,7 +2524,7 @@
             "name": "High Inquisitor Whitemane",
             "type": "Minion",
             "set": "Classic",
-            "rule": "battlecry : summon all friendly minions that died_this turn .",
+            "rule": "battlecry : summon all friendly minions that died this turn .",
             "flavour": "no one told her that champions want to sleep in ."
         },
         {
@@ -2580,7 +2580,7 @@
             "name": "Lay on Hands",
             "type": "Spell",
             "set": "Classic",
-            "rule": "restore # 8 health . draw_3 cards .",
+            "rule": "restore 8 health . draw 3 cards .",
             "flavour": "a grammatically awkward life saver ."
         },
         {
@@ -2594,7 +2594,7 @@
             "name": "Tirion Fordring",
             "type": "Minion",
             "set": "Classic",
-            "rule": "divine shield , taunt deathrattle : equip a 5 / 3_ashbringer .",
+            "rule": "divine shield , taunt deathrattle : equip a 5 / 3 ashbringer .",
             "flavour": "if you haven ' t heard the tirion fordring theme song , it ' s because it doesn ' t exist ."
         },
         {
@@ -2643,7 +2643,7 @@
             "name": "Nozdormu",
             "type": "Minion",
             "set": "Classic",
-            "rule": "players only have 15 seconds to take their_turns .",
+            "rule": "players only have 15 seconds to take their turns .",
             "flavour": "time to write some flavor text ."
         },
         {
@@ -2657,14 +2657,14 @@
             "name": "Ysera",
             "type": "Minion",
             "set": "Classic",
-            "rule": "at the end of your turn , add_a dream card to_your hand .",
+            "rule": "at the end of your turn , add a dream card to your hand .",
             "flavour": "ysera rules the emerald dream . which is some kind of green - mirror - version of the real world , or something ?"
         },
         {
             "name": "Deathwing",
             "type": "Minion",
             "set": "Classic",
-            "rule": "battlecry : destroy all other minions and discard your_hand .",
+            "rule": "battlecry : destroy all other minions and discard your hand .",
             "flavour": "once a noble dragon known as neltharion , deathwing lost his mind and shattered azeroth before finally being defeated . daddy issues ?"
         },
         {
@@ -2708,7 +2708,7 @@
             "name": "Zombie Chow",
             "type": "Minion",
             "set": "Naxxramas",
-            "rule": "deathrattle : restore # 5 health to the enemy hero .",
+            "rule": "deathrattle : restore 5 health to the enemy hero .",
             "flavour": "zombie . it ' s what ' s for dinner ."
         },
         {
@@ -2920,7 +2920,7 @@
             "name": "Light of the Naaru",
             "type": "Spell",
             "set": "Goblins vs Gnomes",
-            "rule": "restore # 3 health . if the target is still damaged , summon a lightwarden .",
+            "rule": "restore 3 health . if the target is still damaged , summon a lightwarden .",
             "flavour": "\" light it up ! \" - command given to both lightwardens and goblins holding flamecannons ."
         },
         {
@@ -3060,7 +3060,7 @@
             "name": "Seal of Light",
             "type": "Spell",
             "set": "Goblins vs Gnomes",
-            "rule": "restore # 4 health to your hero and gain + 2 attack this turn .",
+            "rule": "restore 4 health to your hero and gain + 2 attack this turn .",
             "flavour": "the walrus of light restores eight health ."
         },
         {
@@ -3088,7 +3088,7 @@
             "name": "Shrinkmeister",
             "type": "Minion",
             "set": "Goblins vs Gnomes",
-            "rule": "battlecry : give a minion - 2_attack this turn .",
+            "rule": "battlecry : give a minion - 2 attack this turn .",
             "flavour": "after the debacle of the gnomish world enlarger , gnomes are wary of size - changing inventions ."
         },
         {
@@ -3123,7 +3123,7 @@
             "name": "Vitality Totem",
             "type": "Minion",
             "set": "Goblins vs Gnomes",
-            "rule": "at the end of your turn , restore # 4 health to your hero .",
+            "rule": "at the end of your turn , restore 4 health to your hero .",
             "flavour": "you can usually find these at the totemist ' s market on saturdays ."
         },
         {
@@ -3200,7 +3200,7 @@
             "name": "Illuminator",
             "type": "Minion",
             "set": "Goblins vs Gnomes",
-            "rule": "if you control a secret at the end of your turn , restore # 4 health to your hero .",
+            "rule": "if you control a secret at the end of your turn , restore 4 health to your hero .",
             "flavour": "\" lumos ! \" is not what they yell . what do you think this is , hogwarts ?"
         },
         {
@@ -3431,7 +3431,7 @@
             "name": "Antique Healbot",
             "type": "Minion",
             "set": "Goblins vs Gnomes",
-            "rule": "battlecry : restore # 8 health to your hero .",
+            "rule": "battlecry : restore 8 health to your hero .",
             "flavour": "they don ' t make ' em like they used to ! ( because of explosions , mostly . )"
         },
         {
@@ -3585,7 +3585,7 @@
             "name": "Dark Wispers",
             "type": "Spell",
             "set": "Goblins vs Gnomes",
-            "rule": "choose one - summon 5 wisps ; or give_a minion + 5 / + 5 and taunt .",
+            "rule": "choose one - summon 5 wisps ; or give a minion + 5 / + 5 and taunt .",
             "flavour": "don ' t worry ; we fired the person who named this card ."
         },
         {
@@ -3874,7 +3874,7 @@
             "name": "Hungry Dragon",
             "type": "Minion",
             "set": "Blackrock Mountain",
-            "rule": "battlecry : summon a random 1 - cost minion for_your opponent .",
+            "rule": "battlecry : summon a random 1 - cost minion for your opponent .",
             "flavour": "hungry hungry dragon is not a fun game ."
         },
         {
@@ -4009,7 +4009,7 @@
             "name": "Flash Heal",
             "type": "Spell",
             "set": "The Grand Tournament",
-            "rule": "restore # 5 health .",
+            "rule": "restore 5 health .",
             "flavour": "flash ! ahhhhhhh ~"
         },
         {
@@ -4149,7 +4149,7 @@
             "name": "Fallen Hero",
             "type": "Minion",
             "set": "The Grand Tournament",
-            "rule": "your hero power deals 1_extra damage .",
+            "rule": "your hero power deals 1 extra damage .",
             "flavour": "and he can ' t get up ."
         },
         {
@@ -4227,7 +4227,7 @@
             "type": "Minion",
             "set": "The Grand Tournament",
             "rule": "battlecry : if you ' re holding a dragon , gain + 1 attack and taunt .",
-            "flavour": "keeping tabs on the grand tournament is priority # 1 for the five mighty dragonflights !"
+            "flavour": "keeping tabs on the grand tournament is priority 1 for the five mighty dragonflights !"
         },
         {
             "name": "Argent Horserider",
@@ -4317,7 +4317,7 @@
             "name": "Healing Wave",
             "type": "Spell",
             "set": "The Grand Tournament",
-            "rule": "restore # 7 health . reveal a minion in each deck . if yours costs more , restore # 14 instead .",
+            "rule": "restore 7 health . reveal a minion in each deck . if yours costs more , restore 14 instead .",
             "flavour": "favored by shaman who study the art of restoration and healing , this spell would feel smug , if it had feelings ."
         },
         {
@@ -4562,7 +4562,7 @@
             "name": "Refreshment Vendor",
             "type": "Minion",
             "set": "The Grand Tournament",
-            "rule": "battlecry : restore # 4 health to each hero .",
+            "rule": "battlecry : restore 4 health to each hero .",
             "flavour": "menu : funnel cakes , carrots , popcorn , jormungar steaks . it ' s hard serving a diverse clientele ."
         },
         {
@@ -4583,7 +4583,7 @@
             "name": "Tournament Medic",
             "type": "Minion",
             "set": "The Grand Tournament",
-            "rule": "inspire : restore # 2 health to your hero .",
+            "rule": "inspire : restore 2 health to your hero .",
             "flavour": "the medic tournament is less entertaining than the grand tournament ."
         },
         {
@@ -4674,7 +4674,7 @@
             "name": "Tuskarr Jouster",
             "type": "Minion",
             "set": "The Grand Tournament",
-            "rule": "battlecry : reveal a minion in each deck . if yours costs more , restore # 7 health to your hero .",
+            "rule": "battlecry : reveal a minion in each deck . if yours costs more , restore 7 health to your hero .",
             "flavour": "just could not be talked out of using his turtle for the joust . . ."
         },
         {
@@ -5047,7 +5047,7 @@
             "name": "Unearthed Raptor",
             "type": "Minion",
             "set": "The League of Explorers",
-            "rule": "battlecry : choose a friendly minion . gain a copy of its_ deathrattle .",
+            "rule": "battlecry : choose a friendly minion . gain a copy of its deathrattle .",
             "flavour": "still hunting for the ones who earthed him ."
         },
         {
@@ -5756,7 +5756,7 @@
             "name": "Shifting Shade",
             "type": "Minion",
             "set": "Whispers of the Old Gods",
-            "rule": "[ x ] deathrattle : copy a card from your opponent ' s deck _and add it to your hand .",
+            "rule": "[ x ] deathrattle : copy a card from your opponent ' s deck and add it to your hand .",
             "flavour": "yeah , it ' s cooler in the shade , but you ' re also more likely to get jacked ."
         },
         {
@@ -5791,7 +5791,7 @@
             "name": "Corrupted Healbot",
             "type": "Minion",
             "set": "Whispers of the Old Gods",
-            "rule": "deathrattle : restore # 8 health to the enemy hero .",
+            "rule": "deathrattle : restore 8 health to the enemy hero .",
             "flavour": "not so much \" corrupted \" as \" has terrible aim \" ."
         },
         {
@@ -5805,14 +5805,14 @@
             "name": "Cult Apothecary",
             "type": "Minion",
             "set": "Whispers of the Old Gods",
-            "rule": "battlecry : for each enemy minion , restore # 2 health to your hero .",
+            "rule": "battlecry : for each enemy minion , restore 2 health to your hero .",
             "flavour": "cults need pharmacists too ."
         },
         {
             "name": "Darkshire Alchemist",
             "type": "Minion",
             "set": "Whispers of the Old Gods",
-            "rule": "battlecry : restore # 5 health .",
+            "rule": "battlecry : restore 5 health .",
             "flavour": "the secret ingredient : liquified funnel cake ."
         },
         {
@@ -5868,7 +5868,7 @@
             "name": "Shadowcaster",
             "type": "Minion",
             "set": "Whispers of the Old Gods",
-            "rule": "battlecry : choose a friendly minion . add a 1 / 1 copy to_your hand that costs_ ( 1 ) .",
+            "rule": "battlecry : choose a friendly minion . add a 1 / 1 copy to your hand that costs ( 1 ) .",
             "flavour": "i mean , it ' s not creepy if you ask before you steal their shadow to make a small replica of them to keep on your shelf ."
         },
         {
@@ -5889,7 +5889,7 @@
             "name": "Twilight Darkmender",
             "type": "Minion",
             "set": "Whispers of the Old Gods",
-            "rule": "battlecry : if your c ' thun has at least 10 attack , restore # 10 health to your hero .",
+            "rule": "battlecry : if your c ' thun has at least 10 attack , restore 10 health to your hero .",
             "flavour": "first she separates them from the lights , washes them in cold water , and hang - dries ."
         },
         {
@@ -6078,7 +6078,7 @@
             "name": "Ragnaros, Lightlord",
             "type": "Minion",
             "set": "Whispers of the Old Gods",
-            "rule": "at the end of your turn , restore # 8 health to a damaged friendly character .",
+            "rule": "at the end of your turn , restore 8 health to a damaged friendly character .",
             "flavour": "what happens when you try and corrupt a corrupted firelord ? double negative , insect !"
         },
         {
@@ -6092,7 +6092,7 @@
             "name": "Blade of C'Thun",
             "type": "Minion",
             "set": "Whispers of the Old Gods",
-            "rule": "battlecry : destroy a minion . add its attack and health to_your c ' thun ' s ( wherever it is ) .",
+            "rule": "battlecry : destroy a minion . add its attack and health to your c ' thun ' s ( wherever it is ) .",
             "flavour": "c ' thun demands a sacrifice ! preferably a deathwing ."
         },
         {
@@ -6220,7 +6220,7 @@
             "name": "Maelstrom Portal",
             "type": "Spell",
             "set": "One Night in Karazhan",
-            "rule": "deal_ $ 1_damage to_all_enemy_minions . summon_a_random 1 - cost minion .",
+            "rule": "deal $ 1 damage to all enemy minions . summon a random 1 - cost minion .",
             "flavour": "they bill this as a popular resort attraction , but they try and get your money up front ."
         },
         {
@@ -6332,7 +6332,7 @@
             "name": "Priest of the Feast",
             "type": "Minion",
             "set": "One Night in Karazhan",
-            "rule": "whenever you cast a spell , restore # 3 health to your hero .",
+            "rule": "whenever you cast a spell , restore 3 health to your hero .",
             "flavour": "now that ' s a world champion cheesecake !"
         },
         {
@@ -6346,7 +6346,7 @@
             "name": "Wicked Witchdoctor",
             "type": "Minion",
             "set": "One Night in Karazhan",
-            "rule": "whenever you cast a spell , summon a random basic_totem .",
+            "rule": "whenever you cast a spell , summon a random basic totem .",
             "flavour": "you can easily defeat her by either dealing 4 damage , or dropping a house on her ."
         },
         {
@@ -6430,7 +6430,7 @@
             "name": "Menagerie Warden",
             "type": "Minion",
             "set": "One Night in Karazhan",
-            "rule": "battlecry : choose a friendly beast . summon a_copy of it .",
+            "rule": "battlecry : choose a friendly beast . summon a copy of it .",
             "flavour": "please ? can i keep him ? i promise to clean his cage every day ."
         },
         {
@@ -6444,7 +6444,7 @@
             "name": "Moonglade Portal",
             "type": "Spell",
             "set": "One Night in Karazhan",
-            "rule": "restore # 6 health . summon a random 6 - cost minion .",
+            "rule": "restore 6 health . summon a random 6 - cost minion .",
             "flavour": "ain ' t no party like a moonglade party ‘ cause a moonglade party got bears ."
         },
         {
@@ -6495,14 +6495,14 @@
             "name": "Alleycat",
             "type": "Minion",
             "set": "Mean Streets of Gadgetzan",
-            "rule": "battlecry : summon a 1 / 1_cat .",
+            "rule": "battlecry : summon a 1 / 1 cat .",
             "flavour": "to be a cool cat in gadgetzan , you gotta have bling ."
         },
         {
             "name": "Finders Keepers",
             "type": "Spell",
             "set": "Mean Streets of Gadgetzan",
-            "rule": "discover a card with_ overload . overload : ( 1 )",
+            "rule": "discover a card with overload . overload : ( 1 )",
             "flavour": "infinite loop !"
         },
         {
@@ -6558,7 +6558,7 @@
             "name": "Mistress of Mixtures",
             "type": "Minion",
             "set": "Mean Streets of Gadgetzan",
-            "rule": "deathrattle : restore # 4 health to each hero .",
+            "rule": "deathrattle : restore 4 health to each hero .",
             "flavour": "her favorite mixture is cola and lime ."
         },
         {
@@ -6635,7 +6635,7 @@
             "name": "Friendly Bartender",
             "type": "Minion",
             "set": "Mean Streets of Gadgetzan",
-            "rule": "at the end of your turn , restore # 1 health to your_hero .",
+            "rule": "at the end of your turn , restore 1 health to your hero .",
             "flavour": "\" what ' ll it be ? a jade brew ? a grimy goose ? a kabal manatini ? \""
         },
         {
@@ -6649,7 +6649,7 @@
             "name": "Gadgetzan Socialite",
             "type": "Minion",
             "set": "Mean Streets of Gadgetzan",
-            "rule": "battlecry : restore # 2_health .",
+            "rule": "battlecry : restore 2 health .",
             "flavour": "comment on her height , and she ' ll go from flapper to kneecapper in seconds flat ."
         },
         {
@@ -6705,7 +6705,7 @@
             "name": "Mana Geode",
             "type": "Minion",
             "set": "Mean Streets of Gadgetzan",
-            "rule": "whenever this minion is_healed , summon a 2 / 2_crystal .",
+            "rule": "whenever this minion is healed , summon a 2 / 2 crystal .",
             "flavour": "gadgetzan , where even the pet rocks have pet rocks ."
         },
         {
@@ -6761,7 +6761,7 @@
             "name": "Blubber Baron",
             "type": "Minion",
             "set": "Mean Streets of Gadgetzan",
-            "rule": "whenever you summon a battlecry minion while this_is in your hand , gain_ + 1 / + 1 .",
+            "rule": "whenever you summon a battlecry minion while this is in your hand , gain + 1 / + 1 .",
             "flavour": "when oil , railroad , steel , robber , and red are all already taken , your options are limited ."
         },
         {
@@ -6775,7 +6775,7 @@
             "name": "Fel Orc Soulfiend",
             "type": "Minion",
             "set": "Mean Streets of Gadgetzan",
-            "rule": "at the start of your turn , deal 2 damage to this_minion .",
+            "rule": "at the start of your turn , deal 2 damage to this minion .",
             "flavour": "\" doc says the persistent burning sensation in my soul is probably just an ulcer . \""
         },
         {
@@ -6845,7 +6845,7 @@
             "name": "Rat Pack",
             "type": "Minion",
             "set": "Mean Streets of Gadgetzan",
-            "rule": "[ x ] deathrattle : summon a number of 1 / 1 rats equal _to this minion ' s attack .",
+            "rule": "[ x ] deathrattle : summon a number of 1 / 1 rats equal to this minion ' s attack .",
             "flavour": "he ' s gonna do it his way ."
         },
         {
@@ -6901,14 +6901,14 @@
             "name": "Unlicensed Apothecary",
             "type": "Minion",
             "set": "Mean Streets of Gadgetzan",
-            "rule": "after you summon a minion , deal 5 damage to_your hero .",
+            "rule": "after you summon a minion , deal 5 damage to your hero .",
             "flavour": "get the ingredients wrong on one healing potion and they take your license . what a world !"
         },
         {
             "name": "Volcanic Potion",
             "type": "Spell",
             "set": "Mean Streets of Gadgetzan",
-            "rule": "deal $ 2 damage to all_minions .",
+            "rule": "deal $ 2 damage to all minions .",
             "flavour": "the secret ingredient in kazakus ' s award - winning chili recipe ."
         },
         {
@@ -6978,7 +6978,7 @@
             "name": "Greater Healing Potion",
             "type": "Spell",
             "set": "Mean Streets of Gadgetzan",
-            "rule": "restore # 12 health to a friendly character .",
+            "rule": "restore 12 health to a friendly character .",
             "flavour": "filled with electrolytes !"
         },
         {
@@ -7006,14 +7006,14 @@
             "name": "Jade Spirit",
             "type": "Minion",
             "set": "Mean Streets of Gadgetzan",
-            "rule": "battlecry : summon a { 1 } { 0 } jade_golem . @ battlecry : summon a jade_golem .",
+            "rule": "battlecry : summon a { 1 } { 0 } jade golem . @ battlecry : summon a jade golem .",
             "flavour": "\" he ' s so cute ! i just want to squeeze him , then use him for jade golem parts ! \" - aya blackpaw"
         },
         {
             "name": "Jinyu Waterspeaker",
             "type": "Minion",
             "set": "Mean Streets of Gadgetzan",
-            "rule": "[ x ] battlecry : restore # 6 health . overload : ( 1 )",
+            "rule": "[ x ] battlecry : restore 6 health . overload : ( 1 )",
             "flavour": "waterspeakers can tell the future ! so the jade lotus employs them to speculate on the auction house ."
         },
         {
@@ -7027,7 +7027,7 @@
             "name": "Kazakus",
             "type": "Minion",
             "set": "Mean Streets of Gadgetzan",
-            "rule": "[ x ] battlecry : if your deck has no duplicates , _create a custom spell .",
+            "rule": "[ x ] battlecry : if your deck has no duplicates , create a custom spell .",
             "flavour": "the mysterious leader of the kabal is not a dragon , and does not deal in illegal potions . any public statements to the contrary will be met with litigation and dragonfire potions ."
         },
         {
@@ -7035,13 +7035,13 @@
             "type": "Minion",
             "set": "Mean Streets of Gadgetzan",
             "rule": "battlecry : swap the attack and health of a minion .",
-            "flavour": "# abs"
+            "flavour": "abs"
         },
         {
             "name": "Lotus Illusionist",
             "type": "Minion",
             "set": "Mean Streets of Gadgetzan",
-            "rule": "[ x ] after this minion attacks a hero , transform it into a _random 6 - cost minion .",
+            "rule": "[ x ] after this minion attacks a hero , transform it into a random 6 - cost minion .",
             "flavour": "if you think her illidan and sylvanas cosplay is great , wait till you see her reno jackson !"
         },
         {
@@ -7055,7 +7055,7 @@
             "name": "Seadevil Stinger",
             "type": "Minion",
             "set": "Mean Streets of Gadgetzan",
-            "rule": "[ x ] battlecry : the next murloc you play this turn costs _health instead of mana .",
+            "rule": "[ x ] battlecry : the next murloc you play this turn costs health instead of mana .",
             "flavour": "pretty harmless unless you ' re a seadevil ."
         },
         {
@@ -7125,7 +7125,7 @@
             "name": "Finja, the Flying Star",
             "type": "Minion",
             "set": "Mean Streets of Gadgetzan",
-            "rule": "[ x ] stealth whenever this attacks and kills a minion , summon 2 _murlocs from your deck .",
+            "rule": "[ x ] stealth whenever this attacks and kills a minion , summon 2 murlocs from your deck .",
             "flavour": "the last true master of finjitsu ."
         },
         {
@@ -7209,7 +7209,7 @@
             "name": "Spiked Hogrider",
             "type": "Minion",
             "set": "Mean Streets of Gadgetzan",
-            "rule": "battlecry : if an enemy minion has taunt , gain_ charge .",
+            "rule": "battlecry : if an enemy minion has taunt , gain charge .",
             "flavour": "did you know the hogchoppers compete every year at the mirage raceway ? they do . it ' s a real group ."
         },
         {
@@ -7251,7 +7251,7 @@
             "name": "Big-Time Racketeer",
             "type": "Minion",
             "set": "Mean Streets of Gadgetzan",
-            "rule": "battlecry : summon a 6 / 6_ogre .",
+            "rule": "battlecry : summon a 6 / 6 ogre .",
             "flavour": "\" it ' d be a shame if someone disenchanted those legendaries . \""
         },
         {
@@ -7279,7 +7279,7 @@
             "name": "Fight Promoter",
             "type": "Minion",
             "set": "Mean Streets of Gadgetzan",
-            "rule": "[ x ] battlecry : if you control a minion with 6 or more _health , draw two cards .",
+            "rule": "[ x ] battlecry : if you control a minion with 6 or more health , draw two cards .",
             "flavour": "\" yeah , i can get you knuckles . no , no , he ' s been clean for * weeks * . \""
         },
         {
@@ -7293,7 +7293,7 @@
             "name": "Kabal Crystal Runner",
             "type": "Minion",
             "set": "Mean Streets of Gadgetzan",
-            "rule": "costs ( 2 ) less for each secret you ' ve played this_game .",
+            "rule": "costs ( 2 ) less for each secret you ' ve played this game .",
             "flavour": "\" listen , i can cut you in on a little of this premium mana , but you can ' t tell my boss . \""
         },
         {
@@ -7328,7 +7328,7 @@
             "name": "Wind-up Burglebot",
             "type": "Minion",
             "set": "Mean Streets of Gadgetzan",
-            "rule": "whenever this attacks a minion and survives , draw_a card .",
+            "rule": "whenever this attacks a minion and survives , draw a card .",
             "flavour": "don ' t blame the bot for his crimes . . . blame whoever keeps winding him up !"
         },
         {
@@ -7363,7 +7363,7 @@
             "name": "Grimestreet Protector",
             "type": "Minion",
             "set": "Mean Streets of Gadgetzan",
-            "rule": "[ x ] taunt battlecry : give adjacent _minions divine shield .",
+            "rule": "[ x ] taunt battlecry : give adjacent minions divine shield .",
             "flavour": "some new asphalt should do the trick ."
         },
         {
@@ -7384,7 +7384,7 @@
             "name": "Krul the Unshackled",
             "type": "Minion",
             "set": "Mean Streets of Gadgetzan",
-            "rule": "[ x ] battlecry : if your deck has no duplicates , summon all _demons from your hand . _",
+            "rule": "[ x ] battlecry : if your deck has no duplicates , summon all demons from your hand .",
             "flavour": "spicklefizz pondered his life choices as he looked at the chain around his neck . \" become a warlock , \" they said . \" you get to enslave demons , \" they said ."
         },
         {
@@ -7407,7 +7407,7 @@
             "name": "Conceal",
             "type": "Spell",
             "set": "Hall of Fame",
-            "rule": "give your minions stealth until your next_turn .",
+            "rule": "give your minions stealth until your next turn .",
             "flavour": "rogues conceal everything but their emotions . you can ' t get ' em to shut up about feelings ."
         },
         {
@@ -7421,7 +7421,7 @@
             "name": "Naturalize",
             "type": "Spell",
             "set": "Hall of Fame",
-            "rule": "destroy a minion . your opponent draws 2_cards .",
+            "rule": "destroy a minion . your opponent draws 2 cards .",
             "flavour": "another one bites the dust ."
         },
         {
@@ -7463,14 +7463,14 @@
             "name": "Murkspark Eel",
             "type": "Minion",
             "set": "Hall of Fame",
-            "rule": "battlecry : if your deck has only even - cost cards , deal_2 damage .",
+            "rule": "battlecry : if your deck has only even - cost cards , deal 2 damage .",
             "flavour": "makes shockingly good unagi ."
         },
         {
             "name": "Acolyte of Pain",
             "type": "Minion",
             "set": "Hall of Fame",
-            "rule": "whenever this minion takes damage , draw a_card .",
+            "rule": "whenever this minion takes damage , draw a card .",
             "flavour": "he trained when he was younger to be an acolyte of joy , but things didn ’ t work out like he thought they would ."
         },
         {
@@ -7533,7 +7533,7 @@
             "name": "Spellbreaker",
             "type": "Minion",
             "set": "Hall of Fame",
-            "rule": "battlecry : silence a_minion .",
+            "rule": "battlecry : silence a minion .",
             "flavour": "spellbreakers can rip enchantments from magic - wielders . the process is painless and can be performed on an outpatient basis ."
         },
         {
@@ -7596,7 +7596,7 @@
             "name": "Holy Fire",
             "type": "Spell",
             "set": "Hall of Fame",
-            "rule": "deal $ 5 damage . restore # 5 health to your hero .",
+            "rule": "deal $ 5 damage . restore 5 health to your hero .",
             "flavour": "often followed by holy smokes !"
         },
         {
@@ -7675,14 +7675,14 @@
             "name": "Binding Heal",
             "type": "Spell",
             "set": "Journey to Un'Goro",
-            "rule": "restore # 5 health to a minion and your hero .",
+            "rule": "restore 5 health to a minion and your hero .",
             "flavour": "by accepting this healing , you agree to the following terms …"
         },
         {
             "name": "Crystalline Oracle",
             "type": "Minion",
             "set": "Journey to Un'Goro",
-            "rule": "[ x ] deathrattle : copy a card from your opponent ' s deck _and add it to your hand .",
+            "rule": "[ x ] deathrattle : copy a card from your opponent ' s deck and add it to your hand .",
             "flavour": "being made of light has its disadvantages , but at least it ' s always looking on the bright side ."
         },
         {
@@ -7724,7 +7724,7 @@
             "name": "Glacial Shard",
             "type": "Minion",
             "set": "Journey to Un'Goro",
-            "rule": "battlecry : freeze an_enemy .",
+            "rule": "battlecry : freeze an enemy .",
             "flavour": "ice , ice , baby !"
         },
         {
@@ -7794,7 +7794,7 @@
             "name": "Stampede",
             "type": "Spell",
             "set": "Journey to Un'Goro",
-            "rule": "each time you play a beast this turn , add_a_random beast to_your hand .",
+            "rule": "each time you play a beast this turn , add a random beast to your hand .",
             "flavour": "many hunters long for the pitter - patter of enormous feet ."
         },
         {
@@ -7850,7 +7850,7 @@
             "name": "Cornered Sentry",
             "type": "Minion",
             "set": "Journey to Un'Goro",
-            "rule": "taunt . battlecry : summon three 1 / 1 raptors for your_opponent .",
+            "rule": "taunt . battlecry : summon three 1 / 1 raptors for your opponent .",
             "flavour": "the draenei are seriously considering cancelling \" bring your murderous pet to work day . \""
         },
         {
@@ -7864,7 +7864,7 @@
             "name": "Crackling Razormaw",
             "type": "Minion",
             "set": "Journey to Un'Goro",
-            "rule": "battlecry : adapt a friendly_beast .",
+            "rule": "battlecry : adapt a friendly beast .",
             "flavour": "wasn ' t clever enough to go around the electric fence ."
         },
         {
@@ -7878,21 +7878,21 @@
             "name": "Explore Un'Goro",
             "type": "Spell",
             "set": "Journey to Un'Goro",
-            "rule": "replace your deck with_copies of \" discover a card . \"",
+            "rule": "replace your deck with copies of \" discover a card . \"",
             "flavour": "it turns out cards do grow on trees !"
         },
         {
             "name": "Fire Plume Harbinger",
             "type": "Minion",
             "set": "Journey to Un'Goro",
-            "rule": "battlecry : reduce the cost of elementals in your hand_by ( 1 ) .",
+            "rule": "battlecry : reduce the cost of elementals in your hand by ( 1 ) .",
             "flavour": "good for summoning elementals . great for making s ' mores ."
         },
         {
             "name": "Flame Geyser",
             "type": "Spell",
             "set": "Journey to Un'Goro",
-            "rule": "deal $ 2 damage . add a 1 / 2 elemental to_your hand .",
+            "rule": "deal $ 2 damage . add a 1 / 2 elemental to your hand .",
             "flavour": "oh , a wise geyser eh ?"
         },
         {
@@ -7941,7 +7941,7 @@
             "name": "Pyros",
             "type": "Minion",
             "set": "Journey to Un'Goro",
-            "rule": "deathrattle : return this to_your hand as a 6 / 6 that costs ( 6 ) .",
+            "rule": "deathrattle : return this to your hand as a 6 / 6 that costs ( 6 ) .",
             "flavour": "if you strike her down , she shall become more powerful than you can possibly … well , she ' ll become a 6 / 6 anyways ."
         },
         {
@@ -7955,7 +7955,7 @@
             "name": "Ravasaur Runt",
             "type": "Minion",
             "set": "Journey to Un'Goro",
-            "rule": "battlecry : if you control at_least 2 other minions , adapt .",
+            "rule": "battlecry : if you control at least 2 other minions , adapt .",
             "flavour": "doesn ' t like to adapt unless others are watching . some minions are such show - offs ."
         },
         {
@@ -7969,7 +7969,7 @@
             "name": "Razorpetal Volley",
             "type": "Spell",
             "set": "Journey to Un'Goro",
-            "rule": "add two razorpetals to_your hand that deal_1 damage .",
+            "rule": "add two razorpetals to your hand that deal 1 damage .",
             "flavour": "the result of a fundamental misunderstanding of the phrase \" flower power \" ."
         },
         {
@@ -8074,7 +8074,7 @@
             "name": "Hot Spring Guardian",
             "type": "Minion",
             "set": "Journey to Un'Goro",
-            "rule": "taunt battlecry : restore # 3_health .",
+            "rule": "taunt battlecry : restore 3 health .",
             "flavour": "none shall pass until at least an hour after eating ."
         },
         {
@@ -8116,7 +8116,7 @@
             "name": "Primalfin Lookout",
             "type": "Minion",
             "set": "Journey to Un'Goro",
-            "rule": "battlecry : if you control another murloc , discover a_murloc .",
+            "rule": "battlecry : if you control another murloc , discover a murloc .",
             "flavour": "lookout is a self - appointed title that ' s mostly an excuse to beat things up ."
         },
         {
@@ -8130,14 +8130,14 @@
             "name": "Spirit Echo",
             "type": "Spell",
             "set": "Journey to Un'Goro",
-            "rule": "give your minions \" deathrattle : return _this to your hand . \"",
+            "rule": "give your minions \" deathrattle : return this to your hand . \"",
             "flavour": "i guess you can say they ’ re … “ soul survivors . ”"
         },
         {
             "name": "Stonehill Defender",
             "type": "Minion",
             "set": "Journey to Un'Goro",
-            "rule": "taunt battlecry : discover a taunt _minion .",
+            "rule": "taunt battlecry : discover a taunt minion .",
             "flavour": "briefly tried stand - up comedy under the name \" stonehill offender \" , but turtles are just too thin - skinned ."
         },
         {
@@ -8158,14 +8158,14 @@
             "name": "Thunder Lizard",
             "type": "Minion",
             "set": "Journey to Un'Goro",
-            "rule": "battlecry : if you played an_elemental last turn , adapt .",
+            "rule": "battlecry : if you played an elemental last turn , adapt .",
             "flavour": "what ? thunder lizard is adapting !"
         },
         {
             "name": "Vicious Fledgling",
             "type": "Minion",
             "set": "Journey to Un'Goro",
-            "rule": "after this minion attacks a_hero , adapt .",
+            "rule": "after this minion attacks a hero , adapt .",
             "flavour": "a youngster who is truly hungry for self - improvement ."
         },
         {
@@ -8200,7 +8200,7 @@
             "name": "Gentle Megasaur",
             "type": "Minion",
             "set": "Journey to Un'Goro",
-            "rule": "battlecry : adapt your_murlocs .",
+            "rule": "battlecry : adapt your murlocs .",
             "flavour": "\" low , low rents ! must enjoy a nomadic lifestyle . quasi - sentient , bipedal , amphibious humanoids only ! \""
         },
         {
@@ -8214,7 +8214,7 @@
             "name": "Lightfused Stegodon",
             "type": "Minion",
             "set": "Journey to Un'Goro",
-            "rule": "battlecry : adapt your silver_hand recruits .",
+            "rule": "battlecry : adapt your silver hand recruits .",
             "flavour": "“ come now , johnston . i think those horns are quite fetching on you . ”"
         },
         {
@@ -8235,7 +8235,7 @@
             "name": "Ravenous Pterrordax",
             "type": "Minion",
             "set": "Journey to Un'Goro",
-            "rule": "battlecry : destroy a friendly minion to adapt _twice .",
+            "rule": "battlecry : destroy a friendly minion to adapt twice .",
             "flavour": "for better results , feed your pterrordax low - fat , high - fiber minions ."
         },
         {
@@ -8284,28 +8284,28 @@
             "name": "Tidal Surge",
             "type": "Spell",
             "set": "Journey to Un'Goro",
-            "rule": "deal $ 4 damage to a minion . restore # 4 health to your hero .",
+            "rule": "deal $ 4 damage to a minion . restore 4 health to your hero .",
             "flavour": "also good for removing pesky stains ."
         },
         {
             "name": "Tol'vir Stoneshaper",
             "type": "Minion",
             "set": "Journey to Un'Goro",
-            "rule": "[ x ] battlecry : if you played an elemental last turn , gain _ taunt and divine_shield .",
+            "rule": "[ x ] battlecry : if you played an elemental last turn , gain taunt and divine shield .",
             "flavour": "he spends a lot of time keeping himself in stoneshape ."
         },
         {
             "name": "Tortollan Shellraiser",
             "type": "Minion",
             "set": "Journey to Un'Goro",
-            "rule": "[ x ] taunt deathrattle : give a random _friendly minion + 1 / + 1 .",
+            "rule": "[ x ] taunt deathrattle : give a random friendly minion + 1 / + 1 .",
             "flavour": "a hero . . . in a half - shell ."
         },
         {
             "name": "Bittertide Hydra",
             "type": "Minion",
             "set": "Journey to Un'Goro",
-            "rule": "whenever this minion takes damage , deal 3 damage to_your hero .",
+            "rule": "whenever this minion takes damage , deal 3 damage to your hero .",
             "flavour": "it ' s actually only the middle head that ' s bitter . the others are sweet and spicy ."
         },
         {
@@ -8319,7 +8319,7 @@
             "name": "Elise the Trailblazer",
             "type": "Minion",
             "set": "Journey to Un'Goro",
-            "rule": "battlecry : shuffle a sealed_ un ' goro pack into_your deck .",
+            "rule": "battlecry : shuffle a sealed un ' goro pack into your deck .",
             "flavour": "reno taught her that blazing her own trail is a lot more fun than following someone else ' s map ."
         },
         {
@@ -8347,14 +8347,14 @@
             "name": "Nesting Roc",
             "type": "Minion",
             "set": "Journey to Un'Goro",
-            "rule": "battlecry : if you control at_least 2 other minions , gain taunt .",
+            "rule": "battlecry : if you control at least 2 other minions , gain taunt .",
             "flavour": "roc eggs are great in omelettes , sandwiches , and as bait to turn poachers into bird food ."
         },
         {
             "name": "Servant of Kalimos",
             "type": "Minion",
             "set": "Journey to Un'Goro",
-            "rule": "[ x ] battlecry : if you played an elemental last turn , _ discover an elemental .",
+            "rule": "[ x ] battlecry : if you played an elemental last turn , discover an elemental .",
             "flavour": "he ' s doing his best , but his mom thinks that if he had just applied himself in school kalimos would be working for him ."
         },
         {
@@ -8396,7 +8396,7 @@
             "name": "Volcano",
             "type": "Spell",
             "set": "Journey to Un'Goro",
-            "rule": "deal $ 15 damage randomly split among all_minions . overload : ( 2 )",
+            "rule": "deal $ 15 damage randomly split among all minions . overload : ( 2 )",
             "flavour": "many young shaman summon a volcano as their first school project ."
         },
         {
@@ -8417,7 +8417,7 @@
             "name": "Hemet, Jungle Hunter",
             "type": "Minion",
             "set": "Journey to Un'Goro",
-            "rule": "battlecry : destroy all cards in your deck that cost ( 3 ) _or less .",
+            "rule": "battlecry : destroy all cards in your deck that cost ( 3 ) or less .",
             "flavour": "the goblin travel agency lost his luggage , but he ' s still having a great vacation !"
         },
         {
@@ -8459,7 +8459,7 @@
             "name": "Blazecaller",
             "type": "Minion",
             "set": "Journey to Un'Goro",
-            "rule": "battlecry : if you played an_elemental last turn , deal 5 damage .",
+            "rule": "battlecry : if you played an elemental last turn , deal 5 damage .",
             "flavour": "for when a flamecaller just won ' t do ."
         },
         {
@@ -8494,7 +8494,7 @@
             "name": "Swamp King Dred",
             "type": "Minion",
             "set": "Journey to Un'Goro",
-            "rule": "after your opponent plays a minion , attack_it .",
+            "rule": "after your opponent plays a minion , attack it .",
             "flavour": "swamp king dred , more like swamp king dead , amiright ?"
         },
         {
@@ -8515,7 +8515,7 @@
             "name": "Volcanosaur",
             "type": "Minion",
             "set": "Journey to Un'Goro",
-            "rule": "battlecry : adapt , then_ adapt .",
+            "rule": "battlecry : adapt , then adapt .",
             "flavour": "always fun to say out loud \" vol - ca - no - sauuur ! \""
         },
         {
@@ -8557,7 +8557,7 @@
             "name": "Tortollan Primalist",
             "type": "Minion",
             "set": "Journey to Un'Goro",
-            "rule": "battlecry : discover a spell_and cast it with random targets .",
+            "rule": "battlecry : discover a spell and cast it with random targets .",
             "flavour": "i see pizza in my future ."
         },
         {
@@ -8636,7 +8636,7 @@
             "name": "Doomerang",
             "type": "Spell",
             "set": "Knights of the Frozen Throne",
-            "rule": "throw your weapon at a minion . it deals its damage , then returns to_your hand .",
+            "rule": "throw your weapon at a minion . it deals its damage , then returns to your hand .",
             "flavour": "guaranteed to return your weapon directly to your hand ! ( wear gloves . thick ones . )"
         },
         {
@@ -8664,14 +8664,14 @@
             "name": "Sanguine Reveler",
             "type": "Minion",
             "set": "Knights of the Frozen Throne",
-            "rule": "battlecry : destroy a friendly minion and gain_ + 2 / + 2 .",
+            "rule": "battlecry : destroy a friendly minion and gain + 2 / + 2 .",
             "flavour": "have some ! this drink is to die for !"
         },
         {
             "name": "Wretched Tiller",
             "type": "Minion",
             "set": "Knights of the Frozen Throne",
-            "rule": "whenever this minion attacks , deal 2 damage to_the enemy hero .",
+            "rule": "whenever this minion attacks , deal 2 damage to the enemy hero .",
             "flavour": "if you ever tried to plow permafrost , you ’ d be wretched , too ."
         },
         {
@@ -8685,7 +8685,7 @@
             "name": "Brrrloc",
             "type": "Minion",
             "set": "Knights of the Frozen Throne",
-            "rule": "battlecry : freeze an_enemy .",
+            "rule": "battlecry : freeze an enemy .",
             "flavour": "he may be frozen fish , but he fights fresh !"
         },
         {
@@ -8776,7 +8776,7 @@
             "name": "Prince Keleseth",
             "type": "Minion",
             "set": "Knights of the Frozen Throne",
-            "rule": "battlecry : if your deck has_no 2 - cost cards , give_all minions in your deck + 1 / + 1 .",
+            "rule": "battlecry : if your deck has no 2 - cost cards , give all minions in your deck + 1 / + 1 .",
             "flavour": "three princes stand before you . this one wants to buff his brothers ."
         },
         {
@@ -8797,7 +8797,7 @@
             "name": "Spirit Lash",
             "type": "Spell",
             "set": "Knights of the Frozen Throne",
-            "rule": "lifesteal deal $ 1 damage to_all_minions .",
+            "rule": "lifesteal deal $ 1 damage to all minions .",
             "flavour": "we ' ve got spirit , yes we do ! we ' ve got spirit , stolen from you !"
         },
         {
@@ -8825,7 +8825,7 @@
             "name": "Venomstrike Trap",
             "type": "Spell",
             "set": "Knights of the Frozen Throne",
-            "rule": "secret : when one of your minions is attacked , summon a 2 / 3_ poisonous cobra .",
+            "rule": "secret : when one of your minions is attacked , summon a 2 / 3 poisonous cobra .",
             "flavour": "snakes on a frozen plain ."
         },
         {
@@ -8888,14 +8888,14 @@
             "name": "Frozen Clone",
             "type": "Spell",
             "set": "Knights of the Frozen Throne",
-            "rule": "secret : after your opponent plays a minion , add two copies of it to_your hand .",
+            "rule": "secret : after your opponent plays a minion , add two copies of it to your hand .",
             "flavour": "it ' s like déjà vu , times two ."
         },
         {
             "name": "Gnash",
             "type": "Spell",
             "set": "Knights of the Frozen Throne",
-            "rule": "give your hero + 3_attack this turn . gain 3 armor .",
+            "rule": "give your hero + 3 attack this turn . gain 3 armor .",
             "flavour": "it ' s rude to gnash with your mouth open ."
         },
         {
@@ -8909,14 +8909,14 @@
             "name": "Howlfiend",
             "type": "Minion",
             "set": "Knights of the Frozen Throne",
-            "rule": "whenever this minion takes damage , discard a_random card .",
+            "rule": "whenever this minion takes damage , discard a random card .",
             "flavour": "the problem is that he carries those cards in his mouth ."
         },
         {
             "name": "Howling Commander",
             "type": "Minion",
             "set": "Knights of the Frozen Throne",
-            "rule": "battlecry : draw a divine_shield minion from your deck .",
+            "rule": "battlecry : draw a divine shield minion from your deck .",
             "flavour": "enlistment in her battalion comes with several pairs of earplugs ."
         },
         {
@@ -8930,7 +8930,7 @@
             "name": "Ice Breaker",
             "type": "Weapon",
             "set": "Knights of the Frozen Throne",
-            "rule": "destroy any frozen minion damaged by_this .",
+            "rule": "destroy any frozen minion damaged by this .",
             "flavour": "a great way to end a conversation ."
         },
         {
@@ -8958,7 +8958,7 @@
             "name": "Prince Taldaram",
             "type": "Minion",
             "set": "Knights of the Frozen Throne",
-            "rule": "battlecry : if your deck has_no 3 - cost cards , transform into a 3 / 3 copy of a minion .",
+            "rule": "battlecry : if your deck has no 3 - cost cards , transform into a 3 / 3 copy of a minion .",
             "flavour": "three princes stand before you . this one wants to copy others ."
         },
         {
@@ -8972,7 +8972,7 @@
             "name": "Shallow Gravedigger",
             "type": "Minion",
             "set": "Knights of the Frozen Throne",
-            "rule": "deathrattle : add a random deathrattle minion to your_hand .",
+            "rule": "deathrattle : add a random deathrattle minion to your hand .",
             "flavour": "it ' s hard to put them six feet under when you ' re three feet tall ."
         },
         {
@@ -8993,7 +8993,7 @@
             "name": "Treachery",
             "type": "Spell",
             "set": "Knights of the Frozen Throne",
-            "rule": "choose a friendly minion and give it to_your opponent .",
+            "rule": "choose a friendly minion and give it to your opponent .",
             "flavour": "never look a gift minion in the mouth ."
         },
         {
@@ -9021,7 +9021,7 @@
             "name": "Arfus",
             "type": "Minion",
             "set": "Knights of the Frozen Throne",
-            "rule": "deathrattle : add a random death knight card to your_hand .",
+            "rule": "deathrattle : add a random death knight card to your hand .",
             "flavour": "there must always be a lick king ."
         },
         {
@@ -9042,7 +9042,7 @@
             "name": "Blood Razor",
             "type": "Weapon",
             "set": "Knights of the Frozen Throne",
-            "rule": "battlecry and deathrattle : deal 1 damage to all_minions .",
+            "rule": "battlecry and deathrattle : deal 1 damage to all minions .",
             "flavour": "for the close shave that you ' ve always wanted . caution : very sharp ."
         },
         {
@@ -9105,7 +9105,7 @@
             "name": "Keening Banshee",
             "type": "Minion",
             "set": "Knights of the Frozen Throne",
-            "rule": "whenever you play a card , remove the top 3 cards of_your deck .",
+            "rule": "whenever you play a card , remove the top 3 cards of your deck .",
             "flavour": "\" what are your strengths ? \" the interviewer asked . \" well , \" she replied , \" i ' m really good at keening . \""
         },
         {
@@ -9196,7 +9196,7 @@
             "name": "Wicked Skeleton",
             "type": "Minion",
             "set": "Knights of the Frozen Throne",
-            "rule": "battlecry : gain + 1 / + 1 for_each minion that died_this turn .",
+            "rule": "battlecry : gain + 1 / + 1 for each minion that died this turn .",
             "flavour": "it ' s minions like these that give normal , law - abiding skeletons a bad rap ."
         },
         {
@@ -9217,7 +9217,7 @@
             "name": "Bolvar, Fireblood",
             "type": "Minion",
             "set": "Knights of the Frozen Throne",
-            "rule": "divine shield after a friendly minion loses_ divine shield , gain + 2 attack .",
+            "rule": "divine shield after a friendly minion loses divine shield , gain + 2 attack .",
             "flavour": "he ' s so hot right now ."
         },
         {
@@ -9245,7 +9245,7 @@
             "name": "Corpse Widow",
             "type": "Minion",
             "set": "Knights of the Frozen Throne",
-            "rule": "your deathrattle cards cost_ ( 2 ) less .",
+            "rule": "your deathrattle cards cost ( 2 ) less .",
             "flavour": "her marriage survived death , but it decayed pretty quickly after that ."
         },
         {
@@ -9385,7 +9385,7 @@
             "name": "Shadow Essence",
             "type": "Spell",
             "set": "Knights of the Frozen Throne",
-            "rule": "summon a 5 / 5 copy of_a random minion in_your deck .",
+            "rule": "summon a 5 / 5 copy of a random minion in your deck .",
             "flavour": "difficult to bottle up and sell . but it packs a punch ."
         },
         {
@@ -9413,7 +9413,7 @@
             "name": "Spreading Plague",
             "type": "Spell",
             "set": "Knights of the Frozen Throne",
-            "rule": "summon a 1 / 5 scarab with taunt . if your_opponent has more minions , cast this again .",
+            "rule": "summon a 1 / 5 scarab with taunt . if your opponent has more minions , cast this again .",
             "flavour": "in the past , plagues were spread by mice or fleas . these days they ' re spread by elves ."
         },
         {
@@ -9427,7 +9427,7 @@
             "name": "Archbishop Benedictus",
             "type": "Minion",
             "set": "Knights of the Frozen Throne",
-            "rule": "battlecry : shuffle a copy of_your opponent ' s deck into your deck .",
+            "rule": "battlecry : shuffle a copy of your opponent ' s deck into your deck .",
             "flavour": "nobody expects the archbishop ' s benediction !"
         },
         {
@@ -9462,14 +9462,14 @@
             "name": "Scourgelord Garrosh",
             "type": "Hero",
             "set": "Knights of the Frozen Throne",
-            "rule": "battlecry : equip a 4 / 3_shadowmourne that also damages adjacent minions .",
+            "rule": "battlecry : equip a 4 / 3 shadowmourne that also damages adjacent minions .",
             "flavour": "\" you dare to challenge me ? come ! draw your last breath - and then , you are mine . \""
         },
         {
             "name": "Shadowreaper Anduin",
             "type": "Hero",
             "set": "Knights of the Frozen Throne",
-            "rule": "battlecry : destroy all minions with 5 or more_attack .",
+            "rule": "battlecry : destroy all minions with 5 or more attack .",
             "flavour": "\" i will tell you what velen never taught me . whosoever stands before the light … inevitably casts a shadow . \""
         },
         {
@@ -9525,7 +9525,7 @@
             "name": "Bloodreaver Gul'dan",
             "type": "Hero",
             "set": "Knights of the Frozen Throne",
-            "rule": "battlecry : summon all friendly demons that_died_this_game .",
+            "rule": "battlecry : summon all friendly demons that died this game .",
             "flavour": "\" still you refuse to bend your knee ? none can escape death , you old fool . and in death … all will serve me … \""
         },
         {
@@ -9555,7 +9555,7 @@
             "name": "Arcane Artificer",
             "type": "Minion",
             "set": "Kobolds & Catacombs",
-            "rule": "whenever you cast a spell , gain armor equal to its_cost .",
+            "rule": "whenever you cast a spell , gain armor equal to its cost .",
             "flavour": "ethereal armor dissipates in 6 hours which can cause extreme awkwardness for first time buyers ."
         },
         {
@@ -9576,7 +9576,7 @@
             "name": "Dark Pact",
             "type": "Spell",
             "set": "Kobolds & Catacombs",
-            "rule": "destroy a friendly minion . restore # 4 health to your hero .",
+            "rule": "destroy a friendly minion . restore 4 health to your hero .",
             "flavour": "\" don ' t worry about the fine print . just sign here . \""
         },
         {
@@ -9590,14 +9590,14 @@
             "name": "Feral Gibberer",
             "type": "Minion",
             "set": "Kobolds & Catacombs",
-            "rule": "after this minion attacks a hero , add a copy of it to_your hand .",
+            "rule": "after this minion attacks a hero , add a copy of it to your hand .",
             "flavour": "it ' s certainly not civilized gibbering ."
         },
         {
             "name": "Gravelsnout Knight",
             "type": "Minion",
             "set": "Kobolds & Catacombs",
-            "rule": "battlecry : summon a random 1 - cost minion for_your opponent .",
+            "rule": "battlecry : summon a random 1 - cost minion for your opponent .",
             "flavour": "the mole of la mancha rides again !"
         },
         {
@@ -9611,7 +9611,7 @@
             "name": "Kobold Librarian",
             "type": "Minion",
             "set": "Kobolds & Catacombs",
-            "rule": "battlecry : draw a card . deal 2 damage to your_hero .",
+            "rule": "battlecry : draw a card . deal 2 damage to your hero .",
             "flavour": "kobolds sort books using a gooey decimal system ."
         },
         {
@@ -9674,7 +9674,7 @@
             "name": "Drygulch Jailor",
             "type": "Minion",
             "set": "Kobolds & Catacombs",
-            "rule": "deathrattle : add 3 silver_hand recruits to_your_hand .",
+            "rule": "deathrattle : add 3 silver hand recruits to your hand .",
             "flavour": "hard time : 6 - 10 turns for candle - nappin ' ."
         },
         {
@@ -9709,14 +9709,14 @@
             "name": "Lesser Ruby Spellstone",
             "type": "Spell",
             "set": "Kobolds & Catacombs",
-            "rule": "add 1 random mage spell to your hand . @ ( play 2 elementals to_upgrade . )",
+            "rule": "add 1 random mage spell to your hand . @ ( play 2 elementals to upgrade . )",
             "flavour": "the final stone undid its master spun into wards by nameless caster azari wailed a savage roar now sealed in nether , evermore ."
         },
         {
             "name": "Murmuring Elemental",
             "type": "Minion",
             "set": "Kobolds & Catacombs",
-            "rule": "battlecry : your next battlecry this turn triggers_twice .",
+            "rule": "battlecry : your next battlecry this turn triggers twice .",
             "flavour": "déjà dude ."
         },
         {
@@ -9730,7 +9730,7 @@
             "name": "Potion of Heroism",
             "type": "Spell",
             "set": "Kobolds & Catacombs",
-            "rule": "give a minion divine_shield . draw a card .",
+            "rule": "give a minion divine shield . draw a card .",
             "flavour": "also known as \" liquid courage . \""
         },
         {
@@ -9751,7 +9751,7 @@
             "name": "Sudden Betrayal",
             "type": "Spell",
             "set": "Kobolds & Catacombs",
-            "rule": "secret : when a minion attacks your hero , instead it attacks one of_its neighbors .",
+            "rule": "secret : when a minion attacks your hero , instead it attacks one of its neighbors .",
             "flavour": "you thought he was your bro - bold , but turns out he ' s your foe - bold ."
         },
         {
@@ -9772,8 +9772,8 @@
             "name": "Benevolent Djinn",
             "type": "Minion",
             "set": "Kobolds & Catacombs",
-            "rule": "at the end of your turn , restore # 3 health to your_hero .",
-            "flavour": "wish # 1 : funnel cakes . wish # 2 : funnel cakes . wish # 3 : funnel cakes ."
+            "rule": "at the end of your turn , restore 3 health to your hero .",
+            "flavour": "wish 1 : funnel cakes . wish 2 : funnel cakes . wish 3 : funnel cakes ."
         },
         {
             "name": "Boisterous Bard",
@@ -9814,7 +9814,7 @@
             "name": "Fungal Enchanter",
             "type": "Minion",
             "set": "Kobolds & Catacombs",
-            "rule": "battlecry : restore # 2 health to all friendly characters .",
+            "rule": "battlecry : restore 2 health to all friendly characters .",
             "flavour": "qualifications : born with pointy hat ."
         },
         {
@@ -9835,14 +9835,14 @@
             "name": "Healing Rain",
             "type": "Spell",
             "set": "Kobolds & Catacombs",
-            "rule": "restore # 12 health randomly split among all friendly characters .",
+            "rule": "restore 12 health randomly split among all friendly characters .",
             "flavour": "it ' s filled with electrolytes !"
         },
         {
             "name": "Kobold Apprentice",
             "type": "Minion",
             "set": "Kobolds & Catacombs",
-            "rule": "battlecry : deal 3 damage randomly split among all_enemies .",
+            "rule": "battlecry : deal 3 damage randomly split among all enemies .",
             "flavour": "horrible secret : the darkness is immune to arcane missiles ."
         },
         {
@@ -9884,7 +9884,7 @@
             "name": "Sewer Crawler",
             "type": "Minion",
             "set": "Kobolds & Catacombs",
-            "rule": "battlecry : summon a 2 / 3_giant rat .",
+            "rule": "battlecry : summon a 2 / 3 giant rat .",
             "flavour": "his clothing is \" ratty \" in more ways than one ."
         },
         {
@@ -9933,21 +9933,21 @@
             "name": "Unidentified Elixir",
             "type": "Spell",
             "set": "Kobolds & Catacombs",
-            "rule": "give a minion + 2 / + 2 . gains a bonus effect in_your hand .",
+            "rule": "give a minion + 2 / + 2 . gains a bonus effect in your hand .",
             "flavour": "\" here , taste this . \" ( slurp ) \" what is it ? \" \" i don ' t know , i found it in one of the labs . \""
         },
         {
             "name": "Unidentified Maul",
             "type": "Weapon",
             "set": "Kobolds & Catacombs",
-            "rule": "gains a bonus effect in_your hand .",
+            "rule": "gains a bonus effect in your hand .",
             "flavour": "when all you have is an unidentified maul , everything else looks like an unidentified nail ."
         },
         {
             "name": "Void Ripper",
             "type": "Minion",
             "set": "Kobolds & Catacombs",
-            "rule": "battlecry : swap the attack and health of all_other_minions .",
+            "rule": "battlecry : swap the attack and health of all other minions .",
             "flavour": "you had to put the portable hole inside the bag of holding , didn ' t you ? !"
         },
         {
@@ -9961,7 +9961,7 @@
             "name": "Astral Tiger",
             "type": "Minion",
             "set": "Kobolds & Catacombs",
-            "rule": "deathrattle : shuffle a copy of this minion into_your_deck .",
+            "rule": "deathrattle : shuffle a copy of this minion into your deck .",
             "flavour": "astral kitty litter is surprisingly hard to find ."
         },
         {
@@ -10031,7 +10031,7 @@
             "name": "Hooked Reaver",
             "type": "Minion",
             "set": "Kobolds & Catacombs",
-            "rule": "battlecry : if you have 15 or_less health , gain + 3 / + 3_and taunt .",
+            "rule": "battlecry : if you have 15 or less health , gain + 3 / + 3 and taunt .",
             "flavour": "the hook is just an accessory . he can reave just fine without it ."
         },
         {
@@ -10052,7 +10052,7 @@
             "name": "Kobold Monk",
             "type": "Minion",
             "set": "Kobolds & Catacombs",
-            "rule": "your hero can ' t be targeted by spells or hero_powers .",
+            "rule": "your hero can ' t be targeted by spells or hero powers .",
             "flavour": "there is no candle ."
         },
         {
@@ -10087,7 +10087,7 @@
             "name": "Shroom Brewer",
             "type": "Minion",
             "set": "Kobolds & Catacombs",
-            "rule": "battlecry : restore # 4_health .",
+            "rule": "battlecry : restore 4 health .",
             "flavour": "side effects guaranteed !"
         },
         {
@@ -10150,7 +10150,7 @@
             "name": "Dragon's Fury",
             "type": "Spell",
             "set": "Kobolds & Catacombs",
-            "rule": "reveal a spell from your deck . deal damage equal to its cost to all_minions .",
+            "rule": "reveal a spell from your deck . deal damage equal to its cost to all minions .",
             "flavour": "“ c ’ mon hucklemuck . she ’ ll never notice if we take just one little coin . ”"
         },
         {
@@ -10164,14 +10164,14 @@
             "name": "Furbolg Mossbinder",
             "type": "Minion",
             "set": "Kobolds & Catacombs",
-            "rule": "battlecry : transform a friendly minion into a 6 / 6_elemental .",
+            "rule": "battlecry : transform a friendly minion into a 6 / 6 elemental .",
             "flavour": "behold , the unstoppable power of moss !"
         },
         {
             "name": "Green Jelly",
             "type": "Minion",
             "set": "Kobolds & Catacombs",
-            "rule": "at the end of your turn , summon a 1 / 2 ooze with_ taunt .",
+            "rule": "at the end of your turn , summon a 1 / 2 ooze with taunt .",
             "flavour": "this card really breaks out of the mold ."
         },
         {
@@ -10192,7 +10192,7 @@
             "name": "Lesser Emerald Spellstone",
             "type": "Spell",
             "set": "Kobolds & Catacombs",
-            "rule": "summon two 3 / 3_wolves . ( play a secret to upgrade . )",
+            "rule": "summon two 3 / 3 wolves . ( play a secret to upgrade . )",
             "flavour": "an emerald stone for tauren hands who sought its strength to save their lands their tribes now lost , their rage released who ’ s hunting now ? and who ’ s the beast ?"
         },
         {
@@ -10220,7 +10220,7 @@
             "name": "Windshear Stormcaller",
             "type": "Minion",
             "set": "Kobolds & Catacombs",
-            "rule": "battlecry : if you control all 4 basic totems , summon al ' akir_the_windlord .",
+            "rule": "battlecry : if you control all 4 basic totems , summon al ' akir the windlord .",
             "flavour": "don ' t ever doubt al ' akir ' s love for basic totems ."
         },
         {
@@ -10269,14 +10269,14 @@
             "name": "Level Up!",
             "type": "Spell",
             "set": "Kobolds & Catacombs",
-            "rule": "give your silver hand recruits + 2 / + 2 and_ taunt .",
+            "rule": "give your silver hand recruits + 2 / + 2 and taunt .",
             "flavour": "ding ! grats ."
         },
         {
             "name": "Possessed Lackey",
             "type": "Minion",
             "set": "Kobolds & Catacombs",
-            "rule": "deathrattle : recruit a_demon .",
+            "rule": "deathrattle : recruit a demon .",
             "flavour": "if you don ' t keep up with your payments , it ' ll be a repossessed lackey ."
         },
         {
@@ -10311,7 +10311,7 @@
             "name": "Unidentified Shield",
             "type": "Spell",
             "set": "Kobolds & Catacombs",
-            "rule": "gain 5 armor . gains a bonus effect in_your hand .",
+            "rule": "gain 5 armor . gains a bonus effect in your hand .",
             "flavour": "the kobold stared at the bundle for a long time . “ ah hah ! ” he said . “ it ’ s a shield . ”"
         },
         {
@@ -10325,7 +10325,7 @@
             "name": "Corridor Creeper",
             "type": "Minion",
             "set": "Kobolds & Catacombs",
-            "rule": "costs ( 1 ) less whenever a minion dies while this is_in_your hand .",
+            "rule": "costs ( 1 ) less whenever a minion dies while this is in your hand .",
             "flavour": "it likes the smell of dead things , which is curious , as it has no visible nose ."
         },
         {
@@ -10374,7 +10374,7 @@
             "name": "Rhok'delar",
             "type": "Weapon",
             "set": "Kobolds & Catacombs",
-            "rule": "battlecry : if your deck has no minions , fill your_hand with hunter_spells .",
+            "rule": "battlecry : if your deck has no minions , fill your hand with hunter spells .",
             "flavour": "rhok ' delar is ready to rhok ' de ' casbah !"
         },
         {
@@ -10395,7 +10395,7 @@
             "name": "Geosculptor Yip",
             "type": "Minion",
             "set": "Kobolds & Catacombs",
-            "rule": "at the end of your turn , summon a random minion with_cost_equal_to_your armor ( up to 10 ) .",
+            "rule": "at the end of your turn , summon a random minion with cost equal to your armor ( up to 10 ) .",
             "flavour": "once crafted a gauntlet out of earwax and pure ambition ."
         },
         {
@@ -10409,7 +10409,7 @@
             "name": "Grizzled Guardian",
             "type": "Minion",
             "set": "Kobolds & Catacombs",
-            "rule": "taunt deathrattle : recruit 2_minions that cost ( 4 ) _or_less .",
+            "rule": "taunt deathrattle : recruit 2 minions that cost ( 4 ) or less .",
             "flavour": "favorite sandwich ? grizzled cheese ."
         },
         {
@@ -10565,7 +10565,7 @@
             "name": "Archmage Arugal",
             "type": "Minion",
             "set": "The Witchwood",
-            "rule": "whenever you draw a minion , add a copy of it to_your hand .",
+            "rule": "whenever you draw a minion , add a copy of it to your hand .",
             "flavour": "his worgen children call him archmage aroo - oo - oo - oo - gal ."
         },
         {
@@ -10593,21 +10593,21 @@
             "name": "Cheap Shot",
             "type": "Spell",
             "set": "The Witchwood",
-            "rule": "echo deal $ 2 damage to a_minion .",
+            "rule": "echo deal $ 2 damage to a minion .",
             "flavour": "50 % off . every shot must go !"
         },
         {
             "name": "Curse of Weakness",
             "type": "Spell",
             "set": "The Witchwood",
-            "rule": "echo give all enemy minions - 2_attack until your next_turn .",
+            "rule": "echo give all enemy minions - 2 attack until your next turn .",
             "flavour": "warlocks refer to this as a \" balance change . \""
         },
         {
             "name": "Divine Hymn",
             "type": "Spell",
             "set": "The Witchwood",
-            "rule": "restore # 6 health to all friendly characters .",
+            "rule": "restore 6 health to all friendly characters .",
             "flavour": "taken up an octave , it ' s highly effective against stained glass golems ."
         },
         {
@@ -10691,7 +10691,7 @@
             "name": "Squashling",
             "type": "Minion",
             "set": "The Witchwood",
-            "rule": "[ x ] echo battlecry : restore # 2 health .",
+            "rule": "[ x ] echo battlecry : restore 2 health .",
             "flavour": "everyone hail to the squashling song !"
         },
         {
@@ -10705,7 +10705,7 @@
             "name": "Warpath",
             "type": "Spell",
             "set": "The Witchwood",
-            "rule": "echo deal $ 1 damage to all_minions .",
+            "rule": "echo deal $ 1 damage to all minions .",
             "flavour": "\" left , right , left , right , there ' s none of the enemy left … right ? \""
         },
         {
@@ -10908,7 +10908,7 @@
             "name": "Blood Witch",
             "type": "Minion",
             "set": "The Witchwood",
-            "rule": "at the start of your turn , deal 1 damage to your_hero .",
+            "rule": "at the start of your turn , deal 1 damage to your hero .",
             "flavour": "like a sloppy joe for vampires ."
         },
         {
@@ -10950,7 +10950,7 @@
             "name": "Lifedrinker",
             "type": "Minion",
             "set": "The Witchwood",
-            "rule": "[ x ] battlecry : deal 3 damage to the enemy hero . restore # 3 health to your hero .",
+            "rule": "[ x ] battlecry : deal 3 damage to the enemy hero . restore 3 health to your hero .",
             "flavour": "in a pinch , he ' ll also settle for holy water : zero ."
         },
         {
@@ -10964,14 +10964,14 @@
             "name": "Militia Commander",
             "type": "Minion",
             "set": "The Witchwood",
-            "rule": "rush battlecry : gain + 3_attack this turn .",
+            "rule": "rush battlecry : gain + 3 attack this turn .",
             "flavour": "she only needs two commands : \" heel \" and \" sic ' em ! \""
         },
         {
             "name": "Mistwraith",
             "type": "Minion",
             "set": "The Witchwood",
-            "rule": "whenever you play an echo _card , gain + 1 / + 1 .",
+            "rule": "whenever you play an echo card , gain + 1 / + 1 .",
             "flavour": "one little mistwraith sitting in a tree . m - i - s - t - i - n - g ."
         },
         {
@@ -11076,14 +11076,14 @@
             "name": "Bewitched Guardian",
             "type": "Minion",
             "set": "The Witchwood",
-            "rule": "[ x ] taunt battlecry : gain + 1 health _for each card in your hand . _",
+            "rule": "[ x ] taunt battlecry : gain + 1 health for each card in your hand .",
             "flavour": "amwitched . beingwitched . beenwitched ."
         },
         {
             "name": "Bonfire Elemental",
             "type": "Minion",
             "set": "The Witchwood",
-            "rule": "battlecry : if you played an_elemental last turn , draw a card .",
+            "rule": "battlecry : if you played an elemental last turn , draw a card .",
             "flavour": "next step : marshmallow elementals ."
         },
         {
@@ -11104,7 +11104,7 @@
             "name": "Clockwork Automaton",
             "type": "Minion",
             "set": "The Witchwood",
-            "rule": "double the damage and_healing of your hero_power .",
+            "rule": "double the damage and healing of your hero power .",
             "flavour": "most mechs are pretty chill , but this one is all wound up ."
         },
         {
@@ -11160,21 +11160,21 @@
             "name": "Holy Water",
             "type": "Spell",
             "set": "The Witchwood",
-            "rule": "deal $ 4 damage to a minion . if that kills it , add a copy of it to your_hand .",
+            "rule": "deal $ 4 damage to a minion . if that kills it , add a copy of it to your hand .",
             "flavour": "for a healthier option , try holy water : zero ."
         },
         {
             "name": "Muck Hunter",
             "type": "Minion",
             "set": "The Witchwood",
-            "rule": "rush battlecry : summon two 2 / 1_mucklings for your opponent .",
+            "rule": "rush battlecry : summon two 2 / 1 mucklings for your opponent .",
             "flavour": "you think your job mucks ."
         },
         {
             "name": "Prince Liam",
             "type": "Minion",
             "set": "The Witchwood",
-            "rule": "[ x ] battlecry : transform all 1 - cost cards in your deck _into legendary minions .",
+            "rule": "[ x ] battlecry : transform all 1 - cost cards in your deck into legendary minions .",
             "flavour": "\" i have a very particular set of skills . skills that make me a nightmare for witches like you . \""
         },
         {
@@ -11188,7 +11188,7 @@
             "name": "Rotten Applebaum",
             "type": "Minion",
             "set": "The Witchwood",
-            "rule": "taunt deathrattle : restore # 4 health to your hero .",
+            "rule": "taunt deathrattle : restore 4 health to your hero .",
             "flavour": "key ingredient in gilnean applesauce ."
         },
         {
@@ -11230,21 +11230,21 @@
             "name": "Glinda Crowskin",
             "type": "Minion",
             "set": "The Witchwood",
-            "rule": "minions in your hand have_ echo .",
+            "rule": "minions in your hand have echo .",
             "flavour": "summon an unlimited * number of minions ! * * * six * * wisps"
         },
         {
             "name": "Lady in White",
             "type": "Minion",
             "set": "The Witchwood",
-            "rule": "[ x ] battlecry : cast ' inner fire ' _on every minion in your deck_ ( set attack equal to health ) .",
+            "rule": "[ x ] battlecry : cast ' inner fire ' on every minion in your deck ( set attack equal to health ) .",
             "flavour": "she was a lady in polka dots until the gnomish laundromat incident ."
         },
         {
             "name": "Mossy Horror",
             "type": "Minion",
             "set": "The Witchwood",
-            "rule": "battlecry : destroy all other_minions with 2_or_less_attack .",
+            "rule": "battlecry : destroy all other minions with 2 or less attack .",
             "flavour": "the hills have eyes . and teeth . pretty bad breath , too ."
         },
         {
@@ -11258,7 +11258,7 @@
             "name": "Azalina Soulthief",
             "type": "Minion",
             "set": "The Witchwood",
-            "rule": "battlecry : replace your hand with a copy of your_opponent ' s .",
+            "rule": "battlecry : replace your hand with a copy of your opponent ' s .",
             "flavour": "the cards are always golden on the other side ."
         },
         {
@@ -11272,7 +11272,7 @@
             "name": "Bogshaper",
             "type": "Minion",
             "set": "The Witchwood",
-            "rule": "whenever you cast a spell , draw a minion from your_deck .",
+            "rule": "whenever you cast a spell , draw a minion from your deck .",
             "flavour": "the tricky part is getting them to hold their shape ."
         },
         {
@@ -11307,7 +11307,7 @@
             "name": "Nightscale Matriarch",
             "type": "Minion",
             "set": "The Witchwood",
-            "rule": "whenever a friendly minion is healed , summon a 3 / 3_whelp .",
+            "rule": "whenever a friendly minion is healed , summon a 3 / 3 whelp .",
             "flavour": "everywhelp , get in here !"
         },
         {
@@ -11335,7 +11335,7 @@
             "name": "Deranged Doctor",
             "type": "Minion",
             "set": "The Witchwood",
-            "rule": "deathrattle : restore # 8 health to your hero .",
+            "rule": "deathrattle : restore 8 health to your hero .",
             "flavour": "unfortunately , his doctorate is in murloc literature ."
         },
         {
@@ -11391,7 +11391,7 @@
             "name": "Emeriss",
             "type": "Minion",
             "set": "The Witchwood",
-            "rule": "battlecry : double the attack and health of all minions in_your hand .",
+            "rule": "battlecry : double the attack and health of all minions in your hand .",
             "flavour": "taste your world ' s corruption ! it tastes like chicken ."
         }
     ],
@@ -11421,7 +11421,7 @@
             "name": "Biology Project",
             "type": "Spell",
             "set": "The Boomsday Project",
-            "rule": "each player gains 2_mana crystals .",
+            "rule": "each player gains 2 mana crystals .",
             "flavour": "step 1 : grow giant evil strawberry . step 2 : ? ? ? ? step 3 : rule azeroth !"
         },
         {
@@ -11449,7 +11449,7 @@
             "name": "Eternium Rover",
             "type": "Minion",
             "set": "The Boomsday Project",
-            "rule": "whenever this minion takes damage , gain 2_armor .",
+            "rule": "whenever this minion takes damage , gain 2 armor .",
             "flavour": "he ' s all beeps and smiles but you ' re just a walking pile of armor to him ."
         },
         {
@@ -11568,14 +11568,14 @@
             "name": "Bomb Toss",
             "type": "Spell",
             "set": "The Boomsday Project",
-            "rule": "deal $ 2 damage . summon a 0 / 2 goblin_bomb .",
+            "rule": "deal $ 2 damage . summon a 0 / 2 goblin bomb .",
             "flavour": "me throw face ."
         },
         {
             "name": "Celestial Emissary",
             "type": "Minion",
             "set": "The Boomsday Project",
-            "rule": "battlecry : your next spell_this turn has spell_damage + 2 .",
+            "rule": "battlecry : your next spell this turn has spell damage + 2 .",
             "flavour": "casting with the stars ."
         },
         {
@@ -11596,7 +11596,7 @@
             "name": "Cybertech Chip",
             "type": "Spell",
             "set": "The Boomsday Project",
-            "rule": "give your minions \" deathrattle : add a random mech to your_hand . \"",
+            "rule": "give your minions \" deathrattle : add a random mech to your hand . \"",
             "flavour": "goes great with cyber - salsa ."
         },
         {
@@ -11624,7 +11624,7 @@
             "name": "Elementary Reaction",
             "type": "Spell",
             "set": "The Boomsday Project",
-            "rule": "draw a card . copy it if_you played an elemental last turn .",
+            "rule": "draw a card . copy it if you played an elemental last turn .",
             "flavour": "it ' s just a tempest tantrum ."
         },
         {
@@ -11645,7 +11645,7 @@
             "name": "Goblin Prank",
             "type": "Spell",
             "set": "The Boomsday Project",
-            "rule": "give a friendly minion + 3 / + 3 and rush . it_dies at end of turn .",
+            "rule": "give a friendly minion + 3 / + 3 and rush . it dies at end of turn .",
             "flavour": "\" ha ha ! glork looks ridiculous ! . . . glork ? glork ? \""
         },
         {
@@ -11673,7 +11673,7 @@
             "name": "Research Project",
             "type": "Spell",
             "set": "The Boomsday Project",
-            "rule": "each player draws 2_cards .",
+            "rule": "each player draws 2 cards .",
             "flavour": "abstract : analyzing systemic applications of coldlight data sets vis - a - vis shuffle - related paradigms . conclusion : yay , cards !"
         },
         {
@@ -11687,7 +11687,7 @@
             "name": "Spark Engine",
             "type": "Minion",
             "set": "The Boomsday Project",
-            "rule": "battlecry : add a 1 / 1 spark with rush to_your hand .",
+            "rule": "battlecry : add a 1 / 1 spark with rush to your hand .",
             "flavour": "he goes by bzzzzt aldrin ."
         },
         {
@@ -11722,7 +11722,7 @@
             "name": "Violet Haze",
             "type": "Spell",
             "set": "The Boomsday Project",
-            "rule": "add 2 random deathrattle cards to_your hand .",
+            "rule": "add 2 random deathrattle cards to your hand .",
             "flavour": "elite tauren chieftain ' s next hit single ."
         },
         {
@@ -11743,14 +11743,14 @@
             "name": "Whirliglider",
             "type": "Minion",
             "set": "The Boomsday Project",
-            "rule": "battlecry : summon a 0 / 2_goblin bomb .",
+            "rule": "battlecry : summon a 0 / 2 goblin bomb .",
             "flavour": "she ' s on a bomb voyage ."
         },
         {
             "name": "Augmented Elekk",
             "type": "Minion",
             "set": "The Boomsday Project",
-            "rule": "whenever you shuffle a card into a deck , shuffle in_an extra copy .",
+            "rule": "whenever you shuffle a card into a deck , shuffle in an extra copy .",
             "flavour": "her friends call her \" shuffleupugus \" ."
         },
         {
@@ -11799,7 +11799,7 @@
             "name": "Kaboom Bot",
             "type": "Minion",
             "set": "The Boomsday Project",
-            "rule": "deathrattle : deal 4_damage to a random enemy minion .",
+            "rule": "deathrattle : deal 4 damage to a random enemy minion .",
             "flavour": "more boom for your buck ."
         },
         {
@@ -11834,7 +11834,7 @@
             "name": "Omega Medic",
             "type": "Minion",
             "set": "The Boomsday Project",
-            "rule": "battlecry : if you have 10 mana crystals , restore # 10 health to your hero .",
+            "rule": "battlecry : if you have 10 mana crystals , restore 10 health to your hero .",
             "flavour": "she feels waiting for healing makes you appreciate it more ."
         },
         {
@@ -11848,7 +11848,7 @@
             "name": "Spider Bomb",
             "type": "Minion",
             "set": "The Boomsday Project",
-            "rule": "magnetic deathrattle : destroy a random_enemy_minion .",
+            "rule": "magnetic deathrattle : destroy a random enemy minion .",
             "flavour": "wrecks a dude , any size . catches thieves , eats those guys . look out ! here comes a spider bomb !"
         },
         {
@@ -11876,7 +11876,7 @@
             "name": "Academic Espionage",
             "type": "Spell",
             "set": "The Boomsday Project",
-            "rule": "shuffle 10 cards from your opponent ' s class into your deck . they_cost ( 1 ) .",
+            "rule": "shuffle 10 cards from your opponent ' s class into your deck . they cost ( 1 ) .",
             "flavour": "the tenth pyroblast really felt like overkill ."
         },
         {
@@ -11905,7 +11905,7 @@
             "type": "Minion",
             "set": "The Boomsday Project",
             "rule": "spell damage + 2",
-            "flavour": "ingredients : star - stuff , blue # 1 , natural and artificial flavors ."
+            "flavour": "ingredients : star - stuff , blue 1 , natural and artificial flavors ."
         },
         {
             "name": "Explodinator",
@@ -11981,7 +11981,7 @@
             "name": "Storm Chaser",
             "type": "Minion",
             "set": "The Boomsday Project",
-            "rule": "battlecry : draw a spell from your deck that costs_ ( 5 ) or more .",
+            "rule": "battlecry : draw a spell from your deck that costs ( 5 ) or more .",
             "flavour": "best drank after a stiff gale ."
         },
         {
@@ -11995,7 +11995,7 @@
             "name": "Weaponized Piñata",
             "type": "Minion",
             "set": "The Boomsday Project",
-            "rule": "deathrattle : add a random legendary minion to your_hand .",
+            "rule": "deathrattle : add a random legendary minion to your hand .",
             "flavour": "it ' ll be fine . it ' s not like they have any reason to hate us ."
         },
         {
@@ -12016,7 +12016,7 @@
             "name": "Dyn-o-matic",
             "type": "Minion",
             "set": "The Boomsday Project",
-            "rule": "battlecry : deal 5 damage randomly split among all minions_except_mechs .",
+            "rule": "battlecry : deal 5 damage randomly split among all minions except mechs .",
             "flavour": "star player on the inter - office boomball team ."
         },
         {
@@ -12037,7 +12037,7 @@
             "name": "Holomancer",
             "type": "Minion",
             "set": "The Boomsday Project",
-            "rule": "after your opponent plays a minion , summon a 1 / 1_copy of it .",
+            "rule": "after your opponent plays a minion , summon a 1 / 1 copy of it .",
             "flavour": "help me , worthy opponent . you ' re my only hope ."
         },
         {
@@ -12079,7 +12079,7 @@
             "name": "Omega Agent",
             "type": "Minion",
             "set": "The Boomsday Project",
-            "rule": "[ x ] battlecry : if you have 10 mana crystals , summon _2 copies of this minion .",
+            "rule": "[ x ] battlecry : if you have 10 mana crystals , summon 2 copies of this minion .",
             "flavour": "they don ' t just find the truth . they give it a ten second head start , then hunt it down ."
         },
         {
@@ -12177,14 +12177,14 @@
             "name": "Eureka!",
             "type": "Spell",
             "set": "The Boomsday Project",
-            "rule": "summon a copy of_a_random minion from your hand .",
+            "rule": "summon a copy of a random minion from your hand .",
             "flavour": "genius is 1 % inspiration , and 99 % drawing your deathwing ."
         },
         {
             "name": "Giggling Inventor",
             "type": "Minion",
             "set": "The Boomsday Project",
-            "rule": "battlecry : summon two 1 / 2 mechs with taunt and_ divine shield .",
+            "rule": "battlecry : summon two 1 / 2 mechs with taunt and divine shield .",
             "flavour": "\" i shall build a mighty golden paladin ! and he will greet the world ! \""
         },
         {
@@ -12338,7 +12338,7 @@
             "name": "Zerek's Cloning Gallery",
             "type": "Spell",
             "set": "The Boomsday Project",
-            "rule": "summon a 1 / 1 copy of_each minion in your_deck .",
+            "rule": "summon a 1 / 1 copy of each minion in your deck .",
             "flavour": "cloning can be a jarring experience ."
         },
         {
@@ -12354,21 +12354,21 @@
             "name": "Elemental Evocation",
             "type": "Spell",
             "set": "Rastakhan's Rumble",
-            "rule": "the next elemental you_play this turn costs ( 2 ) less .",
+            "rule": "the next elemental you play this turn costs ( 2 ) less .",
             "flavour": "it ' s just lighter fluid ."
         },
         {
             "name": "Pounce",
             "type": "Spell",
             "set": "Rastakhan's Rumble",
-            "rule": "give your hero + 2_attack this turn .",
+            "rule": "give your hero + 2 attack this turn .",
             "flavour": "comes with an overwhelming urge to jump into the nearest open box ."
         },
         {
             "name": "Regenerate",
             "type": "Spell",
             "set": "Rastakhan's Rumble",
-            "rule": "restore # 3 health .",
+            "rule": "restore 3 health .",
             "flavour": "finally a cure for degenerates ."
         },
         {
@@ -12382,7 +12382,7 @@
             "name": "Daring Fire-Eater",
             "type": "Minion",
             "set": "Rastakhan's Rumble",
-            "rule": "battlecry : your next hero power this turn deals 2_more damage .",
+            "rule": "battlecry : your next hero power this turn deals 2 more damage .",
             "flavour": "a few hours later he destroyed the arena bathrooms ."
         },
         {
@@ -12410,7 +12410,7 @@
             "name": "Gurubashi Offering",
             "type": "Minion",
             "set": "Rastakhan's Rumble",
-            "rule": "at the start of your turn , destroy this and gain 8_armor .",
+            "rule": "at the start of your turn , destroy this and gain 8 armor .",
             "flavour": "for a limited time , loa blessings are on a pray - one - get - two deal ( on selected sacrifices only ) ."
         },
         {
@@ -12424,7 +12424,7 @@
             "name": "Saronite Taskmaster",
             "type": "Minion",
             "set": "Rastakhan's Rumble",
-            "rule": "deathrattle : summon a 0 / 3 free agent with taunt for_your opponent .",
+            "rule": "deathrattle : summon a 0 / 3 free agent with taunt for your opponent .",
             "flavour": "don ' t even think of asking for time off ."
         },
         {
@@ -12452,7 +12452,7 @@
             "name": "Spirit of the Raptor",
             "type": "Minion",
             "set": "Rastakhan's Rumble",
-            "rule": "[ x ] stealth for 1 turn . after your hero attacks and __kills a minion , draw a card . __",
+            "rule": "[ x ] stealth for 1 turn . after your hero attacks and kills a minion , draw a card .",
             "flavour": "“ loti ! loti ! drop it . drop it loti ! down ! down loti ! ”"
         },
         {
@@ -12487,7 +12487,7 @@
             "name": "Wartbringer",
             "type": "Minion",
             "set": "Rastakhan's Rumble",
-            "rule": "battlecry : if you played 2_spells this turn , deal 2_damage .",
+            "rule": "battlecry : if you played 2 spells this turn , deal 2 damage .",
             "flavour": "“ does she cause them with magic , or just … like have a bucket she brings with her ? ”"
         },
         {
@@ -12557,7 +12557,7 @@
             "name": "Flash of Light",
             "type": "Spell",
             "set": "Rastakhan's Rumble",
-            "rule": "restore # 4 health . draw a card .",
+            "rule": "restore 4 health . draw a card .",
             "flavour": "hey ! no cameras allowed !"
         },
         {
@@ -12606,7 +12606,7 @@
             "name": "Seance",
             "type": "Spell",
             "set": "Rastakhan's Rumble",
-            "rule": "choose a minion . add_a copy of it to your hand .",
+            "rule": "choose a minion . add a copy of it to your hand .",
             "flavour": "“ the spirits spoke to me . ” \" what did they say ? \" \" you had lethal two turns ago . \""
         },
         {
@@ -12711,14 +12711,14 @@
             "name": "High Priest Thekal",
             "type": "Minion",
             "set": "Rastakhan's Rumble",
-            "rule": "battlecry : convert all but 1_of your hero ' s health into armor .",
+            "rule": "battlecry : convert all but 1 of your hero ' s health into armor .",
             "flavour": "\" … and then i beat him with 1 health ! \""
         },
         {
             "name": "Masked Contender",
             "type": "Minion",
             "set": "Rastakhan's Rumble",
-            "rule": "battlecry : if you control a_ secret , cast a secret from_your deck .",
+            "rule": "battlecry : if you control a secret , cast a secret from your deck .",
             "flavour": "knew mysterious challenger back when he was a mysterious squire ."
         },
         {
@@ -12746,14 +12746,14 @@
             "name": "Pyromaniac",
             "type": "Minion",
             "set": "Rastakhan's Rumble",
-            "rule": "whenever your hero power_kills a minion , draw a card .",
+            "rule": "whenever your hero power kills a minion , draw a card .",
             "flavour": "she prefers “ flammably inclined . ”"
         },
         {
             "name": "Raiding Party",
             "type": "Spell",
             "set": "Rastakhan's Rumble",
-            "rule": "draw 2 pirates from_your deck . combo : and a weapon .",
+            "rule": "draw 2 pirates from your deck . combo : and a weapon .",
             "flavour": "and a bowl of chips . and some of those little cocktail weenies !"
         },
         {
@@ -12872,7 +12872,7 @@
             "name": "Ice Cream Peddler",
             "type": "Minion",
             "set": "Rastakhan's Rumble",
-            "rule": "battlecry : if you control a_ frozen minion , gain 8_armor .",
+            "rule": "battlecry : if you control a frozen minion , gain 8 armor .",
             "flavour": "i scream , you scream , we all scream when we see a freeze mage ."
         },
         {
@@ -12900,7 +12900,7 @@
             "name": "Regeneratin' Thug",
             "type": "Minion",
             "set": "Rastakhan's Rumble",
-            "rule": "at the start of your turn , restore # 2 health to this_minion .",
+            "rule": "at the start of your turn , restore 2 health to this minion .",
             "flavour": "regenerates any injury except heartbreak ."
         },
         {
@@ -12921,7 +12921,7 @@
             "name": "Spirit of the Shark",
             "type": "Minion",
             "set": "Rastakhan's Rumble",
-            "rule": "[ x ] stealth for 1 turn . your minions ' battlecries __and combos trigger twice . _",
+            "rule": "[ x ] stealth for 1 turn . your minions ' battlecries and combos trigger twice .",
             "flavour": "it has stealth , but its ominous theme music keeps giving it away ."
         },
         {
@@ -12977,7 +12977,7 @@
             "name": "Blast Wave",
             "type": "Spell",
             "set": "Rastakhan's Rumble",
-            "rule": "deal $ 2 damage to_all minions . overkill : add a random mage spell to your hand .",
+            "rule": "deal $ 2 damage to all minions . overkill : add a random mage spell to your hand .",
             "flavour": "if you ’ re burning and you know it , wave your hands !"
         },
         {
@@ -13005,7 +13005,7 @@
             "name": "Former Champ",
             "type": "Minion",
             "set": "Rastakhan's Rumble",
-            "rule": "battlecry : summon a 5 / 5_hotshot .",
+            "rule": "battlecry : summon a 5 / 5 hotshot .",
             "flavour": "the last time he saw action , undertaker ruled the meta ."
         },
         {
@@ -13019,14 +13019,14 @@
             "name": "Halazzi, the Lynx",
             "type": "Minion",
             "set": "Rastakhan's Rumble",
-            "rule": "battlecry : fill your hand with 1 / 1 lynxes that have_ rush .",
+            "rule": "battlecry : fill your hand with 1 / 1 lynxes that have rush .",
             "flavour": "remember , you ’ re only as strong as your weakest lynx ."
         },
         {
             "name": "Mass Hysteria",
             "type": "Spell",
             "set": "Rastakhan's Rumble",
-            "rule": "force each minion to_attack another random minion .",
+            "rule": "force each minion to attack another random minion .",
             "flavour": "black friday gets worse every year ."
         },
         {
@@ -13040,14 +13040,14 @@
             "name": "Sightless Ranger",
             "type": "Minion",
             "set": "Rastakhan's Rumble",
-            "rule": "rush overkill : summon two 1 / 1_bats .",
+            "rule": "rush overkill : summon two 1 / 1 bats .",
             "flavour": "an eye for sore sights ."
         },
         {
             "name": "Snapjaw Shellfighter",
             "type": "Minion",
             "set": "Rastakhan's Rumble",
-            "rule": "[ x ] whenever an adjacent minion takes damage , this _minion takes it instead .",
+            "rule": "[ x ] whenever an adjacent minion takes damage , this minion takes it instead .",
             "flavour": "nonono , the turtle is the shellfighter ."
         },
         {
@@ -13061,7 +13061,7 @@
             "name": "Arcanosaur",
             "type": "Minion",
             "set": "Rastakhan's Rumble",
-            "rule": "battlecry : if you played an_elemental last turn , deal_3_damage_to_all other minions .",
+            "rule": "battlecry : if you played an elemental last turn , deal 3 damage to all other minions .",
             "flavour": "arcane energy … finds a way ."
         },
         {
@@ -13082,7 +13082,7 @@
             "name": "Krag'wa, the Frog",
             "type": "Minion",
             "set": "Rastakhan's Rumble",
-            "rule": "battlecry : return all spells you played last turn to_your hand .",
+            "rule": "battlecry : return all spells you played last turn to your hand .",
             "flavour": "krag ' wa has a ritual to honor his friends and a ritual to devour his enemies . no one can tell them apart ."
         },
         {
@@ -13159,7 +13159,7 @@
             "name": "Gonk, the Raptor",
             "type": "Minion",
             "set": "Rastakhan's Rumble",
-            "rule": "after your hero attacks and_kills a minion , it may_attack again .",
+            "rule": "after your hero attacks and kills a minion , it may attack again .",
             "flavour": "there ’ s a word for zandalari druids who refuse to pledge loyalty to gonk : “ delicious . ”"
         },
         {
@@ -13173,7 +13173,7 @@
             "name": "Ironhide Direhorn",
             "type": "Minion",
             "set": "Rastakhan's Rumble",
-            "rule": "overkill : summon a 5 / 5_ironhide runt .",
+            "rule": "overkill : summon a 5 / 5 ironhide runt .",
             "flavour": "\" boy ! bring me my masks and skull rams . \""
         },
         {
@@ -13250,7 +13250,7 @@
             "name": "Princess Talanji",
             "type": "Minion",
             "set": "Rastakhan's Rumble",
-            "rule": "battlecry : summon all minions from your hand that_didn ' t start in your_deck .",
+            "rule": "battlecry : summon all minions from your hand that didn ' t start in your deck .",
             "flavour": "everyone wants to be a princess , but nobody ever considers the size of the hat ."
         },
         {
@@ -13329,7 +13329,7 @@
             "name": "Crystal Power",
             "type": "Spell",
             "set": "Rise of Shadows",
-            "rule": "choose one - deal $ 2 damage to a minion ; or_restore # 5 health .",
+            "rule": "choose one - deal $ 2 damage to a minion ; or restore 5 health .",
             "flavour": "often used as healing crystals , but also good for throwing at people ."
         },
         {
@@ -13364,14 +13364,14 @@
             "name": "Never Surrender!",
             "type": "Spell",
             "set": "Rise of Shadows",
-            "rule": "secret : when your opponent casts a spell , give your minions + 2_health .",
+            "rule": "secret : when your opponent casts a spell , give your minions + 2 health .",
             "flavour": "but sometimes concede ."
         },
         {
             "name": "Potion Vendor",
             "type": "Minion",
             "set": "Rise of Shadows",
-            "rule": "battlecry : restore # 2 health to all friendly characters .",
+            "rule": "battlecry : restore 2 health to all friendly characters .",
             "flavour": "everyone gets two because that ’ s all she can hold ."
         },
         {
@@ -13448,7 +13448,7 @@
             "name": "EVIL Cable Rat",
             "type": "Minion",
             "set": "Rise of Shadows",
-            "rule": "battlecry : add a lackey to_your hand .",
+            "rule": "battlecry : add a lackey to your hand .",
             "flavour": "gradually driven to darkness by the promise of unobtainable cheese ."
         },
         {
@@ -13462,7 +13462,7 @@
             "name": "EVIL Genius",
             "type": "Minion",
             "set": "Rise of Shadows",
-            "rule": "battlecry : destroy a friendly minion to add 2 random lackeys _to_your_hand .",
+            "rule": "battlecry : destroy a friendly minion to add 2 random lackeys to your hand .",
             "flavour": "you do not want to be on the business end of this intellect !"
         },
         {
@@ -13476,14 +13476,14 @@
             "name": "Keeper Stalladris",
             "type": "Minion",
             "set": "Rise of Shadows",
-            "rule": "after you cast a choose one spell , add copies of both choices_to_your_hand .",
+            "rule": "after you cast a choose one spell , add copies of both choices to your hand .",
             "flavour": "keeps your choices handy ."
         },
         {
             "name": "Khadgar",
             "type": "Minion",
             "set": "Rise of Shadows",
-            "rule": "your cards that summon minions summon twice_as_many .",
+            "rule": "your cards that summon minions summon twice as many .",
             "flavour": "\" what do you call two minions summoned at once ? twinions , haha ! wait . . . where are you going ? \""
         },
         {
@@ -13532,7 +13532,7 @@
             "name": "Shadowy Figure",
             "type": "Minion",
             "set": "Rise of Shadows",
-            "rule": "battlecry : transform into a_2 / 2 copy of a friendly deathrattle minion .",
+            "rule": "battlecry : transform into a 2 / 2 copy of a friendly deathrattle minion .",
             "flavour": "terrible at shadow puppets : “ this is … a tentacle ! and this is … two tentacles ! ”"
         },
         {
@@ -13574,7 +13574,7 @@
             "name": "Underbelly Fence",
             "type": "Minion",
             "set": "Rise of Shadows",
-            "rule": "[ x ] battlecry : if you ' re holding a card from another class , _gain + 1 / + 1 and rush .",
+            "rule": "[ x ] battlecry : if you ' re holding a card from another class , gain + 1 / + 1 and rush .",
             "flavour": "she ’ ll take anything you have — except scruples and a good work ethic ."
         },
         {
@@ -13588,7 +13588,7 @@
             "name": "Witch's Brew",
             "type": "Spell",
             "set": "Rise of Shadows",
-            "rule": "restore # 4 health . repeatable this turn .",
+            "rule": "restore 4 health . repeatable this turn .",
             "flavour": "the swill has eyes !"
         },
         {
@@ -13805,7 +13805,7 @@
             "name": "Marked Shot",
             "type": "Spell",
             "set": "Rise of Shadows",
-            "rule": "deal $ 4 damage to_a_minion . discover _a_spell .",
+            "rule": "deal $ 4 damage to a minion . discover a spell .",
             "flavour": "obviously it ' s marked for greatness ."
         },
         {
@@ -13847,7 +13847,7 @@
             "name": "Traveling Healer",
             "type": "Minion",
             "set": "Rise of Shadows",
-            "rule": "[ x ] divine shield battlecry : restore # 3 health .",
+            "rule": "[ x ] divine shield battlecry : restore 3 health .",
             "flavour": "some heroes have soft hearts and hard shells ."
         },
         {
@@ -13896,7 +13896,7 @@
             "name": "Barista Lynchen",
             "type": "Minion",
             "set": "Rise of Shadows",
-            "rule": "battlecry : add a copy of each of your other battlecry minions_to_your_hand .",
+            "rule": "battlecry : add a copy of each of your other battlecry minions to your hand .",
             "flavour": "\" thanks a latte ! \""
         },
         {
@@ -13945,7 +13945,7 @@
             "name": "Hunting Party",
             "type": "Spell",
             "set": "Rise of Shadows",
-            "rule": "copy all beasts in your_hand .",
+            "rule": "copy all beasts in your hand .",
             "flavour": "not sure i ’ d call it a good party if everyone ends up beside themselves ."
         },
         {
@@ -13973,7 +13973,7 @@
             "name": "Aranasi Broodmother",
             "type": "Minion",
             "set": "Rise of Shadows",
-            "rule": "[ x ] taunt when you draw this , restore # 4 health to your hero .",
+            "rule": "[ x ] taunt when you draw this , restore 4 health to your hero .",
             "flavour": "she ' s got a big brood and a big mood ."
         },
         {
@@ -13994,7 +13994,7 @@
             "name": "Heistbaron Togwaggle",
             "type": "Minion",
             "set": "Rise of Shadows",
-            "rule": "battlecry : if you control a_ lackey , choose a fantastic treasure .",
+            "rule": "battlecry : if you control a lackey , choose a fantastic treasure .",
             "flavour": "a staunch ally of rafaam , at least while the shinies keep flowing ."
         },
         {
@@ -14029,7 +14029,7 @@
             "name": "Unidentified Contract",
             "type": "Spell",
             "set": "Rise of Shadows",
-            "rule": "destroy a minion . gains a bonus effect in_your hand .",
+            "rule": "destroy a minion . gains a bonus effect in your hand .",
             "flavour": "the terms of service are constantly changing ."
         },
         {
@@ -14071,7 +14071,7 @@
             "name": "Chef Nomi",
             "type": "Minion",
             "set": "Rise of Shadows",
-            "rule": "battlecry : if your deck is empty , summon six 6 / 6 greasefire_elementals .",
+            "rule": "battlecry : if your deck is empty , summon six 6 / 6 greasefire elementals .",
             "flavour": "his cooking is always very well done ."
         },
         {
@@ -14106,7 +14106,7 @@
             "name": "Underbelly Ooze",
             "type": "Minion",
             "set": "Rise of Shadows",
-            "rule": "after this minion survives damage , summon a copy_of it .",
+            "rule": "after this minion survives damage , summon a copy of it .",
             "flavour": "it ' s always accepting of the less successful adventurers ."
         },
         {
@@ -14120,7 +14120,7 @@
             "name": "Batterhead",
             "type": "Minion",
             "set": "Rise of Shadows",
-            "rule": "rush . after this attacks and kills a minion , it may_attack again .",
+            "rule": "rush . after this attacks and kills a minion , it may attack again .",
             "flavour": "when it comes to problem - solving , he always uses his head ."
         },
         {
@@ -14190,7 +14190,7 @@
             "name": "Archivist Elysiana",
             "type": "Minion",
             "set": "Rise of Shadows",
-            "rule": "battlecry : discover 5 cards . replace your deck with 2_copies of each .",
+            "rule": "battlecry : discover 5 cards . replace your deck with 2 copies of each .",
             "flavour": "your deck is just another organizational challenge to her ."
         },
         {
@@ -14255,14 +14255,14 @@
             "name": "Totemic Surge",
             "type": "Spell",
             "set": "Saviors of Uldum",
-            "rule": "give your totems + 2_attack .",
+            "rule": "give your totems + 2 attack .",
             "flavour": "it ' s not really advanced shamanic magic , you just draw nasty eyebrows on them ."
         },
         {
             "name": "Activate the Obelisk",
             "type": "Spell",
             "set": "Saviors of Uldum",
-            "rule": "quest : restore 15_health . reward : obelisk ' s eye .",
+            "rule": "quest : restore 15 health . reward : obelisk ' s eye .",
             "flavour": "a one - eyed , one stone , towering purple minion healer ."
         },
         {
@@ -14346,7 +14346,7 @@
             "name": "Pharaoh Cat",
             "type": "Minion",
             "set": "Saviors of Uldum",
-            "rule": "battlecry : add a random reborn minion to your_hand .",
+            "rule": "battlecry : add a random reborn minion to your hand .",
             "flavour": "mightiest of mousers , enduring in kingship of the upper and lower cat tree , conqueror of the red dot , the all - wise catshepsut ."
         },
         {
@@ -14388,7 +14388,7 @@
             "name": "Unseal the Vault",
             "type": "Spell",
             "set": "Saviors of Uldum",
-            "rule": "quest : summon 20_minions . reward : pharaoh ' s warmask .",
+            "rule": "quest : summon 20 minions . reward : pharaoh ' s warmask .",
             "flavour": "\" huh . . . that ' s a nice card back . \""
         },
         {
@@ -14430,7 +14430,7 @@
             "name": "Clever Disguise",
             "type": "Spell",
             "set": "Saviors of Uldum",
-            "rule": "add 2 random spells from another class to_your hand .",
+            "rule": "add 2 random spells from another class to your hand .",
             "flavour": "\" it me ! togwaggle ! \""
         },
         {
@@ -14465,14 +14465,14 @@
             "name": "Fishflinger",
             "type": "Minion",
             "set": "Saviors of Uldum",
-            "rule": "battlecry : add a random murloc to each player ' s_hand .",
+            "rule": "battlecry : add a random murloc to each player ' s hand .",
             "flavour": "the scent of fish lingers on the fishflinger ' s fish fingers ."
         },
         {
             "name": "Frightened Flunky",
             "type": "Minion",
             "set": "Saviors of Uldum",
-            "rule": "taunt battlecry : discover a taunt _minion .",
+            "rule": "taunt battlecry : discover a taunt minion .",
             "flavour": "some people just aren ' t cut out to be supervillain material ."
         },
         {
@@ -14486,7 +14486,7 @@
             "name": "Holy Ripple",
             "type": "Spell",
             "set": "Saviors of Uldum",
-            "rule": "deal $ 1 damage to all enemies . restore # 1_health to all friendly characters .",
+            "rule": "deal $ 1 damage to all enemies . restore 1 health to all friendly characters .",
             "flavour": "i still prefer the taste of banana fudge ripple ."
         },
         {
@@ -14500,7 +14500,7 @@
             "name": "Kobold Sandtrooper",
             "type": "Minion",
             "set": "Saviors of Uldum",
-            "rule": "deathrattle : deal 3 damage to the enemy_hero .",
+            "rule": "deathrattle : deal 3 damage to the enemy hero .",
             "flavour": "stay while , take candle ."
         },
         {
@@ -14514,21 +14514,21 @@
             "name": "Neferset Ritualist",
             "type": "Minion",
             "set": "Saviors of Uldum",
-            "rule": "battlecry : restore adjacent minions to full_health .",
+            "rule": "battlecry : restore adjacent minions to full health .",
             "flavour": "the neferset are great — they ' ll always make sure their friends are feline fine ."
         },
         {
             "name": "Penance",
             "type": "Spell",
             "set": "Saviors of Uldum",
-            "rule": "lifesteal deal $ 3 damage to a_minion .",
+            "rule": "lifesteal deal $ 3 damage to a minion .",
             "flavour": "this is what happens when you don ’ t give a sincere apology ."
         },
         {
             "name": "Pressure Plate",
             "type": "Spell",
             "set": "Saviors of Uldum",
-            "rule": "secret : after your opponent casts a spell , destroy a random enemy_minion .",
+            "rule": "secret : after your opponent casts a spell , destroy a random enemy minion .",
             "flavour": "the appropriate dishware for stressful situations ."
         },
         {
@@ -14542,7 +14542,7 @@
             "name": "Quicksand Elemental",
             "type": "Minion",
             "set": "Saviors of Uldum",
-            "rule": "battlecry : give all enemy minions - 2 attack this_turn .",
+            "rule": "battlecry : give all enemy minions - 2 attack this turn .",
             "flavour": "use a light abrasive to buff blemishes away but use a heavy abrasive to debuff problems ."
         },
         {
@@ -14577,7 +14577,7 @@
             "name": "Spitting Camel",
             "type": "Minion",
             "set": "Saviors of Uldum",
-            "rule": "[ x ] at the end of your turn , __deal 1 damage to another__ random friendly minion .",
+            "rule": "[ x ] at the end of your turn , deal 1 damage to another random friendly minion .",
             "flavour": "were you expectorating another bad pun ?"
         },
         {
@@ -14703,7 +14703,7 @@
             "name": "Hunter's Pack",
             "type": "Spell",
             "set": "Saviors of Uldum",
-            "rule": "add a random hunter beast , secret , and weapon to your_hand .",
+            "rule": "add a random hunter beast , secret , and weapon to your hand .",
             "flavour": "oh look ! it ' s a trap !"
         },
         {
@@ -14717,21 +14717,21 @@
             "name": "Livewire Lance",
             "type": "Weapon",
             "set": "Saviors of Uldum",
-            "rule": "after your hero attacks , add a lackey to your_hand .",
+            "rule": "after your hero attacks , add a lackey to your hand .",
             "flavour": "the lance is heavy but it ’ s the battery pack that really does a number on the shoulders ."
         },
         {
             "name": "Mischief Maker",
             "type": "Minion",
             "set": "Saviors of Uldum",
-            "rule": "battlecry : swap the top card of your deck with your_opponent ' s .",
+            "rule": "battlecry : swap the top card of your deck with your opponent ' s .",
             "flavour": "fair trade is for noble - minded suckers with dignity and honor ."
         },
         {
             "name": "Neferset Thrasher",
             "type": "Minion",
             "set": "Saviors of Uldum",
-            "rule": "whenever this attacks , deal 3 damage to your_hero .",
+            "rule": "whenever this attacks , deal 3 damage to your hero .",
             "flavour": "tough to do skateboard tricks with four legs ."
         },
         {
@@ -14752,7 +14752,7 @@
             "name": "Salhet's Pride",
             "type": "Minion",
             "set": "Saviors of Uldum",
-            "rule": "deathrattle : draw two 1 - health minions from your_deck .",
+            "rule": "deathrattle : draw two 1 - health minions from your deck .",
             "flavour": "pride cometh before the maul ."
         },
         {
@@ -14766,7 +14766,7 @@
             "name": "Weaponized Wasp",
             "type": "Minion",
             "set": "Saviors of Uldum",
-            "rule": "battlecry : if you control a lackey , deal 3_damage .",
+            "rule": "battlecry : if you control a lackey , deal 3 damage .",
             "flavour": "dr . boom had one simple request : wasps with flippin ' laser beams attached to their heads ."
         },
         {
@@ -14857,7 +14857,7 @@
             "name": "Sahket Sapper",
             "type": "Minion",
             "set": "Saviors of Uldum",
-            "rule": "deathrattle : return a _random enemy minion to_ your_opponent ' s_hand .",
+            "rule": "deathrattle : return a random enemy minion to your opponent ' s hand .",
             "flavour": "\" here , you dropped this . \""
         },
         {
@@ -14878,7 +14878,7 @@
             "name": "Sunstruck Henchman",
             "type": "Minion",
             "set": "Saviors of Uldum",
-            "rule": "at the start of your turn , this has a 50 % chance to_fall asleep .",
+            "rule": "at the start of your turn , this has a 50 % chance to fall asleep .",
             "flavour": "there is e . v . i . l . here that does sleep ."
         },
         {
@@ -14983,7 +14983,7 @@
             "name": "Sandhoof Waterbearer",
             "type": "Minion",
             "set": "Saviors of Uldum",
-            "rule": "at the end of your turn , restore # 5 health to a damaged friendly character .",
+            "rule": "at the end of your turn , restore 5 health to a damaged friendly character .",
             "flavour": "used to carrying for his team ."
         },
         {
@@ -15018,14 +15018,14 @@
             "name": "Hidden Oasis",
             "type": "Spell",
             "set": "Saviors of Uldum",
-            "rule": "choose one - summon a 6 / 6 ancient with taunt ; or restore # 12 health .",
+            "rule": "choose one - summon a 6 / 6 ancient with taunt ; or restore 12 health .",
             "flavour": "amazing that it ' s been hidden , given the twenty - foot treant splashing around in it ."
         },
         {
             "name": "Khartut Defender",
             "type": "Minion",
             "set": "Saviors of Uldum",
-            "rule": "[ x ] taunt , reborn deathrattle : restore # 3 health to your hero .",
+            "rule": "[ x ] taunt , reborn deathrattle : restore 3 health to your hero .",
             "flavour": "gesundheit !"
         },
         {
@@ -15053,7 +15053,7 @@
             "name": "Scarlet Webweaver",
             "type": "Minion",
             "set": "Saviors of Uldum",
-            "rule": "battlecry : reduce the cost of a random beast in your_hand by ( 5 ) .",
+            "rule": "battlecry : reduce the cost of a random beast in your hand by ( 5 ) .",
             "flavour": "isn ' t that nice ? the spider made the explorer a sleeping bag !"
         },
         {
@@ -15088,7 +15088,7 @@
             "name": "Overflow",
             "type": "Spell",
             "set": "Saviors of Uldum",
-            "rule": "restore # 5 health to all characters . draw 5 cards .",
+            "rule": "restore 5 health to all characters . draw 5 cards .",
             "flavour": "it ' s a high five followed by a low tide ."
         },
         {
@@ -15165,7 +15165,7 @@
             "name": "Plague of Death",
             "type": "Spell",
             "set": "Saviors of Uldum",
-            "rule": "silence and destroy all_minions .",
+            "rule": "silence and destroy all minions .",
             "flavour": "don ' t worry , there ' s a happy little funhouse right under that sand pit ."
         },
         {
@@ -15209,7 +15209,7 @@
             "name": "Whispers of EVIL",
             "type": "Spell",
             "set": "Descent of Dragons",
-            "rule": "add a lackey to your_hand .",
+            "rule": "add a lackey to your hand .",
             "flavour": "madame lazul ’ s asmr program is off to a promising start !"
         },
         {
@@ -15244,7 +15244,7 @@
             "name": "Depth Charge",
             "type": "Minion",
             "set": "Descent of Dragons",
-            "rule": "at the start of your turn , deal 5 damage to all_minions .",
+            "rule": "at the start of your turn , deal 5 damage to all minions .",
             "flavour": "* does not have charge ."
         },
         {
@@ -15258,14 +15258,14 @@
             "name": "Dragon's Hoard",
             "type": "Spell",
             "set": "Descent of Dragons",
-            "rule": "discover a legendary _minion from another class .",
+            "rule": "discover a legendary minion from another class .",
             "flavour": "the alliance loves this hoard ."
         },
         {
             "name": "Dwarven Sharpshooter",
             "type": "Minion",
             "set": "Descent of Dragons",
-            "rule": "your hero power can target_minions .",
+            "rule": "your hero power can target minions .",
             "flavour": "scissors , knives , needles , you name it ! he ' ll shoot it ."
         },
         {
@@ -15300,7 +15300,7 @@
             "name": "Rain of Fire",
             "type": "Spell",
             "set": "Descent of Dragons",
-            "rule": "deal $ 1 damage to all_characters .",
+            "rule": "deal $ 1 damage to all characters .",
             "flavour": "you know it ’ s autumn when the skies rain brimstone and fire . also : pumpkin spice !"
         },
         {
@@ -15349,7 +15349,7 @@
             "name": "Surging Tempest",
             "type": "Minion",
             "set": "Descent of Dragons",
-            "rule": "has + 1 attack while you_have overloaded mana crystals .",
+            "rule": "has + 1 attack while you have overloaded mana crystals .",
             "flavour": "\" overloaded ? should ' ve gotten a surge protector . \""
         },
         {
@@ -15370,7 +15370,7 @@
             "name": "Violet Spellwing",
             "type": "Minion",
             "set": "Descent of Dragons",
-            "rule": "deathrattle : add an ' arcane missiles ' spell to_your hand .",
+            "rule": "deathrattle : add an ' arcane missiles ' spell to your hand .",
             "flavour": "a bird in the hand is worth three missiles in the grave ."
         },
         {
@@ -15391,7 +15391,7 @@
             "name": "Dragon Breeder",
             "type": "Minion",
             "set": "Descent of Dragons",
-            "rule": "battlecry : choose a friendly dragon . add a copy of it to_your hand .",
+            "rule": "battlecry : choose a friendly dragon . add a copy of it to your hand .",
             "flavour": "deathwing would have been more well - adjusted if he ' d been raised by this guy ."
         },
         {
@@ -15461,7 +15461,7 @@
             "name": "Shrubadier",
             "type": "Minion",
             "set": "Descent of Dragons",
-            "rule": "battlecry : summon a 2 / 2_treant .",
+            "rule": "battlecry : summon a 2 / 2 treant .",
             "flavour": "her shoots can kill ."
         },
         {
@@ -15489,14 +15489,14 @@
             "name": "Ancharrr",
             "type": "Weapon",
             "set": "Descent of Dragons",
-            "rule": "after your hero attacks , draw a pirate from your_deck .",
+            "rule": "after your hero attacks , draw a pirate from your deck .",
             "flavour": "the problem with anchors is they often end up sinking to the bottom of your deck ."
         },
         {
             "name": "Awaken!",
             "type": "Spell",
             "set": "Descent of Dragons",
-            "rule": "invoke galakrond . deal_ $ 1 damage to all_minions .",
+            "rule": "invoke galakrond . deal $ 1 damage to all minions .",
             "flavour": "this is an alarm clock you can ' t ignore ."
         },
         {
@@ -15524,7 +15524,7 @@
             "name": "Chenvaala",
             "type": "Minion",
             "set": "Descent of Dragons",
-            "rule": "after you cast three spells in a turn , summon a 5 / 5_elemental .",
+            "rule": "after you cast three spells in a turn , summon a 5 / 5 elemental .",
             "flavour": "like the dragon soul . if dragons had souls of ice ."
         },
         {
@@ -15538,7 +15538,7 @@
             "name": "Diving Gryphon",
             "type": "Minion",
             "set": "Descent of Dragons",
-            "rule": "rush battlecry : draw a rush minion_from_your_deck .",
+            "rule": "rush battlecry : draw a rush minion from your deck .",
             "flavour": "warning : may cause carousel flashbacks ."
         },
         {
@@ -15559,7 +15559,7 @@
             "name": "Dread Raven",
             "type": "Minion",
             "set": "Descent of Dragons",
-            "rule": "has + 3 attack for each other dread raven you_control .",
+            "rule": "has + 3 attack for each other dread raven you control .",
             "flavour": "fun fact : a group of three dread ravens is an unkindness . four is lethal !"
         },
         {
@@ -15580,7 +15580,7 @@
             "name": "Goboglide Tech",
             "type": "Minion",
             "set": "Descent of Dragons",
-            "rule": "battlecry : if you control a_mech , gain + 1 / + 1 and_ rush .",
+            "rule": "battlecry : if you control a mech , gain + 1 / + 1 and rush .",
             "flavour": "the word \" glide \" is always in quotes in the manual ."
         },
         {
@@ -15594,7 +15594,7 @@
             "name": "Living Dragonbreath",
             "type": "Minion",
             "set": "Descent of Dragons",
-            "rule": "your minions can ' t be_ frozen .",
+            "rule": "your minions can ' t be frozen .",
             "flavour": "if you want that muscular physique , you ' ve really gotta feel the burn ."
         },
         {
@@ -15650,7 +15650,7 @@
             "name": "Stormhammer",
             "type": "Weapon",
             "set": "Descent of Dragons",
-            "rule": "doesn ' t lose durability while you control a_dragon .",
+            "rule": "doesn ' t lose durability while you control a dragon .",
             "flavour": "it brings the storm before the calm ."
         },
         {
@@ -15706,14 +15706,14 @@
             "name": "Fiendish Rites",
             "type": "Spell",
             "set": "Descent of Dragons",
-            "rule": "invoke galakrond . give your minions + 1_attack .",
+            "rule": "invoke galakrond . give your minions + 1 attack .",
             "flavour": "\" you have the right to sacrifice an ally . if you do not have an ally , then one will be sacrificed for you . \""
         },
         {
             "name": "Frizz Kindleroost",
             "type": "Minion",
             "set": "Descent of Dragons",
-            "rule": "battlecry : reduce the cost of dragons in your deck by_ ( 2 ) .",
+            "rule": "battlecry : reduce the cost of dragons in your deck by ( 2 ) .",
             "flavour": "frizz knows that baby dragons need warmth , care , and the highest possible level of goblin engineering ."
         },
         {
@@ -15741,7 +15741,7 @@
             "name": "Lightforged Zealot",
             "type": "Minion",
             "set": "Descent of Dragons",
-            "rule": "battlecry : if your deck has no neutral cards , equip a __4 / 2_truesilver_champion . _",
+            "rule": "battlecry : if your deck has no neutral cards , equip a 4 / 2 truesilver champion .",
             "flavour": "card - carrying member of the paladins only paladin club ."
         },
         {
@@ -15762,7 +15762,7 @@
             "name": "Scion of Ruin",
             "type": "Minion",
             "set": "Descent of Dragons",
-            "rule": "rush . battlecry : if you ' ve invoked twice , summon 2_copies of this .",
+            "rule": "rush . battlecry : if you ' ve invoked twice , summon 2 copies of this .",
             "flavour": "ruined ! ruined !"
         },
         {
@@ -15818,7 +15818,7 @@
             "name": "Amber Watcher",
             "type": "Minion",
             "set": "Descent of Dragons",
-            "rule": "battlecry : restore # 8_health .",
+            "rule": "battlecry : restore 8 health .",
             "flavour": "healing really resin - ates with him ."
         },
         {
@@ -15853,7 +15853,7 @@
             "name": "Cobalt Spellkin",
             "type": "Minion",
             "set": "Descent of Dragons",
-            "rule": "battlecry : add two 1 - cost spells from your class to_your hand .",
+            "rule": "battlecry : add two 1 - cost spells from your class to your hand .",
             "flavour": "spews more spells than a sleep - talking wizard ."
         },
         {
@@ -15944,7 +15944,7 @@
             "name": "Tentacled Menace",
             "type": "Minion",
             "set": "Descent of Dragons",
-            "rule": "battlecry : each player draws a card . swap their_costs .",
+            "rule": "battlecry : each player draws a card . swap their costs .",
             "flavour": "he calls this one the \" calamari special . \""
         },
         {
@@ -15972,14 +15972,14 @@
             "name": "Camouflaged Dirigible",
             "type": "Minion",
             "set": "Descent of Dragons",
-            "rule": "battlecry : give your other mechs stealth until your_next turn .",
+            "rule": "battlecry : give your other mechs stealth until your next turn .",
             "flavour": "\" what does that cloud look like to you ? \" \" trouble . \""
         },
         {
             "name": "Candle Breath",
             "type": "Spell",
             "set": "Descent of Dragons",
-            "rule": "draw 3 cards . costs ( 3 ) _less while you ' re holding a dragon .",
+            "rule": "draw 3 cards . costs ( 3 ) less while you ' re holding a dragon .",
             "flavour": "\" and waxadred shall light their fires , with roaring breath hotter than pyres ! come before him , scamp and vandal , pledge your faith and lift your candle ! \""
         },
         {
@@ -16112,7 +16112,7 @@
             "name": "Shu'ma",
             "type": "Minion",
             "set": "Descent of Dragons",
-            "rule": "at the end of your turn , fill your board with 1 / 1_tentacles .",
+            "rule": "at the end of your turn , fill your board with 1 / 1 tentacles .",
             "flavour": "how to tell your mother to go away ."
         },
         {
@@ -16140,7 +16140,7 @@
             "name": "Murozond the Infinite",
             "type": "Minion",
             "set": "Descent of Dragons",
-            "rule": "battlecry : play all cards your opponent played last_turn .",
+            "rule": "battlecry : play all cards your opponent played last turn .",
             "flavour": "\" well , i ' m glad you knew what i should be doing this turn . \""
         },
         {
@@ -16168,7 +16168,7 @@
             "name": "Sathrovarr",
             "type": "Minion",
             "set": "Descent of Dragons",
-            "rule": "battlecry : choose a friendly minion . add a copy of it to_your hand , deck , and battlefield .",
+            "rule": "battlecry : choose a friendly minion . add a copy of it to your hand , deck , and battlefield .",
             "flavour": "just wait until you also find a copy in your pocket . and your desk ! and your fridge ! !"
         },
         {
@@ -16205,14 +16205,14 @@
             "name": "Risky Skipper",
             "type": "Minion",
             "set": "Galakrond's Awakening",
-            "rule": "after you play a minion , deal 1 damage to all_minions .",
+            "rule": "after you play a minion , deal 1 damage to all minions .",
             "flavour": "sworn enemy of the safety matey ."
         },
         {
             "name": "Air Raid",
             "type": "Spell",
             "set": "Galakrond's Awakening",
-            "rule": "twinspell summon two 1 / 1 silver_hand recruits with taunt .",
+            "rule": "twinspell summon two 1 / 1 silver hand recruits with taunt .",
             "flavour": "it ' s difficult to get an air raid together . you have to get twenty - five people , and they all want to play a paladin !"
         },
         {
@@ -16240,7 +16240,7 @@
             "name": "Rising Winds",
             "type": "Spell",
             "set": "Galakrond's Awakening",
-            "rule": "twinspell choose one - draw a card ; or summon a 3 / 2_eagle .",
+            "rule": "twinspell choose one - draw a card ; or summon a 3 / 2 eagle .",
             "flavour": "do not talk to me or my chick ever again ."
         },
         {
@@ -16282,14 +16282,14 @@
             "name": "Arcane Amplifier",
             "type": "Minion",
             "set": "Galakrond's Awakening",
-            "rule": "your hero power deals 2_extra damage .",
+            "rule": "your hero power deals 2 extra damage .",
             "flavour": "not on good terms with warlocks ."
         },
         {
             "name": "Bomb Wrangler",
             "type": "Minion",
             "set": "Galakrond's Awakening",
-            "rule": "whenever this minion takes damage , summon a_1 / 1 boom bot .",
+            "rule": "whenever this minion takes damage , summon a 1 / 1 boom bot .",
             "flavour": "bomb wranglers tend to have short fuses and even shorter lifespans ."
         },
         {
@@ -16359,7 +16359,7 @@
             "name": "Boompistol Bully",
             "type": "Minion",
             "set": "Galakrond's Awakening",
-            "rule": "battlecry : enemy battlecry _cards cost ( 5 ) _more next turn .",
+            "rule": "battlecry : enemy battlecry cards cost ( 5 ) more next turn .",
             "flavour": "preventing insults with injuries ."
         },
         {
@@ -16394,7 +16394,7 @@
             "name": "Aeon Reaver",
             "type": "Minion",
             "set": "Galakrond's Awakening",
-            "rule": "battlecry : deal damage to_a minion equal to its_attack .",
+            "rule": "battlecry : deal damage to a minion equal to its attack .",
             "flavour": "ripping centuries asunder helps him manage his busy schedule ."
         },
         {

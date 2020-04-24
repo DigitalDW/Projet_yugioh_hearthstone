@@ -9,8 +9,8 @@ def preprocess(card):
     text = text.lower()
     flavour = flavour.lower()
 
-    text = re.sub(r"(<b>|<\/b>|<i>|<\/i>|\\n|\\t|\\r)", " ", text)
-    flavour = re.sub(r"(<b>|<\/b>|<i>|<\/i>|\\n|\\t|\\r)", " ", flavour)
+    text = re.sub(r"(<b>|<\/b>|<i>|<\/i>|\\n|\\t|\\r|$|_|#)", " ", text)
+    flavour = re.sub(r"(<b>|<\/b>|<i>|<\/i>|\\n|\\t|\\r|$|_|#)", " ", flavour)
 
     text = re.findall(r"\w+|[^\w\s]", text)
     flavour = re.findall(r"\w+|[^\w\s]", flavour)
