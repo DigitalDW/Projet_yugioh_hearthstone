@@ -11,8 +11,10 @@ def preprocess(card):
     text = text.lower()
     flavour = flavour.lower()
 
-    text = re.sub(r"(<b>|<\/b>|<i>|<\/i>|\\n|\\t|\\r|\$|_|#)", " ", text)
-    flavour = re.sub(r"(<b>|<\/b>|<i>|<\/i>|\\n|\\t|\\r|\$|_|#)", " ", flavour)
+    text = re.sub(
+        r"(<b>|<\/b>|<i>|<\/i>|\\n|\\t|\\r|\$|_|#|\[x\]|\(@\))", " ", text)
+    flavour = re.sub(
+        r"(<b>|<\/b>|<i>|<\/i>|\\n|\\t|\\r|\$|_|#|\[x\]|\(@\))", " ", flavour)
 
     text = word_tokenize(text)
     flavour = word_tokenize(flavour)
@@ -37,6 +39,8 @@ def clean_tokens(raw):
             raw[index] = '"'
         if token == "``":
             raw[index] = '"'
+        if re.search(r"^\*\w+", token) is not None:
+            raw[index] = re.sub(r"^\*(\w+)", r"* \1", token)
         if re.search(r"\d", token) is not None and len(token) > 1:
             raw[index] = " ".join(re.findall(r"\w+|[^\w\s]", token))
         if re.search(r"^'\w+", token) is not None:
