@@ -1,13 +1,272 @@
 <?xml version='1.0' encoding='utf-8'?>
 <scheme description="" title="" version="2.0">
 	<nodes>
-		<node id="0" name="Python Script" position="(57.0, 45.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owpythonscript.OWPythonScript" title="Python Script" version="" />
+		<node id="0" name="Python Script" position="(58.0, 375.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owpythonscript.OWPythonScript" title="Import JSON data" version="" />
+		<node id="1" name="Select" position="(160.0, 375.0)" project_name="Orange3-Textable" qualified_name="_textable.widgets.OWTextableSelect.OWTextableSelect" title="Select games" version="" />
+		<node id="2" name="Python Script" position="(275.0, 375.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owpythonscript.OWPythonScript" title="Gather years" version="" />
+		<node id="3" name="Merge" position="(510.0, 562.0)" project_name="Orange3-Textable" qualified_name="_textable.widgets.OWTextableMerge.OWTextableMerge" title="Current and previous years (rule)" version="" />
+		<node id="4" name="Segment" position="(660.0, 570.0)" project_name="Orange3-Textable" qualified_name="_textable.widgets.OWTextableSegment.OWTextableSegment" title="Separated into words" version="" />
+		<node id="5" name="Variety" position="(797.0, 433.0)" project_name="Orange3-Textable" qualified_name="_textable.widgets.OWTextableVariety.OWTextableVariety" title="Rule variety" version="" />
+		<node id="6" name="Select" position="(390.0, 375.0)" project_name="Orange3-Textable" qualified_name="_textable.widgets.OWTextableSelect.OWTextableSelect" title="Get text types" version="" />
+		<node id="7" name="Merge" position="(509.0, 160.0)" project_name="Orange3-Textable" qualified_name="_textable.widgets.OWTextableMerge.OWTextableMerge" title="Current and previous years (flavour)" version="" />
+		<node id="8" name="Segment" position="(632.0, 311.0)" project_name="Orange3-Textable" qualified_name="_textable.widgets.OWTextableSegment.OWTextableSegment" title="Separated into words" version="" />
+		<node id="9" name="Variety" position="(796.0, 350.0)" project_name="Orange3-Textable" qualified_name="_textable.widgets.OWTextableVariety.OWTextableVariety" title="Flavour variety" version="" />
+		<node id="10" name="Data Table" position="(931.0, 390.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owtable.OWDataTable" title="Data Table" version="" />
+		<node id="11" name="Variety" position="(843.0, 212.0)" project_name="Orange3-Textable" qualified_name="_textable.widgets.OWTextableVariety.OWTextableVariety" title="Variety" version="" />
+		<node id="12" name="Data Table" position="(953.0, 247.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owtable.OWDataTable" title="Data Table (1)" version="" />
+		<node id="13" name="Variety" position="(811.0, 679.0)" project_name="Orange3-Textable" qualified_name="_textable.widgets.OWTextableVariety.OWTextableVariety" title="Variety (1)" version="" />
+		<node id="14" name="Data Table" position="(959.0, 546.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owtable.OWDataTable" title="Data Table (2)" version="" />
 	</nodes>
-	<links />
+	<links>
+		<link enabled="true" id="0" sink_channel="Segmentation" sink_node_id="1" source_channel="Object" source_node_id="0" />
+		<link enabled="true" id="1" sink_channel="Object" sink_node_id="2" source_channel="Discarded data" source_node_id="1" />
+		<link enabled="true" id="2" sink_channel="Segmentation" sink_node_id="4" source_channel="Merged data" source_node_id="3" />
+		<link enabled="true" id="3" sink_channel="Segmentation" sink_node_id="5" source_channel="Merged data" source_node_id="3" />
+		<link enabled="true" id="4" sink_channel="Segmentation" sink_node_id="5" source_channel="Segmented data" source_node_id="4" />
+		<link enabled="true" id="5" sink_channel="Segmentation" sink_node_id="3" source_channel="Selected data" source_node_id="6" />
+		<link enabled="true" id="6" sink_channel="Segmentation" sink_node_id="7" source_channel="Discarded data" source_node_id="6" />
+		<link enabled="true" id="7" sink_channel="Segmentation" sink_node_id="8" source_channel="Merged data" source_node_id="7" />
+		<link enabled="true" id="8" sink_channel="Segmentation" sink_node_id="9" source_channel="Merged data" source_node_id="7" />
+		<link enabled="true" id="9" sink_channel="Segmentation" sink_node_id="9" source_channel="Segmented data" source_node_id="8" />
+		<link enabled="true" id="10" sink_channel="Segmentation" sink_node_id="6" source_channel="Object" source_node_id="2" />
+		<link enabled="true" id="11" sink_channel="Data" sink_node_id="10" source_channel="Orange table" source_node_id="9" />
+		<link enabled="true" id="12" sink_channel="Data" sink_node_id="10" source_channel="Orange table" source_node_id="5" />
+		<link enabled="true" id="13" sink_channel="Data" sink_node_id="12" source_channel="Orange table" source_node_id="11" />
+		<link enabled="true" id="14" sink_channel="Segmentation" sink_node_id="11" source_channel="Segmented data" source_node_id="8" />
+		<link enabled="true" id="15" sink_channel="Segmentation" sink_node_id="11" source_channel="Merged data" source_node_id="7" />
+		<link enabled="true" id="16" sink_channel="Segmentation" sink_node_id="13" source_channel="Segmented data" source_node_id="4" />
+		<link enabled="true" id="17" sink_channel="Segmentation" sink_node_id="13" source_channel="Merged data" source_node_id="3" />
+		<link enabled="true" id="18" sink_channel="Data" sink_node_id="14" source_channel="Orange table" source_node_id="13" />
+	</links>
 	<annotations />
 	<thumbnail />
 	<node_properties>
-		<properties format="literal" node_id="0">{'controlAreaVisible': True, 'currentScriptIndex': 0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00T\x00\x00\x00\x17\x00\x00\x05\x9f\x00\x00\x03A\x00\x00\x00T\x00\x00\x00-\x00\x00\x05\x9f\x00\x00\x03A\x00\x00\x00\x00\x00\x00\x00\x00\x05\xa0\x00\x00\x00T\x00\x00\x00-\x00\x00\x05\x9f\x00\x00\x03A', 'scriptLibrary': [{'name': 'analysis_script.py', 'script': 'import json\nfrom LTTL.Segmentation import Segmentation\nfrom LTTL.Input import Input\nfrom LTTL.Segment import Segment\nimport LTTL.Segmenter as Segmenter\n\nwith open("/Users/DigitalDW/Desktop/Projet_yugioh_hearthstone/data/preprocessed/hearthstone/hearthstone_preprocessed_basic.json") as f:\n    hearthstone_data = json.load(f)\n\nwith open("/Users/DigitalDW/Desktop/Projet_yugioh_hearthstone/data/preprocessed/yugioh/yugioh_preprocessed_basic.json") as f:\n    yugioh_data = json.load(f)\n\ndef main():\n    global out_object\n    \n    hs_inputs, hs_annotations = create_inputs("Hearthstone", hearthstone_data)\n    ygo_inputs, ygo_annotations = create_inputs("Yu-Gi-Oh", yugioh_data)\n\n    inputs = list()\n    annotations = list()\n\n    inputs.extend(hs_inputs)\n    inputs.extend(ygo_inputs)\n\n    annotations.extend(hs_annotations)\n    annotations.extend(ygo_annotations)\n\n    segmentation = Segmenter.concatenate(\n        inputs,\n        import_labels_as=None\n    )\n\n    for index, segment in enumerate(segmentation):\n        segment.annotations.update(annotations[index])\n        segmentation[index] = segment\n\n    out_object = segmentation\n\ndef create_inputs(game, data):\n    inputs = list()\n    inputs_annotations = list()\n\n    for year in data.keys():\n        for card in data[year]:\n            if len(card["rule"]) &gt; 0:\n                input_rule = Input(card["rule"])\n                inputs.append(input_rule)\n                inputs_annotations.append({\n                    "release_date": year,\n                    "game": game,\n                    "card_name": card["name"],\n                    "set": card["set"],\n                    "card_type": card["type"],\n                    "text_type": "rule",\n                })\n            if len(card["flavour"]) &gt; 0:\n                input_flavour = Input(card["flavour"])\n                inputs.append(input_flavour)\n                inputs_annotations.append({\n                    "release_date": year,\n                    "game": game,\n                    "card_name": card["name"],\n                    "set": card["set"],\n                    "card_type": card["type"],\n                    "text_type": "flavour",\n                })\n\n    return inputs, inputs_annotations\n\nif __name__ == "builtins":\n    main()\n', 'filename': '/Users/DigitalDW/Desktop/Projet_yugioh_hearthstone/orange_analysis/analysis_script.py'}], 'scriptText': 'import json\nfrom LTTL.Segmentation import Segmentation\nfrom LTTL.Input import Input\nfrom LTTL.Segment import Segment\nimport LTTL.Segmenter as Segmenter\n\nwith open("/Users/DigitalDW/Desktop/Projet_yugioh_hearthstone/data/preprocessed/hearthstone/hearthstone_preprocessed_basic.json") as f:\n    hearthstone_data = json.load(f)\n\nwith open("/Users/DigitalDW/Desktop/Projet_yugioh_hearthstone/data/preprocessed/yugioh/yugioh_preprocessed_basic.json") as f:\n    yugioh_data = json.load(f)\n\ndef main():\n    global out_object\n    \n    hs_inputs, hs_annotations = create_inputs("Hearthstone", hearthstone_data)\n    ygo_inputs, ygo_annotations = create_inputs("Yu-Gi-Oh", yugioh_data)\n\n    inputs = list()\n    annotations = list()\n\n    inputs.extend(hs_inputs)\n    inputs.extend(ygo_inputs)\n\n    annotations.extend(hs_annotations)\n    annotations.extend(ygo_annotations)\n\n    segmentation = Segmenter.concatenate(\n        inputs,\n        import_labels_as=None\n    )\n\n    for index, segment in enumerate(segmentation):\n        segment.annotations.update(annotations[index])\n        segmentation[index] = segment\n\n    out_object = segmentation\n\ndef create_inputs(game, data):\n    inputs = list()\n    inputs_annotations = list()\n\n    for year in data.keys():\n        for card in data[year]:\n            if len(card["rule"]) &gt; 0:\n                input_rule = Input(card["rule"])\n                inputs.append(input_rule)\n                inputs_annotations.append({\n                    "release_date": year,\n                    "game": game,\n                    "card_name": card["name"],\n                    "set": card["set"],\n                    "card_type": card["type"],\n                    "text_type": "rule",\n                })\n            if len(card["flavour"]) &gt; 0:\n                input_flavour = Input(card["flavour"])\n                inputs.append(input_flavour)\n                inputs_annotations.append({\n                    "release_date": year,\n                    "game": game,\n                    "card_name": card["name"],\n                    "set": card["set"],\n                    "card_type": card["type"],\n                    "text_type": "flavour",\n                })\n\n    return inputs, inputs_annotations\n\nif __name__ == "builtins":\n    main()\n', 'splitterState': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x01\xfc\x00\x00\x00\xcf\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', '__version__': 2}</properties>
+		<properties format="literal" node_id="0">{'controlAreaVisible': True, 'currentScriptIndex': 1, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00T\x00\x00\x00\x17\x00\x00\x05\x9f\x00\x00\x03A\x00\x00\x00T\x00\x00\x00-\x00\x00\x05\x9f\x00\x00\x03A\x00\x00\x00\x00\x00\x00\x00\x00\x05\xa0\x00\x00\x00T\x00\x00\x00-\x00\x00\x05\x9f\x00\x00\x03A', 'scriptLibrary': [{'name': 'create_segments.py', 'script': 'import json\nfrom LTTL.Segmentation import Segmentation\nfrom LTTL.Input import Input\nfrom LTTL.Segment import Segment\nimport LTTL.Segmenter as Segmenter\n\nwith open("/Users/DigitalDW/Desktop/Projet_yugioh_hearthstone/data/preprocessed/hearthstone/hearthstone_preprocessed_basic.json") as f:\n    hearthstone_data = json.load(f)\n\nwith open("/Users/DigitalDW/Desktop/Projet_yugioh_hearthstone/data/preprocessed/yugioh/yugioh_preprocessed_basic.json") as f:\n    yugioh_data = json.load(f)\n\ndef main():\n    global out_object\n    \n    hs_inputs, hs_annotations = create_inputs("Hearthstone", hearthstone_data)\n    ygo_inputs, ygo_annotations = create_inputs("Yu-Gi-Oh", yugioh_data)\n\n    inputs = list()\n    annotations = list()\n\n    inputs.extend(hs_inputs)\n    inputs.extend(ygo_inputs)\n\n    annotations.extend(hs_annotations)\n    annotations.extend(ygo_annotations)\n\n    segmentation = Segmenter.concatenate(\n        inputs,\n        import_labels_as=None\n    )\n\n    for index, segment in enumerate(segmentation):\n        segment.annotations.update(annotations[index])\n        segmentation[index] = segment\n\n    out_object = segmentation\n\ndef create_inputs(game, data):\n    inputs = list()\n    inputs_annotations = list()\n\n    for year in data.keys():\n        for card in data[year]:\n            if len(card["rule"]) &gt; 0:\n                input_rule = Input(card["rule"])\n                inputs.append(input_rule)\n                inputs_annotations.append({\n                    "release_date": year,\n                    "game": game,\n                    "card_name": card["name"],\n                    "set": card["set"],\n                    "card_type": card["type"],\n                    "text_type": "rule",\n                })\n            if len(card["flavour"]) &gt; 0:\n                input_flavour = Input(card["flavour"])\n                inputs.append(input_flavour)\n                inputs_annotations.append({\n                    "release_date": year,\n                    "game": game,\n                    "card_name": card["name"],\n                    "set": card["set"],\n                    "card_type": card["type"],\n                    "text_type": "flavour",\n                })\n\n    return inputs, inputs_annotations\n\nif __name__ == "builtins":\n    main()\n', 'filename': '/Users/DigitalDW/Desktop/Projet_yugioh_hearthstone/orange_analysis/create_segments.py'}], 'scriptText': 'import json\nfrom LTTL.Segmentation import Segmentation\nfrom LTTL.Input import Input\nfrom LTTL.Segment import Segment\nimport LTTL.Segmenter as Segmenter\n\nwith open("/Users/DigitalDW/Desktop/Projet_yugioh_hearthstone/data/preprocessed/hearthstone/hearthstone_preprocessed_basic.json") as f:\n    hearthstone_data = json.load(f)\n\nwith open("/Users/DigitalDW/Desktop/Projet_yugioh_hearthstone/data/preprocessed/yugioh/yugioh_preprocessed_basic.json") as f:\n    yugioh_data = json.load(f)\n\ndef main():\n    global out_object\n    \n    hs_inputs, hs_annotations = create_inputs("Hearthstone", hearthstone_data)\n    ygo_inputs, ygo_annotations = create_inputs("Yu-Gi-Oh", yugioh_data)\n\n    inputs = list()\n    annotations = list()\n\n    inputs.extend(hs_inputs)\n    inputs.extend(ygo_inputs)\n\n    annotations.extend(hs_annotations)\n    annotations.extend(ygo_annotations)\n\n    segmentation = Segmenter.concatenate(\n        inputs,\n        import_labels_as=None\n    )\n\n    for index, segment in enumerate(segmentation):\n        segment.annotations.update(annotations[index])\n        segmentation[index] = segment\n\n    out_object = segmentation\n\ndef create_inputs(game, data):\n    inputs = list()\n    inputs_annotations = list()\n\n    for year in data.keys():\n        for card in data[year]:\n            if len(card["rule"]) &gt; 0:\n                input_rule = Input(card["rule"])\n                inputs.append(input_rule)\n                inputs_annotations.append({\n                    "release_date": year,\n                    "game": game,\n                    "card_name": card["name"],\n                    "set": card["set"],\n                    "card_type": card["type"],\n                    "text_type": "rule",\n                })\n            if len(card["flavour"]) &gt; 0:\n                input_flavour = Input(card["flavour"])\n                inputs.append(input_flavour)\n                inputs_annotations.append({\n                    "release_date": year,\n                    "game": game,\n                    "card_name": card["name"],\n                    "set": card["set"],\n                    "card_type": card["type"],\n                    "text_type": "flavour",\n                })\n\n    return inputs, inputs_annotations\n\nif __name__ == "builtins":\n    main()\n', 'splitterState': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x01\xfc\x00\x00\x00\xcf\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', '__version__': 2}</properties>
+		<properties format="pickle" node_id="1">gAN9cQAoWBEAAABhcHBseU1heFRocmVzaG9sZHEBiFgRAAAAYXBwbHlNaW5UaHJlc2hvbGRxAohY
+CgAAAGF1dG9OdW1iZXJxA4lYDQAAAGF1dG9OdW1iZXJLZXlxBFgDAAAAbnVtcQVYCAAAAGF1dG9T
+ZW5kcQaJWBIAAABjb250cm9sQXJlYVZpc2libGVxB4hYDwAAAGNvcHlBbm5vdGF0aW9uc3EIiFgX
+AAAAZGlzcGxheUFkdmFuY2VkU2V0dGluZ3NxCYlYBgAAAGRvdEFsbHEKiVgKAAAAaWdub3JlQ2Fz
+ZXELiVgNAAAAbWF4UHJvcG9ydGlvbnEMS2RYBgAAAG1ldGhvZHENWAUAAABSZWdleHEOWA0AAABt
+aW5Qcm9wb3J0aW9ucQ9LAVgJAAAAbXVsdGlsaW5lcRCJWAUAAAByZWdleHERWAsAAABIZWFydGhz
+dG9uZXESWAkAAAByZWdleE1vZGVxE1gHAAAASW5jbHVkZXEUWA4AAABzYW1wbGVTaXplTW9kZXEV
+WAUAAABDb3VudHEWWAwAAABzYW1wbGluZ1JhdGVxF0sBWBMAAABzYXZlZFdpZGdldEdlb21ldHJ5
+cRhDQgHZ0MsAAwAAAAACGQAAAPcAAANyAAACKQAAAhkAAAENAAADcgAAAikAAAAAAAAAAAWgAAAC
+GQAAAQ0AAANyAAACKXEZWA0AAAB0aHJlc2hvbGRNb2RlcRpoFlgQAAAAdW5pY29kZURlcGVuZGVu
+dHEbiFgEAAAAdXVpZHEcWCQAAAA5YTdiMWIyMy0zYzVkLTQ2ZGItYjBjMy00MjkxNWRhZWYxMzFx
+HVgLAAAAX192ZXJzaW9uX19xHksBWBAAAABjb250ZXh0X3NldHRpbmdzcR9dcSBjb3Jhbmdld2lk
+Z2V0LnNldHRpbmdzCkNvbnRleHQKcSEpgXEifXEjKFgEAAAAdGltZXEkR0HXtZJMVpsGWAYAAAB2
+YWx1ZXNxJX1xJihYCAAAAG1heENvdW50cSdLAVgIAAAAbWluQ291bnRxKEsBWBIAAAByZWdleEFu
+bm90YXRpb25LZXlxKVgEAAAAZ2FtZXEqWAoAAABzYW1wbGVTaXplcStLAVgWAAAAdGhyZXNob2xk
+QW5ub3RhdGlvbktleXEsWAYAAAAobm9uZSlxLWgeSwF1WAcAAABlbmNvZGVkcS5YEAAAAG15X2Nv
+bmNhdGVuYXRpb25xLyhYCQAAAGNhcmRfbmFtZXEwWAkAAABjYXJkX3R5cGVxMVgEAAAAZ2FtZXEy
+WAwAAAByZWxlYXNlX2RhdGVxM1gDAAAAc2V0cTRYCQAAAHRleHRfdHlwZXE1dHE2hnE3dWJhWCEA
+AABfVGV4dGFibGVVdGlsc19zZXR0aW5nc192ZXJzaW9uX19xOEsASw6GcTl1Lg==
+</properties>
+		<properties format="literal" node_id="2">{'controlAreaVisible': True, 'currentScriptIndex': 1, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\xb9\x00\x00\x00 \x00\x00\x04\xe5\x00\x00\x03*\x00\x00\x00\xb9\x00\x00\x006\x00\x00\x04\xe5\x00\x00\x03*\x00\x00\x00\x00\x00\x00\x00\x00\x05\xa0\x00\x00\x00\xb9\x00\x00\x006\x00\x00\x04\xe5\x00\x00\x03*', 'scriptLibrary': [{'name': 'get_current_and_previous_cards.py', 'script': 'import json\nfrom LTTL.Segmentation import Segmentation\nfrom LTTL.Input import Input\nfrom LTTL.Segment import Segment\nimport LTTL.Segmenter as Segmenter\n\n# Parametres...\nCURRENT_DATE = "2002-06-26"\n\ndef main():\n    global out_object\n\n    dates = list()\n    for segment in in_object:\n        date = segment.annotations["release_date"]\n        if date not in dates:\n            dates.append(date)\n    segmentation = list()\n    for i in range(0, dates.index(CURRENT_DATE)+1):\n        print(dates[i])\n        current_date = dates[i]\n        for segment in in_object:\n            annotations = segment.annotations\n            if segment.annotations["release_date"] == current_date:\n            #     annotations["_"] = "current or previous"\n            # else:\n            #     annotations["_"] = "following"\n            #  segment.annotations.update(annotations)\n                segmentation.append(segment)\n    \n    out_object = Segmentation(segmentation)\n\nif __name__ == "builtins":\n    main()', 'filename': '/Users/DigitalDW/Desktop/Projet_yugioh_hearthstone/orange_analysis/get_current_and_previous_cards.py'}], 'scriptText': 'import json\nfrom LTTL.Segmentation import Segmentation\nfrom LTTL.Input import Input\nfrom LTTL.Segment import Segment\nimport LTTL.Segmenter as Segmenter\n\n# Parametres...\nCURRENT_DATE = "2002-06-26"\n\ndef main():\n    global out_object\n\n    dates = list()\n    for segment in in_object:\n        date = segment.annotations["release_date"]\n        if date not in dates:\n            dates.append(date)\n    segmentation = list()\n    for i in range(0, dates.index(CURRENT_DATE)+1):\n        print(dates[i])\n        current_date = dates[i]\n        for segment in in_object:\n            annotations = segment.annotations\n            if segment.annotations["release_date"] == current_date:\n            #     annotations["_"] = "current or previous"\n            # else:\n            #     annotations["_"] = "following"\n            #  segment.annotations.update(annotations)\n                segmentation.append(segment)\n    \n    out_object = Segmentation(segmentation)\n\nif __name__ == "builtins":\n    main()', 'splitterState': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x01q\x00\x00\x01&lt;\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', '__version__': 2}</properties>
+		<properties format="literal" node_id="3">{'autoNumber': False, 'autoNumberKey': 'num', 'autoSend': True, 'controlAreaVisible': True, 'copyAnnotations': True, 'importLabels': False, 'labelKey': 'input_label', 'mergeDuplicates': False, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02\x1f\x00\x00\x01\n\x00\x00\x03l\x00\x00\x02\x17\x00\x00\x02\x1f\x00\x00\x01 \x00\x00\x03l\x00\x00\x02\x17\x00\x00\x00\x00\x00\x00\x00\x00\x05\xa0\x00\x00\x02\x1f\x00\x00\x01 \x00\x00\x03l\x00\x00\x02\x17', 'uuid': 'dfdd895f-8e53-4ffd-ae30-705950db382b', '__version__': 1, '_TextableUtils_settings_version__': (0, 21)}</properties>
+		<properties format="literal" node_id="4">{'autoNumber': False, 'autoNumberKey': 'num', 'autoSend': True, 'controlAreaVisible': True, 'displayAdvancedSettings': False, 'importAnnotations': True, 'lastLocation': '.', 'mergeDuplicates': False, 'mode': 'Tokenize', 'regex': '(?&lt;=\\"text\\":")(.*?)(?=","type)', 'regexes': [], 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02\xe0\x00\x00\x01\x82\x00\x00\x03\xbf\x00\x00\x02T\x00\x00\x02\xe0\x00\x00\x01\x98\x00\x00\x03\xbf\x00\x00\x02T\x00\x00\x00\x00\x00\x00\x00\x00\x05\xa0\x00\x00\x02\xe0\x00\x00\x01\x98\x00\x00\x03\xbf\x00\x00\x02T', 'segmentType': 'Segment into words', 'uuid': 'f8eb484f-81f1-4bb8-aa0f-972b02cc49e5', '__version__': 1, '_TextableUtils_settings_version__': (0, 21)}</properties>
+		<properties format="pickle" node_id="5">gAN9cQAoWBMAAABhZGp1c3RTdWJzYW1wbGVTaXplcQGJWA8AAABhcHBseVJlc2FtcGxpbmdxAohY
+CAAAAGF1dG9TZW5kcQOIWBEAAABjYXRlZ29yeVdlaWdodGluZ3EEiVgSAAAAY29udHJvbEFyZWFW
+aXNpYmxlcQWIWBIAAABtZWFzdXJlUGVyQ2F0ZWdvcnlxBolYDQAAAG1lcmdlQ29udGV4dHNxB4hY
+DQAAAG51bVN1YnNhbXBsZXNxCEtkWBMAAABzYXZlZFdpZGdldEdlb21ldHJ5cQlDQgHZ0MsAAwAA
+AAAA+gAAACMAAAKmAAADLAAAAPoAAAA5AAACpgAAAywAAAAAAAAAAAWgAAAA+gAAADkAAAKmAAAD
+LHEKWA0AAAB1bml0V2VpZ2h0aW5ncQuJWAQAAAB1dWlkcQxYJAAAAGMwMTlkMWRhLTE2MDYtNDZk
+Mi05MjYyLWI0ZDNmOWViYzNmZHENWAsAAABfX3ZlcnNpb25fX3EOSwFYEAAAAGNvbnRleHRfc2V0
+dGluZ3NxD11xEChjb3Jhbmdld2lkZ2V0LnNldHRpbmdzCkNvbnRleHQKcREpgXESfXETKFgEAAAA
+dGltZXEUR0HXtZqtLWPdWAYAAAB2YWx1ZXNxFX1xFihYCQAAAF9jb250ZXh0c3EXSwBYFQAAAGNh
+dGVnb3J5QW5ub3RhdGlvbktleXEYWAkAAAB0ZXh0X3R5cGVxGVgUAAAAY29udGV4dEFubm90YXRp
+b25LZXlxGlgGAAAAKG5vbmUpcRtYBAAAAG1vZGVxHFgXAAAAQ29udGFpbmluZyBzZWdtZW50YXRp
+b25xHVgOAAAAc2VxdWVuY2VMZW5ndGhxHksBWA0AAABzdWJzYW1wbGVTaXplcR9N6ANYEQAAAHVu
+aXRBbm5vdGF0aW9uS2V5cSBoG1gFAAAAdW5pdHNxIUsBWAoAAAB3aW5kb3dTaXplcSJLAVgNAAAA
+c2VnbWVudGF0aW9uc3EjXXEkKFghAAAAQ3VycmVudCBhbmQgcHJldmlvdXMgeWVhcnMgKHJ1bGUp
+cSUoWAkAAABjYXJkX25hbWVxJlgJAAAAY2FyZF90eXBlcSdYBAAAAGdhbWVxKFgMAAAAcmVsZWFz
+ZV9kYXRlcSlYAwAAAHNldHEqWAkAAAB0ZXh0X3R5cGVxK3RxLFgkAAAAZGZkZDg5NWYtOGU1My00
+ZmZkLWFlMzAtNzA1OTUwZGIzODJicS2HcS5YFAAAAFNlcGFyYXRlZCBpbnRvIHdvcmRzcS8oaCZo
+J2goaCloKmgrdHEwWCQAAABmOGViNDg0Zi04MWYxLTRiYjgtYWEwZi05NzJiMDJjYzQ5ZTVxMYdx
+MmVoDksBdVgHAAAAZW5jb2RlZHEzaA1oJIZxNHViaBEpgXE1fXE2KGgUR0HXtZbpxb22aBV9cTco
+aBdLAGgYaBloGmgbaBxoHWgeSwFoH030AWggaBtoIUsBaCJLAWgjXXE4KGglKFgBAAAAX3E5aCZo
+J2goaCloKmgrdHE6aC2HcTtoLyhoOWgmaCdoKGgpaCpoK3RxPGgxh3E9ZWgOSwF1aDNoDWg4hnE+
+dWJoESmBcT99cUAoaBRHQde1lsGixBVoFX1xQShoF0sAaBhoGWgaaBtoHGgdaB5LAWgfTfQBaCBo
+G2ghSwFoIksBaCNdcUIoWBoAAABDdXJyZW50IGFuZCBwcmV2aW91cyB5ZWFyc3FDKGg5aCZoJ2go
+aCloKmgrdHFEaC2HcUVoLyhoOWgmaCdoKGgpaCpoK3RxRmgxh3FHZWgOSwF1aDNoDWhChnFIdWJo
+ESmBcUl9cUooaBRHQde1lr55/pNoFX1xSyhoF0r/////aBhoGWgaaBtoHFgKAAAATm8gY29udGV4
+dHFMaB5LAWgfTfQBaCBoG2ghSwBoIksBaCNdcU1oLyhoOWgmaCdoKGgpaCpoK3RxTmgxh3FPYWgO
+SwF1aDNoDWhNhnFQdWJoESmBcVF9cVIoaBRHQde1lmmb0y1oFX1xUyhoF0r/////aBhoG2gaWAYA
+AAAobm9uZSlxVGgcWAoAAABObyBjb250ZXh0cVVoHksBaB9LMmggaBtoIUsAaCJLAWgjXXFWaEMo
+aDloJmgnaChoKWgqaCt0cVdoLYdxWGFoDksBdWgzaA1oVoZxWXViZVghAAAAX1RleHRhYmxlVXRp
+bHNfc2V0dGluZ3NfdmVyc2lvbl9fcVpLAEsNhnFbdS4=
+</properties>
+		<properties format="pickle" node_id="6">gAN9cQAoWBEAAABhcHBseU1heFRocmVzaG9sZHEBiFgRAAAAYXBwbHlNaW5UaHJlc2hvbGRxAohY
+CgAAAGF1dG9OdW1iZXJxA4lYDQAAAGF1dG9OdW1iZXJLZXlxBFgDAAAAbnVtcQVYCAAAAGF1dG9T
+ZW5kcQaIWBIAAABjb250cm9sQXJlYVZpc2libGVxB4hYDwAAAGNvcHlBbm5vdGF0aW9uc3EIiFgX
+AAAAZGlzcGxheUFkdmFuY2VkU2V0dGluZ3NxCYlYBgAAAGRvdEFsbHEKiVgKAAAAaWdub3JlQ2Fz
+ZXELiVgNAAAAbWF4UHJvcG9ydGlvbnEMS2RYBgAAAG1ldGhvZHENWAUAAABSZWdleHEOWA0AAABt
+aW5Qcm9wb3J0aW9ucQ9LAVgJAAAAbXVsdGlsaW5lcRCJWAUAAAByZWdleHERWAQAAABydWxlcRJY
+CQAAAHJlZ2V4TW9kZXETWAcAAABJbmNsdWRlcRRYDgAAAHNhbXBsZVNpemVNb2RlcRVYBQAAAENv
+dW50cRZYDAAAAHNhbXBsaW5nUmF0ZXEXSwFYEwAAAHNhdmVkV2lkZ2V0R2VvbWV0cnlxGENCAdnQ
+ywADAAAAAAIZAAABAAAAA3IAAAIyAAACGQAAARYAAANyAAACMgAAAAAAAAAABaAAAAIZAAABFgAA
+A3IAAAIycRlYDQAAAHRocmVzaG9sZE1vZGVxGmgWWBAAAAB1bmljb2RlRGVwZW5kZW50cRuIWAQA
+AAB1dWlkcRxYJAAAADc4ZjFmZDc2LTVmMTctNDhkYy05MGQ4LTA5OGRlMDk3YjRhNXEdWAsAAABf
+X3ZlcnNpb25fX3EeSwFYEAAAAGNvbnRleHRfc2V0dGluZ3NxH11xIChjb3Jhbmdld2lkZ2V0LnNl
+dHRpbmdzCkNvbnRleHQKcSEpgXEifXEjKFgEAAAAdGltZXEkR0HXtZb6Ki+lWAYAAAB2YWx1ZXNx
+JX1xJihYCAAAAG1heENvdW50cSdLAVgIAAAAbWluQ291bnRxKEsBWBIAAAByZWdleEFubm90YXRp
+b25LZXlxKVgJAAAAdGV4dF90eXBlcSpYCgAAAHNhbXBsZVNpemVxK0sBWBYAAAB0aHJlc2hvbGRB
+bm5vdGF0aW9uS2V5cSxYBgAAAChub25lKXEtaB5LAXVYBwAAAGVuY29kZWRxLlgOAAAAc2VnbWVu
+dGVkX2RhdGFxLyhYCQAAAGNhcmRfbmFtZXEwWAkAAABjYXJkX3R5cGVxMVgEAAAAZ2FtZXEyWAwA
+AAByZWxlYXNlX2RhdGVxM1gDAAAAc2V0cTRYCQAAAHRleHRfdHlwZXE1dHE2hnE3dWJoISmBcTh9
+cTkoaCRHQde1lrEZItFoJX1xOihoJ0sBaChLAWgpaCpoK0sBaCxoLWgeSwF1aC5YBgAAAFNlbGVj
+dHE7KFgBAAAAX3E8aDBoMWgyaDNoNGg1dHE9hnE+dWJlWCEAAABfVGV4dGFibGVVdGlsc19zZXR0
+aW5nc192ZXJzaW9uX19xP0sASw6GcUB1Lg==
+</properties>
+		<properties format="literal" node_id="7">{'autoNumber': False, 'autoNumberKey': 'num', 'autoSend': True, 'controlAreaVisible': True, 'copyAnnotations': True, 'importLabels': False, 'labelKey': 'input_label', 'mergeDuplicates': False, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02\x1f\x00\x00\x01\n\x00\x00\x03l\x00\x00\x02\x17\x00\x00\x02\x1f\x00\x00\x01 \x00\x00\x03l\x00\x00\x02\x17\x00\x00\x00\x00\x00\x00\x00\x00\x05\xa0\x00\x00\x02\x1f\x00\x00\x01 \x00\x00\x03l\x00\x00\x02\x17', 'uuid': 'dfdd895f-8e53-4ffd-ae30-705950db382b', '__version__': 1, '_TextableUtils_settings_version__': (0, 21)}</properties>
+		<properties format="literal" node_id="8">{'autoNumber': False, 'autoNumberKey': 'num', 'autoSend': True, 'controlAreaVisible': True, 'displayAdvancedSettings': False, 'importAnnotations': True, 'lastLocation': '.', 'mergeDuplicates': False, 'mode': 'Tokenize', 'regex': '(?&lt;=\\"text\\":")(.*?)(?=","type)', 'regexes': [], 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02\xe0\x00\x00\x01\x82\x00\x00\x03\xbf\x00\x00\x02c\x00\x00\x02\xe0\x00\x00\x01\x98\x00\x00\x03\xbf\x00\x00\x02c\x00\x00\x00\x00\x00\x00\x00\x00\x05\xa0\x00\x00\x02\xe0\x00\x00\x01\x98\x00\x00\x03\xbf\x00\x00\x02c', 'segmentType': 'Segment into words', 'uuid': 'b9d735ee-bd58-4898-a3dc-b037a7a6d04c', '__version__': 1, '_TextableUtils_settings_version__': (0, 21)}</properties>
+		<properties format="pickle" node_id="9">gAN9cQAoWBMAAABhZGp1c3RTdWJzYW1wbGVTaXplcQGIWA8AAABhcHBseVJlc2FtcGxpbmdxAohY
+CAAAAGF1dG9TZW5kcQOIWBEAAABjYXRlZ29yeVdlaWdodGluZ3EEiVgSAAAAY29udHJvbEFyZWFW
+aXNpYmxlcQWIWBIAAABtZWFzdXJlUGVyQ2F0ZWdvcnlxBolYDQAAAG1lcmdlQ29udGV4dHNxB4hY
+DQAAAG51bVN1YnNhbXBsZXNxCEtkWBMAAABzYXZlZFdpZGdldEdlb21ldHJ5cQlDQgHZ0MsAAwAA
+AAAA+gAAACMAAAK7AAADLAAAAPoAAAA5AAACuwAAAywAAAAAAAAAAAWgAAAA+gAAADkAAAK7AAAD
+LHEKWA0AAAB1bml0V2VpZ2h0aW5ncQuJWAQAAAB1dWlkcQxYJAAAAGJmZTljYWY5LTIwZmEtNDIx
+OC1iZWJiLTMwZjMxMWM5NmMzYnENWAsAAABfX3ZlcnNpb25fX3EOSwFYEAAAAGNvbnRleHRfc2V0
+dGluZ3NxD11xEChjb3Jhbmdld2lkZ2V0LnNldHRpbmdzCkNvbnRleHQKcREpgXESfXETKFgEAAAA
+dGltZXEUR0HXtZqvMdBCWAYAAAB2YWx1ZXNxFX1xFihYCQAAAF9jb250ZXh0c3EXSwBYFQAAAGNh
+dGVnb3J5QW5ub3RhdGlvbktleXEYWAYAAAAobm9uZSlxGVgUAAAAY29udGV4dEFubm90YXRpb25L
+ZXlxGmgZWAQAAABtb2RlcRtYFwAAAENvbnRhaW5pbmcgc2VnbWVudGF0aW9ucRxYDgAAAHNlcXVl
+bmNlTGVuZ3RocR1LAVgNAAAAc3Vic2FtcGxlU2l6ZXEeTegDWBEAAAB1bml0QW5ub3RhdGlvbktl
+eXEfaBlYBQAAAHVuaXRzcSBLAVgKAAAAd2luZG93U2l6ZXEhSwFYDQAAAHNlZ21lbnRhdGlvbnNx
+Il1xIyhYJAAAAEN1cnJlbnQgYW5kIHByZXZpb3VzIHllYXJzIChmbGF2b3VyKXEkKFgJAAAAY2Fy
+ZF9uYW1lcSVYCQAAAGNhcmRfdHlwZXEmWAQAAABnYW1lcSdYDAAAAHJlbGVhc2VfZGF0ZXEoWAMA
+AABzZXRxKVgJAAAAdGV4dF90eXBlcSp0cStYJAAAAGRmZGQ4OTVmLThlNTMtNGZmZC1hZTMwLTcw
+NTk1MGRiMzgyYnEsh3EtWBQAAABTZXBhcmF0ZWQgaW50byB3b3Jkc3EuKGglaCZoJ2goaCloKnRx
+L1gkAAAAYjlkNzM1ZWUtYmQ1OC00ODk4LWEzZGMtYjAzN2E3YTZkMDRjcTCHcTFlaA5LAXVYBwAA
+AGVuY29kZWRxMmgNaCOGcTN1YmgRKYFxNH1xNShoFEdB17WW4YXDUGgVfXE2KGgXSwBoGGgZaBpo
+GWgbaBxoHUsBaB5N9AFoH2gZaCBLAWghSwFoIl1xNyhoJChYAQAAAF9xOGglaCZoJ2goaCloKnRx
+OWgsh3E6aC4oaDhoJWgmaCdoKGgpaCp0cTtoMIdxPGVoDksBdWgyaA1oN4ZxPXViaBEpgXE+fXE/
+KGgUR0HXtZbduHxWaBV9cUAoaBdLAGgYaBloGmgZaBtoHGgdSwFoHk30AWgfaBloIEsBaCFLAWgi
+XXFBKGgkKGg4aCVoJmgnaChoKWgqdHFCaCyHcUNYBwAAAFNlZ21lbnRxRChoOGglaCZoJ2goaClo
+KnRxRWgwh3FGZWgOSwF1aDJoDWhBhnFHdWJoESmBcUh9cUkoaBRHQde1ls41yIZoFX1xSihoF0sA
+aBhoGWgaaBloG2gcaB1LAWgeTfQBaB9oGWggSwFoIUsBaCJdcUsoWB4AAABDdXJyZW50IGFuZCBw
+cmV2aW91cyB5ZWFycyAoMSlxTChoOGglaCZoJ2goaCloKnRxTWgsh3FOaEQoaDhoJWgmaCdoKGgp
+aCp0cU9oMIdxUGVoDksBdWgyaA1oS4ZxUXViaBEpgXFSfXFTKGgUR0HXtZbNvud5aBV9cVQoaBdK
+/////2gYaBloGlgGAAAAKG5vbmUpcVVoG1gKAAAATm8gY29udGV4dHFWaB1LAWgeSzJoH2gZaCBL
+AGghSwFoIl1xV2hMKGg4aCVoJmgnaChoKWgqdHFYaCyHcVlhaA5LAXVoMmgNaFeGcVp1YmVYIQAA
+AF9UZXh0YWJsZVV0aWxzX3NldHRpbmdzX3ZlcnNpb25fX3FbSwBLDYZxXHUu
+</properties>
+		<properties format="pickle" node_id="10">gAN9cQAoWAsAAABhdXRvX2NvbW1pdHEBiFgOAAAAY29sb3JfYnlfY2xhc3NxAohYEgAAAGNvbnRy
+b2xBcmVhVmlzaWJsZXEDiFgOAAAAZGlzdF9jb2xvcl9SR0JxBChL3EvcS9xL/3RxBVgTAAAAc2F2
+ZWRXaWRnZXRHZW9tZXRyeXEGQ0IB2dDLAAMAAAAAATYAAACMAAAFMwAAApUAAAE2AAAAogAABTMA
+AAKVAAAAAAAAAAAFoAAAATYAAACiAAAFMwAAApVxB1gLAAAAc2VsZWN0X3Jvd3NxCIhYDQAAAHNl
+bGVjdGVkX2NvbHNxCV1xCihLAEsBZVgNAAAAc2VsZWN0ZWRfcm93c3ELXXEMSwBhWBUAAABzaG93
+X2F0dHJpYnV0ZV9sYWJlbHNxDYhYEgAAAHNob3dfZGlzdHJpYnV0aW9uc3EOiVgLAAAAX192ZXJz
+aW9uX19xD0sBWBAAAABjb250ZXh0X3NldHRpbmdzcRBdcREoY29yYW5nZXdpZGdldC5zZXR0aW5n
+cwpDb250ZXh0CnESKYFxE31xFChYBAAAAHRpbWVxFUdB17WasGc6EVgGAAAAdmFsdWVzcRZ9cRdo
+D0sBc1gKAAAAYXR0cmlidXRlc3EYfXEZWBQAAABfX2V4cGVjdGVkX3ZhcmlldHlfX3EaSwJzWAUA
+AABtZXRhc3EbfXEcWAsAAABfX2NvbnRleHRfX3EdSwNzdWJoEimBcR59cR8oaBVHQde1mrBnNiZo
+Fn1xIGgPSwFzaBh9cSFoGksCc2gbfXEiaB1LA3N1YmgSKYFxI31xJChoFUdB17WasGa1B2gWfXEl
+aA9LAXNoGH1xJmgaSwJzaBt9cSdoHUsDc3ViaBIpgXEofXEpKGgVR0HXtZqoMdFGaBZ9cSpoD0sB
+c2gYfXEraBpLAnNoG31xLGgdSwNzdWJoEimBcS19cS4oaBVHQde1mqgxXghoFn1xL2gPSwFzaBh9
+cTBoGksCc2gbfXExaB1LA3N1YmgSKYFxMn1xMyhoFUdB17WakIueb2gWfXE0aA9LAXNoGH1xNWga
+SwJzaBt9cTZoHUsDc3ViaBIpgXE3fXE4KGgVR0HXtZqQiyF9aBZ9cTloD0sBc2gYfXE6aBpLAnNo
+G31xO2gdSwNzdWJoEimBcTx9cT0oaBVHQde1moKPz0ZoFn1xPmgPSwFzaBh9cT9oGksCc2gbfXFA
+aB1LA3N1YmgSKYFxQX1xQihoFUdB17Wago8vQGgWfXFDaA9LAXNoGH1xRGgaSwJzaBt9cUVoHUsD
+c3ViaBIpgXFGfXFHKGgVR0HXtZp662nDaBZ9cUhoD0sBc2gYfXFJaBpLAnNoG31xSmgdSwNzdWJo
+EimBcUt9cUwoaBVHQde1mnjZRjloFn1xTWgPSwFzaBh9cU5oGksCc2gbfXFPaB1LA3N1YmgSKYFx
+UH1xUShoFUdB17WaZ8VX92gWfXFSaA9LAXNoGH1xU2gaSwJzaBt9cVRoHUsDc3ViaBIpgXFVfXFW
+KGgVR0HXtZpnxLt3aBZ9cVdoD0sBc2gYfXFYaBpLAnNoG31xWWgdSwNzdWJoEimBcVp9cVsoaBVH
+Qde1mkRsVjNoFn1xXGgPSwFzaBh9cV1oGksCc2gbfXFeaB1LA3N1YmgSKYFxX31xYChoFUdB17Wa
+RGvP92gWfXFhaA9LAXNoGH1xYmgaSwJzaBt9cWNoHUsDc3ViaBIpgXFkfXFlKGgVR0HXtZe1o20/
+aBZ9cWZoD0sBc2gYfXFnaBpLAnNoG31xaGgdSwNzdWJoEimBcWl9cWooaBVHQde1l7WjEfVoFn1x
+a2gPSwFzaBh9cWxoGksCc2gbfXFtaB1LA3N1YmgSKYFxbn1xbyhoFUdB17WXYwMYwmgWfXFwaA9L
+AXNoGH1xcWgaSwJzaBt9cXJoHUsDc3ViaBIpgXFzfXF0KGgVR0HXtZdjAqL1aBZ9cXVoD0sBc2gY
+fXF2aBpLAnNoG31xd2gdSwNzdWJoEimBcXh9cXkoaBVHQde1l0YvCLdoFn1xemgPSwFzaBh9cXto
+GksCc2gbfXF8aB1LA3N1YmgSKYFxfX1xfihoFUdB17WXRi6RaGgWfXF/aA9LAXNoGH1xgGgaSwJz
+aBt9cYFoHUsDc3ViaBIpgXGCfXGDKGgVR0HXtZcwA19GaBZ9cYRoD0sBc2gYfXGFaBpLAnNoG31x
+hmgdSwNzdWJldS4=
+</properties>
+		<properties format="pickle" node_id="11">gAN9cQAoWBMAAABhZGp1c3RTdWJzYW1wbGVTaXplcQGJWA8AAABhcHBseVJlc2FtcGxpbmdxAolY
+CAAAAGF1dG9TZW5kcQOIWBEAAABjYXRlZ29yeVdlaWdodGluZ3EEiVgSAAAAY29udHJvbEFyZWFW
+aXNpYmxlcQWIWBIAAABtZWFzdXJlUGVyQ2F0ZWdvcnlxBolYDQAAAG1lcmdlQ29udGV4dHNxB4hY
+DQAAAG51bVN1YnNhbXBsZXNxCEtkWBMAAABzYXZlZFdpZGdldEdlb21ldHJ5cQlDQgHZ0MsAAwAA
+AAAB9QAAABcAAAPJAAADIAAAAfUAAAAtAAADyQAAAyAAAAAAAAAAAAWgAAAB9QAAAC0AAAPJAAAD
+IHEKWA0AAAB1bml0V2VpZ2h0aW5ncQuJWAQAAAB1dWlkcQxYJAAAADViYzg1YTE4LThhZTktNGE1
+My1hODA3LTkzOTMwYzliMzdmNnENWAsAAABfX3ZlcnNpb25fX3EOSwFYEAAAAGNvbnRleHRfc2V0
+dGluZ3NxD11xEChjb3Jhbmdld2lkZ2V0LnNldHRpbmdzCkNvbnRleHQKcREpgXESfXETKFgEAAAA
+dGltZXEUR0HXtZqvzVi4WAYAAAB2YWx1ZXNxFX1xFihYCQAAAF9jb250ZXh0c3EXSwFYFQAAAGNh
+dGVnb3J5QW5ub3RhdGlvbktleXEYWAYAAAAobm9uZSlxGVgUAAAAY29udGV4dEFubm90YXRpb25L
+ZXlxGmgZWAQAAABtb2RlcRtYFwAAAENvbnRhaW5pbmcgc2VnbWVudGF0aW9ucRxYDgAAAHNlcXVl
+bmNlTGVuZ3RocR1LAVgNAAAAc3Vic2FtcGxlU2l6ZXEeTcYBWBEAAAB1bml0QW5ub3RhdGlvbktl
+eXEfaBlYBQAAAHVuaXRzcSBLAFgKAAAAd2luZG93U2l6ZXEhSwFYDQAAAHNlZ21lbnRhdGlvbnNx
+Il1xIyhYFAAAAFNlcGFyYXRlZCBpbnRvIHdvcmRzcSQoWAkAAABjYXJkX25hbWVxJVgJAAAAY2Fy
+ZF90eXBlcSZYBAAAAGdhbWVxJ1gMAAAAcmVsZWFzZV9kYXRlcShYAwAAAHNldHEpWAkAAAB0ZXh0
+X3R5cGVxKnRxK1gkAAAAYjlkNzM1ZWUtYmQ1OC00ODk4LWEzZGMtYjAzN2E3YTZkMDRjcSyHcS1Y
+JAAAAEN1cnJlbnQgYW5kIHByZXZpb3VzIHllYXJzIChmbGF2b3VyKXEuKGglaCZoJ2goaCloKnRx
+L1gkAAAAZGZkZDg5NWYtOGU1My00ZmZkLWFlMzAtNzA1OTUwZGIzODJicTCHcTFlaA5LAXVYBwAA
+AGVuY29kZWRxMmgNaCOGcTN1YmgRKYFxNH1xNShoFEdB17WX6pup62gVfXE2KGgXSv////9oGGgZ
+aBpYBgAAAChub25lKXE3aBtYCgAAAE5vIGNvbnRleHRxOGgdSwFoHk3oA2gfaBloIEsAaCFLAWgi
+XXE5aCQoaCVoJmgnaChoKWgqdHE6aCyHcTthaA5LAXVoMmgNaDmGcTx1YmgRKYFxPX1xPihoFEdB
+17WX6XbBG2gVfXE/KGgXSv////9oGFgAAAAAcUBoGmg3aBtoOGgdSwFoHk3oA2gfaEBoIEr/////
+aCFLAWgiXXFBaA5LAXVoMmgNaEGGcUJ1YmgRKYFxQ31xRChoFEdB17WXzHssMGgVfXFFKGgXSv//
+//9oGGgZaBpoN2gbaDhoHUsBaB5N6ANoH2gZaCBLAGghSwFoIl1xRlgRAAAAQWxsIGZsYXZvdXIg
+d29yZHNxRyhoJWgmaCdoKGgpaCp0cUhYJAAAADE1OWEyM2M2LTM4ZmQtNDY0MS05NGI0LTU3MTc0
+MGQzZjY4Y3FJh3FKYWgOSwF1aDJoDWhGhnFLdWJlWCEAAABfVGV4dGFibGVVdGlsc19zZXR0aW5n
+c192ZXJzaW9uX19xTEsASw2GcU11Lg==
+</properties>
+		<properties format="pickle" node_id="12">gAN9cQAoWAsAAABhdXRvX2NvbW1pdHEBiFgOAAAAY29sb3JfYnlfY2xhc3NxAohYEgAAAGNvbnRy
+b2xBcmVhVmlzaWJsZXEDiFgOAAAAZGlzdF9jb2xvcl9SR0JxBChL3EvcS9xL/3RxBVgTAAAAc2F2
+ZWRXaWRnZXRHZW9tZXRyeXEGQ0IB2dDLAAMAAAAAATYAAACMAAAEVQAAApUAAAE2AAAAogAABFUA
+AAKVAAAAAAAAAAAFoAAAATYAAACiAAAEVQAAApVxB1gLAAAAc2VsZWN0X3Jvd3NxCIhYDQAAAHNl
+bGVjdGVkX2NvbHNxCV1xCihLAEsBZVgNAAAAc2VsZWN0ZWRfcm93c3ELXXEMSwBhWBUAAABzaG93
+X2F0dHJpYnV0ZV9sYWJlbHNxDYhYEgAAAHNob3dfZGlzdHJpYnV0aW9uc3EOiVgLAAAAX192ZXJz
+aW9uX19xD0sBWBAAAABjb250ZXh0X3NldHRpbmdzcRBdcREoY29yYW5nZXdpZGdldC5zZXR0aW5n
+cwpDb250ZXh0CnESKYFxE31xFChYBAAAAHRpbWVxFUdB17WasHNwKlgGAAAAdmFsdWVzcRZ9cRdo
+D0sBc1gKAAAAYXR0cmlidXRlc3EYfXEZWAsAAABfX3ZhcmlldHlfX3EaSwJzWAUAAABtZXRhc3Eb
+fXEcWAsAAABfX2NvbnRleHRfX3EdSwNzdWJoEimBcR59cR8oaBVHQde1mrBzaw1oFn1xIGgPSwFz
+aBh9cSFoGksCc2gbfXEiaB1LA3N1YmgSKYFxI31xJChoFUdB17WaqD4eP2gWfXElaA9LAXNoGH1x
+JmgaSwJzaBt9cSdoHUsDc3ViaBIpgXEofXEpKGgVR0HXtZqQl+iSaBZ9cSpoD0sBc2gYfXEraBpL
+AnNoG31xLGgdSwNzdWJoEimBcS19cS4oaBVHQde1moKeDL9oFn1xL2gPSwFzaBh9cTBoGksCc2gb
+fXExaB1LA3N1YmgSKYFxMn1xMyhoFUdB17WacjgvCmgWfXE0aA9LAXNoGH1xNWgaSwJzaBt9cTZo
+HUsDc3ViaBIpgXE3fXE4KGgVR0HXtZf18JBYaBZ9cTloD0sBc2gYfXE6WBQAAABfX2V4cGVjdGVk
+X3ZhcmlldHlfX3E7SwJzaBt9cTxoHUsDc3ViZXUu
+</properties>
+		<properties format="pickle" node_id="13">gAN9cQAoWBMAAABhZGp1c3RTdWJzYW1wbGVTaXplcQGJWA8AAABhcHBseVJlc2FtcGxpbmdxAolY
+CAAAAGF1dG9TZW5kcQOIWBEAAABjYXRlZ29yeVdlaWdodGluZ3EEiVgSAAAAY29udHJvbEFyZWFW
+aXNpYmxlcQWIWBIAAABtZWFzdXJlUGVyQ2F0ZWdvcnlxBolYDQAAAG1lcmdlQ29udGV4dHNxB4hY
+DQAAAG51bVN1YnNhbXBsZXNxCEtkWBMAAABzYXZlZFdpZGdldEdlb21ldHJ5cQlDQgHZ0MsAAwAA
+AAAB9QAAABcAAAPEAAADIAAAAfUAAAAtAAADxAAAAyAAAAAAAAAAAAWgAAAB9QAAAC0AAAPEAAAD
+IHEKWA0AAAB1bml0V2VpZ2h0aW5ncQuJWAQAAAB1dWlkcQxYJAAAADEzNzRmNzhmLTEwNTktNGZk
+Ni04MjkyLWRkN2VkMzBkZTk0ZXENWAsAAABfX3ZlcnNpb25fX3EOSwFYEAAAAGNvbnRleHRfc2V0
+dGluZ3NxD11xEChjb3Jhbmdld2lkZ2V0LnNldHRpbmdzCkNvbnRleHQKcREpgXESfXETKFgEAAAA
+dGltZXEUR0HXtZqt1VPeWAYAAAB2YWx1ZXNxFX1xFihYCQAAAF9jb250ZXh0c3EXSwBYFQAAAGNh
+dGVnb3J5QW5ub3RhdGlvbktleXEYWAYAAAAobm9uZSlxGVgUAAAAY29udGV4dEFubm90YXRpb25L
+ZXlxGmgZWAQAAABtb2RlcRtYFwAAAENvbnRhaW5pbmcgc2VnbWVudGF0aW9ucRxYDgAAAHNlcXVl
+bmNlTGVuZ3RocR1LAVgNAAAAc3Vic2FtcGxlU2l6ZXEeSzJYEQAAAHVuaXRBbm5vdGF0aW9uS2V5
+cR9oGVgFAAAAdW5pdHNxIEsAWAoAAAB3aW5kb3dTaXplcSFLAVgNAAAAc2VnbWVudGF0aW9uc3Ei
+XXEjKFgUAAAAU2VwYXJhdGVkIGludG8gd29yZHNxJChYCQAAAGNhcmRfbmFtZXElWAkAAABjYXJk
+X3R5cGVxJlgEAAAAZ2FtZXEnWAwAAAByZWxlYXNlX2RhdGVxKFgDAAAAc2V0cSlYCQAAAHRleHRf
+dHlwZXEqdHErWCQAAABmOGViNDg0Zi04MWYxLTRiYjgtYWEwZi05NzJiMDJjYzQ5ZTVxLIdxLVgh
+AAAAQ3VycmVudCBhbmQgcHJldmlvdXMgeWVhcnMgKHJ1bGUpcS4oaCVoJmgnaChoKWgqdHEvWCQA
+AABkZmRkODk1Zi04ZTUzLTRmZmQtYWUzMC03MDU5NTBkYjM4MmJxMIdxMWVoDksBdVgHAAAAZW5j
+b2RlZHEyaA1oI4ZxM3ViaBEpgXE0fXE1KGgUR0HXtZgAopvlaBV9cTYoaBdK/////2gYaBloGlgG
+AAAAKG5vbmUpcTdoG1gKAAAATm8gY29udGV4dHE4aB1LAWgeSzJoH2gZaCBLAGghSwFoIl1xOWgk
+KGglaCZoJ2goaCloKnRxOmgsh3E7YWgOSwF1aDJoDWg5hnE8dWJlWCEAAABfVGV4dGFibGVVdGls
+c19zZXR0aW5nc192ZXJzaW9uX19xPUsASw2GcT51Lg==
+</properties>
+		<properties format="pickle" node_id="14">gAN9cQAoWAsAAABhdXRvX2NvbW1pdHEBiFgOAAAAY29sb3JfYnlfY2xhc3NxAohYEgAAAGNvbnRy
+b2xBcmVhVmlzaWJsZXEDiFgOAAAAZGlzdF9jb2xvcl9SR0JxBChL3EvcS9xL/3RxBVgTAAAAc2F2
+ZWRXaWRnZXRHZW9tZXRyeXEGQ0IB2dDLAAMAAAAAATYAAACMAAAEVQAAApUAAAE2AAAAogAABFUA
+AAKVAAAAAAAAAAAFoAAAATYAAACiAAAEVQAAApVxB1gLAAAAc2VsZWN0X3Jvd3NxCIhYDQAAAHNl
+bGVjdGVkX2NvbHNxCV1xCihLAEsBZVgNAAAAc2VsZWN0ZWRfcm93c3ELXXEMSwBhWBUAAABzaG93
+X2F0dHJpYnV0ZV9sYWJlbHNxDYhYEgAAAHNob3dfZGlzdHJpYnV0aW9uc3EOiVgLAAAAX192ZXJz
+aW9uX19xD0sBWBAAAABjb250ZXh0X3NldHRpbmdzcRBdcREoY29yYW5nZXdpZGdldC5zZXR0aW5n
+cwpDb250ZXh0CnESKYFxE31xFChYBAAAAHRpbWVxFUdB17WasGz2L1gGAAAAdmFsdWVzcRZ9cRdo
+D0sBc1gKAAAAYXR0cmlidXRlc3EYfXEZWAsAAABfX3ZhcmlldHlfX3EaSwJzWAUAAABtZXRhc3Eb
+fXEcWAsAAABfX2NvbnRleHRfX3EdSwNzdWJoEimBcR59cR8oaBVHQde1mrBs8MNoFn1xIGgPSwFz
+aBh9cSFoGksCc2gbfXEiaB1LA3N1YmgSKYFxI31xJChoFUdB17WaqDeXJWgWfXElaA9LAXNoGH1x
+JmgaSwJzaBt9cSdoHUsDc3ViaBIpgXEofXEpKGgVR0HXtZqQkXR5aBZ9cSpoD0sBc2gYfXEraBpL
+AnNoG31xLGgdSwNzdWJoEimBcS19cS4oaBVHQde1moKWNvRoFn1xL2gPSwFzaBh9cTBoGksCc2gb
+fXExaB1LA3N1YmgSKYFxMn1xMyhoFUdB17Wac+hBS2gWfXE0aA9LAXNoGH1xNWgaSwJzaBt9cTZo
+HUsDc3ViaBIpgXE3fXE4KGgVR0HXtZg40TGUaBZ9cTloD0sBc2gYfXE6aBpLAnNoG31xO2gdSwNz
+dWJldS4=
+</properties>
 	</node_properties>
 	<session_state>
 		<window_groups />
