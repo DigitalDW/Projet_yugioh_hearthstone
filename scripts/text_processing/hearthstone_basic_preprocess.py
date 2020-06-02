@@ -1,5 +1,7 @@
-import re
 import json
+import nltk
+import re
+from nltk import word_tokenize
 
 
 def preprocess(card):
@@ -9,19 +11,14 @@ def preprocess(card):
     text = text.lower()
     flavour = flavour.lower()
 
-    text = re.sub(r"(<b>|<\/b>|<i>|<\/i>|\\n|\\t|\\r|$|_|#)", " ", text)
-    flavour = re.sub(r"(<b>|<\/b>|<i>|<\/i>|\\n|\\t|\\r|$|_|#)", " ", flavour)
+    text = re.sub(r"(<b>|<\/b>|<i>|<\/i>|\\n|\\t|\\r|\$|_|#)", " ", text)
+    flavour = re.sub(r"(<b>|<\/b>|<i>|<\/i>|\\n|\\t|\\r|\$|_|#)", " ", flavour)
 
-    text = re.findall(r"\w+|[^\w\s]", text)
-    flavour = re.findall(r"\w+|[^\w\s]", flavour)
+    text = word_tokenize(text)
+    flavour = word_tokenize(flavour)
 
-    for token in text:
-        if token == "":
-            text.remove(token)
-
-    for token in flavour:
-        if token == "":
-            flavour.remove(token)
+    text = clean_tokens(text)
+    flavour = clean_tokens(flavour)
 
     return {
         "name": card["name"],
@@ -30,6 +27,23 @@ def preprocess(card):
         "rule": " ".join(text),
         "flavour": " ".join(flavour)
     }
+
+
+def clean_tokens(raw):
+    for index, token in enumerate(raw):
+        if token == "":
+            raw.remove(token)
+        if token == "''":
+            raw[index] = '"'
+        if token == "``":
+            raw[index] = '"'
+        if re.search(r"\d", token) is not None and len(token) > 1:
+            raw[index] = " ".join(re.findall(r"\w+|[^\w\s]", token))
+        if re.search(r"^'\w+", token) is not None:
+            token_list = token.split("'")
+            if len(token_list[1]) > 2:
+                raw[index] = "' " + token_list[1]
+    return raw
 
 
 def main():
