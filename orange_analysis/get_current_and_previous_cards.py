@@ -5,7 +5,7 @@ from LTTL.Segment import Segment
 import LTTL.Segmenter as Segmenter
 
 # Parametres...
-CURRENT_DATE = "2002-06-26"
+CURRENT_DATE = "2005-03-01"
 
 def main():
     global out_object
@@ -16,17 +16,15 @@ def main():
         if date not in dates:
             dates.append(date)
     segmentation = list()
-    for i in range(0, dates.index(CURRENT_DATE)+1):
-        print(dates[i])
-        current_date = dates[i]
-        for segment in in_object:
-            annotations = segment.annotations
-            if segment.annotations["release_date"] == current_date:
-            #     annotations["_"] = "current or previous"
-            # else:
-            #     annotations["_"] = "following"
-            #  segment.annotations.update(annotations)
-                segmentation.append(segment)
+    dates_of_interest = [dates[i] for i in range(0, dates.index(CURRENT_DATE)+1)]
+    for segment in in_object:
+        annotations = segment.annotations
+        if segment.annotations["release_date"] in dates_of_interest:
+        #     annotations["_"] = "current or previous"
+        # else:
+        #     annotations["_"] = "following"
+        #  segment.annotations.update(annotations)
+            segmentation.append(segment)
     
     out_object = Segmentation(segmentation)
 

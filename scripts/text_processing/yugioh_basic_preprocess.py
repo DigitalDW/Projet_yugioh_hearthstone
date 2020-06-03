@@ -62,7 +62,6 @@ def main():
         cards_data[year] = new_cards_data
 
     with open('../../data/preprocessed/yugioh/yugioh_preprocessed_basic.json', 'w', encoding='utf-8') as f:
-
         json.dump(cards_data, f, ensure_ascii=False, indent=4)
 
 
