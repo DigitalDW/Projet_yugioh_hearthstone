@@ -43,6 +43,8 @@ def clean_tokens(raw):
             token_list = token.split("'")
             if len(token_list[1]) > 2:
                 raw[index] = "' " + token_list[1]
+        if re.search(r"^\*\w+", token) is not None:
+            raw[index] = re.sub(r"^\*(\w+)", r"* \1", token)
         if re.search(r"\w+/\w+", token) is not None:
             token_list = token.split("/")
             if token_list[1] != "d":

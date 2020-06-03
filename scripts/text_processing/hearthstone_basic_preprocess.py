@@ -41,6 +41,8 @@ def clean_tokens(raw):
             raw[index] = '"'
         if re.search(r"^\*\w+", token) is not None:
             raw[index] = re.sub(r"^\*(\w+)", r"* \1", token)
+        if re.search(r"^\w+\*", token) is not None:
+            raw[index] = re.sub(r"^(\w+)\*", r"\1 *", token)
         if re.search(r"\d", token) is not None and len(token) > 1:
             raw[index] = " ".join(re.findall(r"\w+|[^\w\s]", token))
         if re.search(r"^'\w+", token) is not None:
