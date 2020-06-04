@@ -10,9 +10,10 @@ with open("/Users/DigitalDW/Desktop/Projet_yugioh_hearthstone/data/preprocessed/
 with open("/Users/DigitalDW/Desktop/Projet_yugioh_hearthstone/data/preprocessed/yugioh/yugioh_preprocessed_basic.json") as f:
     yugioh_data = json.load(f)
 
+
 def main():
     global out_object
-    
+
     hs_inputs, hs_annotations = create_inputs("Hearthstone", hearthstone_data)
     ygo_inputs, ygo_annotations = create_inputs("Yu-Gi-Oh", yugioh_data)
 
@@ -36,6 +37,7 @@ def main():
 
     out_object = segmentation
 
+
 def create_inputs(game, data):
     inputs = list()
     inputs_annotations = list()
@@ -53,19 +55,20 @@ def create_inputs(game, data):
                     "card_type": card["type"],
                     "text_type": "rule",
                 })
-            if len(card["flavour"]) > 0:
-                input_flavour = Input(card["flavour"])
-                inputs.append(input_flavour)
+            if len(card["flavor"]) > 0:
+                input_flavor = Input(card["flavor"])
+                inputs.append(input_flavor)
                 inputs_annotations.append({
                     "release_date": year,
                     "game": game,
                     "card_name": card["name"],
                     "set": card["set"],
                     "card_type": card["type"],
-                    "text_type": "flavour",
+                    "text_type": "flavor",
                 })
 
     return inputs, inputs_annotations
+
 
 if __name__ == "builtins":
     main()

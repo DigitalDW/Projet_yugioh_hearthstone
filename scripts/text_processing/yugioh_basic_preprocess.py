@@ -6,26 +6,26 @@ from nltk import word_tokenize
 
 def preprocess(card):
     text = card["text"]
-    flavour = card["flavor"]
+    flavor = card["flavor"]
 
     text = text.lower()
-    flavour = flavour.lower()
+    flavor = flavor.lower()
 
     text = re.sub(r"(<b>|<\/b>|<i>|<\/i>|\\n|\\t|\\r)", "", text)
-    flavour = re.sub(r"(<b>|<\/b>|<i>|<\/i>|\\n|\\t|\\r)", "", flavour)
+    flavor = re.sub(r"(<b>|<\/b>|<i>|<\/i>|\\n|\\t|\\r)", "", flavor)
 
     text = word_tokenize(text)
-    flavour = word_tokenize(flavour)
+    flavor = word_tokenize(flavor)
 
     text = clean_tokens(text)
-    flavour = clean_tokens(flavour)
+    flavor = clean_tokens(flavor)
 
     return {
         "name": card["name"],
         "type": card["type"],
         "set": card["set"],
         "rule": " ".join(text),
-        "flavour": " ".join(flavour)
+        "flavor": " ".join(flavor)
     }
 
 
