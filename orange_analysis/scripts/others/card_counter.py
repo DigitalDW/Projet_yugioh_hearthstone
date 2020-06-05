@@ -8,28 +8,39 @@ ygo_important_years = input_file.read()
 input_file.close()
 
 dates = list()
-sets = ""
+sets = list()
 for year in cards_info.keys():
     if year not in dates:
         dates.append(year)
-        sets += year + "\n"
+
+for year in cards_info.keys():
+    for card in cards_info[year]:
+        if card["set"] not in sets:
+            sets.append(card["set"])
 
 cards_totals = dict()
-for date in dates:
-    dates_of_interest = [dates[i]
-                         for i in range(0, dates.index(date)+1)]
-    for year in dates_of_interest:
-        for card in cards_info[year]:
-            if date not in cards_totals:
-                cards_totals[date] = 1
-            else:
-                cards_totals[date] += 1
+years = dict()
+for set_ in sets:
+    if set_ not in years.keys():
+        years[set_] = dict()
+        years[set_]["rule"] = 0
+        years[set_]["flavor"] = 0
+    sets_of_interest = [sets[i]
+                        for i in range(0, sets.index(set_)+1)]
+    for _set in sets_of_interest:
+        for year in cards_info.keys():
+            for card in cards_info[year]:
+                if card["set"] == _set:
+                    for token in card["rule"].split(" "):
+                        years[set_]["rule"] += 1
+                    for token in card["flavor"].split(" "):
+                        years[set_]["flavor"] += 1
 
-with open("./hs_cards_totals.json", "w") as f:
-    json.dump(cards_totals, f)
+with open("./hs_tokens_per_date.json", "w") as f:
+    json.dump(years, f)
 
 output = open("./hs_important_years.txt", "w")
-output.write(sets)
+# output.write(sets)
 output.close()
 
 
@@ -42,14 +53,19 @@ for year in ygo.keys():
         dates.append(year)
 
 years = dict()
-counter = 0
-for date in dates:
-    year = date.split("-")[0]
-    if year not in years.keys():
-        years[year] = counter
-    for card in ygo[date]:
-        counter += 1
-        years[year] += 1
+ygo_important_years = [i for i in ygo_important_years.split("\n")]
+for date in ygo_important_years:
+    if date not in years.keys():
+        years[date] = dict()
+        years[date]["rule"] = 0
+        years[date]["flavor"] = 0
+    dates_of_interest = [dates[i] for i in range(0, dates.index(date)+1)]
+    for date_of_interest in dates_of_interest:
+        for card in ygo[date_of_interest]:
+            for token in card["rule"].split(" "):
+                years[date]["rule"] += 1
+            for token in card["flavor"].split(" "):
+                years[date]["flavor"] += 1
 
-with open("./ygo_cards_per_year.json", "w") as f:
+with open("./ygo_words_per_dates.json", "w") as f:
     json.dump(years, f)
