@@ -1,0 +1,23 @@
+{
+  "Basic": { "rule": 833, "flavor": 1370 },
+  "Classic": { "rule": 2846, "flavor": 3871 },
+  "Naxxramas": { "rule": 3103, "flavor": 4164 },
+  "Goblins vs Gnomes": { "rule": 4166, "flavor": 5404 },
+  "Blackrock Mountain": { "rule": 4498, "flavor": 5777 },
+  "The Grand Tournament": { "rule": 5650, "flavor": 6967 },
+  "The League of Explorers": { "rule": 6037, "flavor": 7340 },
+  "Whispers of the Old Gods": { "rule": 7283, "flavor": 8615 },
+  "One Night in Karazhan": { "rule": 7719, "flavor": 9029 },
+  "Mean Streets of Gadgetzan": { "rule": 9056, "flavor": 10460 },
+  "Hall of Fame": { "rule": 9384, "flavor": 10788 },
+  "Journey to Un'Goro": { "rule": 10554, "flavor": 11932 },
+  "Knights of the Frozen Throne": { "rule": 11762, "flavor": 13129 },
+  "Kobolds & Catacombs": { "rule": 13044, "flavor": 14324 },
+  "The Witchwood": { "rule": 14199, "flavor": 15311 },
+  "The Boomsday Project": { "rule": 15385, "flavor": 16388 },
+  "Rastakhan's Rumble": { "rule": 16706, "flavor": 17499 },
+  "Rise of Shadows": { "rule": 17998, "flavor": 18457 },
+  "Saviors of Uldum": { "rule": 19226, "flavor": 19558 },
+  "Descent of Dragons": { "rule": 20637, "flavor": 20766 },
+  "Galakrond's Awakening": { "rule": 20976, "flavor": 21098 }
+}

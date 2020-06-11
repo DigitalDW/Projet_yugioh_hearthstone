@@ -1,6 +1,6 @@
 import json
 
-with open("../../../data/preprocessed/hearthstone/hearthstone_preprocessed_basic.json") as f:
+with open("../../../data/preprocessed/hearthstone/hearthstone_preprocessed_lemma.json") as f:
     cards_info = json.load(f)
 
 input_file = open("./ygo_important_years.txt", "r")
@@ -36,7 +36,7 @@ for set_ in sets:
                     for token in card["flavor"].split(" "):
                         years[set_]["flavor"] += 1
 
-with open("./hs_tokens_per_date.json", "w") as f:
+with open("./hs_tokens_per_date_lemma.json", "w") as f:
     json.dump(years, f)
 
 output = open("./hs_important_years.txt", "w")
